@@ -1,0 +1,1105 @@
+{
+  "menu": {
+    "home": {
+      "vi": "Trang chủ",
+      "en": "Home",
+      "ja": "ホーム"
+    },
+    "templates": {
+      "vi": "Mẫu landing page",
+      "en": "Video Templates",
+      "ja": "ビデオテンプレート"
+    },
+    "features": {
+      "vi": "Tính năng chính",
+      "en": "Key Features",
+      "ja": "主な機能"
+    },
+    "cus_partner": {
+      "vi": "Hướng dẫn thi",
+      "en": "Exam Guide",
+      "ja": "試験ガイド"
+    },
+    "category_menu": {
+      "vi": "Danh mục",
+      "en": "Category",
+      "ja": "カテゴリ"
+    },
+    "try": {
+      "vi": "Dùng thử",
+      "en": "Try it out",
+      "ja": "試してみてください"
+    },
+
+    "faq": {
+      "vi": "Câu hỏi thường gặp",
+      "en": "Faq",
+      "ja": "よくある質問"
+    },
+    "price_table": {
+      "vi": "Bảng giá",
+      "en": "Pricing",
+      "ja": "価格表"
+    },
+
+    "contact": {
+      "vi": "Liên hệ",
+      "en": "Contact",
+      "ja": "連絡先"
+    },
+    "submenu": {
+      "company_profile": {
+        "vi": "Hồ sơ công ty",
+        "en": "Company Profile",
+        "ja": "会社概要"
+      },
+      "vision_mission": {
+        "vi": "Tầm nhìn & Sứ mệnh",
+        "en": "Vision & Mission",
+        "ja": "ビジョンとミッション"
+      },
+      "board_of_directors": {
+        "vi": "Hội đồng quản trị",
+        "en": "Board of Directors",
+        "ja": "取締役会"
+      },
+      "executive_board": {
+        "vi": "Ban điều hành",
+        "en": "Executive Board",
+        "ja": "経営陣"
+      },
+      "policy_compliance": {
+        "vi": "Tuân thủ chính sách",
+        "en": "Policy Compliance",
+        "ja": "ポリシー遵守"
+      },
+      "community_responsibility": {
+        "vi": "Trách nhiệm cộng đồng",
+        "en": "Community Responsibility",
+        "ja": "社会的責任"
+      }
+    }
+  },
+  "topbar": {
+    "search_placeholder": {
+      "vi": "Tìm kiếm...",
+      "en": "Search...",
+      "ja": "検索..."
+    },
+    "language": {
+      "vi": "Tiếng Việt",
+      "en": "English",
+      "ja": "日本語"
+    }
+  },
+  "header": {
+    "home": {
+      "vi": "Trang chủ",
+      "en": "Home",
+      "ja": "ホーム"
+    },
+    "about_kpf": {
+      "vi": "về kpf",
+      "en": "About KPF",
+      "ja": "KPFについて"
+    },
+    "subsidiaries": {
+      "vi": "Công ty con",
+      "en": "Subsidiaries",
+      "ja": "子会社"
+    },
+    "shareholder_relations": {
+      "vi": "Quan hệ cổ đông",
+      "en": "Shareholder Relations",
+      "ja": "株主関係"
+    },
+    "news": {
+      "vi": "Tin tức",
+      "en": "News",
+      "ja": "ニュース"
+    },
+    "recruitment": {
+      "vi": "Tuyển dụng",
+      "en": "Recruitment",
+      "ja": "採用"
+    },
+    "contact": {
+      "vi": "Liên hệ",
+      "en": "Contact",
+      "ja": "連絡先"
+    }
+  },
+
+  "logo_partner": {
+    "items": [
+      {
+        "logo_image": "images/logo_header9.png"
+      },
+      {
+        "logo_image": "images/logo_header10.png"
+      },
+      {
+        "logo_image": "images/logo_header6.png"
+      },
+      {
+        "logo_image": "images/logo_header7.png"
+      },
+      {
+        "logo_image": "images/logo_header8.png"
+      },
+      {
+        "logo_image": "images/logo_header10.png"
+      },
+
+      {
+        "logo_image": "images/logo_header6.png"
+      },
+      {
+        "logo_image": "images/logo_header7.png"
+      },
+      {
+        "logo_image": "images/vhd.png"
+      },
+      {
+        "logo_image": "images/csoft_login.svg"
+      },
+      {
+        "logo_image": "images/logo_flc.png"
+      }
+    ]
+  },
+
+  "slider": {
+    "slider_title": {
+      "vi": "Biến Ý Tưởng Của Bạn Thành Website Đột Phá Doanh Thu",
+      "en": "ON-DEMAND AI VIDEO CREATION – PROFESSIONAL, FAST, AND COST-EFFECTIVE",
+      "ja": "AI動画制作サービス – プロ品質・スピーディー・コスト最適化"
+    },
+    "slider_description": {
+      "vi": "Một website thông thường có quá nhiều thông tin gây nhiễu. Landing Page là trang bán hàng được thiết kế tập trung 100% vào một mục tiêu duy nhất: biến người truy cập từ quảng cáo thành khách hàng. Chúng tôi tạo ra những trang đích sắc bén đó cho bạn.",
+      "en": "A regular website has too much distracting information. A Landing Page is a sales page designed to focus 100% on a single goal: turning visitors from your ads into customers. We build those razor-sharp pages for you.",
+      "ja": "通常のウェブサイトには情報が多すぎて注意が散漫になりがちです。一方、ランディングページは広告からの訪問者を顧客に変えるという単一の目標に100%集中して設計された販売ページです。私たちは、その鋭いランディングページをあなたのために構築します。"
+    },
+    "button": {
+      "vi": "Tìm hiểu thêm",
+      "en": "Learn More",
+      "ja": "さらに詳しく"
+    }
+  },
+  "intro": {
+    "company_introduction": {
+      "title": {
+        "vi": "GIỚI THIỆU VỀ CÔNG TY ĐẦU TƯ TÀI CHÍNH HOÀNG MINH",
+        "en": "INTRODUCTION TO HOANG MINH FINANCIAL INVESTMENT COMPANY",
+        "ja": "ホアンミンファイナンシャルインベストメント会社の紹介"
+      },
+      "link_text": {
+        "vi": "Tìm hiểu thêm",
+        "en": "Learn More",
+        "ja": "さらに詳しく"
+      }
+    },
+    "vision_mission": {
+      "title": {
+        "vi": "TẦM NHÌN VÀ SỨ MỆNH CỦA CHÚNG TÔI",
+        "en": "OUR VISION AND MISSION",
+        "ja": "私たちのビジョンとミッション"
+      },
+      "link_text": {
+        "vi": "Tìm hiểu thêm",
+        "en": "Learn More",
+        "ja": "さらに詳しく"
+      }
+    }
+  },
+  "price_table": {
+    "price_title": {
+      "vi": "Bảng giá sử dụng dịch vụ",
+      "en": "Service Pricing Table",
+      "ja": "サービス利用料金表"
+    },
+    "items": [
+      {
+        "icon": "icon-coins",
+        "ser_image": "images/post_service.png",
+        "title_packages": {
+          "vi": "Gói cơ bản",
+          "en": "Basic plan",
+          "ja": "ベーシックプラン"
+        },
+        "description": {
+          "vi": "Tạo Video giới thiệu sản phẩm bằng AI. Chuyển văn bản mô tả sản phẩm thành Video ngắn(Text to video). Tạo video với giọng nói AI (đa ngôn ngữ, đa giọng đọc). Tạo kịch bản giới thiệu sản phẩm tự động, tối ưu theo từng ngành hàng.",
+          "en": "Create product introduction videos using AI. Turn product descriptions into short videos (text to video). Generate videos with AI voices (multi-language, multi-accent). Automatically generate product scripts optimized for each industry.",
+          "ja": "AIで製品紹介動画を作成。製品説明文を短い動画に変換（テキストから動画へ）。多言語・多音声のAIナレーションに対応。業種ごとに最適化された紹介スクリプトを自動生成。"
+        }
+      },
+      {
+        "icon": "icon-weather-sun-wind",
+        "ser_image": "images/suggestion_service.png",
+        "title_packages": {
+          "vi": "Gói nâng cao",
+          "en": "Advanced Plan",
+          "ja": "アドバンスプラン"
+        },
+        "description": {
+          "vi": "Tạo nhân vật ảo đại diện thương hiệu (AI Avatar Spokesperson). Tạo video hoạt hình 2D/3D bằng AI (DEMO sản phẩm, hướng dẫn sử dụng). Biến ảnh chụp sản phẩm thành video động giới thiệu. Chèn phụ đề tự động đa ngôn ngữ.",
+          "en": "Create AI avatar spokespersons to represent your brand. Generate 2D/3D animated videos with AI (product demos, tutorials). Transform product photos into dynamic intro videos. Add multilingual subtitles automatically.",
+          "ja": "ブランドを代表するAIアバターを作成。AIで2D/3Dアニメ動画を生成（製品デモや使い方ガイドなど）。商品画像を動きのある紹介動画に変換。多言語字幕を自動で追加し、グローバル展開に対応。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/automatic_service.png",
+        "title_packages": {
+          "vi": "Gói doanh nghiệp",
+          "en": "Business Plan",
+          "ja": "ビジネスプラン"
+        },
+        "description": {
+          "vi": "Gói tạo video theo chuỗi sản phẩm. Gói quảng bá sự kiện, khai trương, ra mắt sản phẩm. Gói video dành cho quảng cáo trả phí (Meta Ads, Google Ads). Tích hợp logo, màu thương hiệu và lời kêu gọi hành động (CTA) trong video.",
+          "en": "Video packages for product series. Ideal for promoting events, store openings, and product launches. Includes videos for paid ads (Meta Ads, Google Ads). Integrates logo, brand colors, and call-to-action (CTA) into each video.",
+          "ja": "製品シリーズ向けの動画パッケージ。イベント、開店、製品発表のプロモーションに最適。Meta広告やGoogle広告向けの動画を含む。ロゴ、ブランドカラー、CTA（行動喚起）を動画に統合。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/automatic_service.png",
+        "title_packages": {
+          "vi": "Dịch vụ theo yêu cầu",
+          "en": "On-Demand Services",
+          "ja": "オンデマンドサービス"
+        },
+        "description": {
+          "vi": "Tùy chỉnh giọng nói AI theo thương hiệu (voice cloning AI). Biến bài viết blog, thông tin website thành video tự động. Video tương tác AI: người xem có thể chọn lựa kịch bản. Hỗ trợ kỹ thuật ưu tiên yêu cầu đặc biệt.",
+          "en": "Custom AI brand voice (voice cloning). Automatically convert blog posts and website content into videos. AI interactive video: viewers can choose scenarios. Priority technical support for special requests.",
+          "ja": "ブランドに合わせたAI音声のカスタマイズ（ボイスクローンAI）。ブログ・Webサイトを自動動画化。視聴者がシナリオを選べるインタラクティブAI動画。特別な要望には優先的な技術サポートを提供。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/automatic_service.png",
+        "title_packages": {
+          "vi": "Dịch vụ hỗ trợ",
+          "en": "Distribution Support",
+          "ja": "サポート＆配信サービス"
+        },
+        "description": {
+          "vi": "Lên ý tưởng kịch bản dựa trên mô tả sản phẩm. Viết nội dung kịch bản AI & tạo storyboard. Tối ưu video cho TikTok, Facebook, Instagram, YouTube. Xuất video nhiều tỉ lệ: dọc (9:16), ngang (16:9), vuông (1:1)",
+          "en": "Script ideation from product descriptions. AI-powered scriptwriting and visual storyboard creation. Optimize video content for all major social media platforms. Export videos in multiple aspect ratios: vertical (9:16), horizontal (16:9), square (1:1)",
+          "ja": "製品説明に基づいた脚本のアイデア出し。AIによる脚本コンテンツの作成とストーリーボードの制作。TikTok、Facebook、Instagram、YouTube向けの動画最適化。複数のアスペクト比で動画を書き出し：縦長 (9:16)、横長 (16:9)、正方形 (1:1)。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/automatic_service.png",
+        "title_packages": {
+          "vi": "Gói công nghệ",
+          "en": "Technology Package",
+          "ja": "テクノロジーパッケージ"
+        },
+        "description": {
+          "vi": "Tạo video bằng các công nghệ AI hàng đầu như Sora, Pika, Runway, D-ID. Giọng nói AI: ElevenLabs, Azure Speech, Google TTS. Video avatar: Synthesia, Heygen, D-ID. Cập nhật liên tục các công nghệ và mô hình AI mới nhất.",
+          "en": "Create videos with leading AI technologies like Sora, Pika, Runway, D-ID. AI voice: ElevenLabs, Azure Speech, Google TTS. Video avatar: Synthesia, Heygen, D-ID. Continuous updates with the latest AI technologies and models.",
+          "ja": "最先端AI (Sora, Pika等) で動画制作。AI音声：ElevenLabs、Azure Speech、Google TTS。ビデオアバター：Synthesia、Heygen、D-ID。最新のAI技術とモデルを継続的にアップデート。"
+        }
+      }
+    ]
+  },
+  "services": {
+    "title": {
+      "vi": "Lợi Ích Của Dịch Vụ Landing Page Chuyên Nghiệp",
+      "en": "Benefits of a Professional Landing Page Service",
+      "ja": "プロのLP制作サービスを利用するメリット"
+    },
+    "items": [
+      {
+        "icon": "icon-coins",
+        "ser_image": "images/book.svg",
+        "titles": {
+          "vi": "TỐI ƯU CHUYỂN ĐỔI",
+          "en": "CONVERSION-FOCUSED",
+          "ja": "転換率の最適化"
+        },
+        "description": {
+          "vi": "Mỗi yếu tố từ bố cục, màu sắc đến lời kêu gọi hành động (CTA) đều được thiết kế dựa trên tâm lý học để thôi thúc khách hàng hành động.",
+          "en": "Every element, from layout and color to the call-to-action (CTA), is psychologically engineered to compel visitors to act.",
+          "ja": "レイアウト、色彩、CTAに至るまで、全ての要素を心理学に基づき設計し、訪問者の行動を強力に後押しします。"
+        }
+      },
+      {
+        "icon": "icon-weather-sun-wind",
+        "ser_image": "images/ser_1.svg",
+        "titles": {
+          "vi": "THIẾT KẾ ĐỘC BẢN",
+          "en": "UNIQUE DESIGN",
+          "ja": "完全オリジナルデザイン"
+        },
+        "description": {
+          "vi": "Landing page của bạn sẽ là một tác phẩm độc nhất, được \"may đo\" để phản ánh đúng tinh thần thương hiệu và gây ấn tượng mạnh mẽ.",
+          "en": "Your landing page will be a one-of-a-kind masterpiece, tailor-made to reflect your brand's essence and make a powerful impression.",
+          "ja": "ブランドの本質を正確に反映し、強力な印象を与える、世界に一つだけのページをオーダーメイドで制作します。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/ser_3.png",
+        "titles": {
+          "vi": "TẢI TRANG SIÊU TỐC",
+          "en": "BLAZING-FAST SPEED",
+          "ja": "高速ページ表示"
+        },
+        "description": {
+          "vi": "Với mã nguồn được tối ưu, chúng tôi đảm bảo landing page của bạn tải nhanh như chớp, cải thiện trải nghiệm người dùng và điểm SEO.",
+          "en": "With optimized code, we ensure your page loads at lightning speed, improving user experience and SEO scores.",
+          "ja": "最適化されたコードにより、最高のユーザー体験とSEO評価向上に繋がる、光速のページ表示を保証します。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/report_service.png",
+        "titles": {
+          "vi": "THIẾT KẾ RESPONSIVE",
+          "en": "FULLY RESPONSIVE",
+          "ja": "レスポンシブ対応"
+        },
+        "description": {
+          "vi": "Landing page của bạn sẽ hiển thị hoàn hảo và chuyên nghiệp trên mọi màn hình, từ điện thoại đến máy tính, đảm bảo không bỏ lỡ bất kỳ khách hàng nào.",
+          "en": "Your landing page will look flawless and professional on any screen, from smartphones to desktops, ensuring you never miss a customer.",
+          "ja": "スマホからPCまで、あらゆる画面で完璧かつプロフェッショナルな表示を実現し、あらゆる顧客を逃しません。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/ser_5.svg",
+        "titles": {
+          "vi": "TIẾT KIỆM THỜI GIAN",
+          "en": "SAVE YOUR TIME",
+          "ja": "時間の節約"
+        },
+        "description": {
+          "vi": "Bạn không cần phải đau đầu với các vấn đề kỹ thuật. Hãy để chúng tôi lo toàn bộ quy trình, giúp bạn tập trung hoàn toàn vào việc kinh doanh.",
+          "en": "You don't need to worry about complex technical issues. Let us handle the entire process, so you can focus entirely on your business.",
+          "ja": "複雑な技術的問題に頭を悩ませる必要はありません。プロセス全体を私たちが担当し、お客様のビジネス集中を支援します。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/ser_2.png",
+        "titles": {
+          "vi": "HỖ TRỢ CHUYÊN NGHIỆP",
+          "en": "PROFESSIONAL SUPPORT",
+          "ja": "専門家のサポート"
+        },
+        "description": {
+          "vi": "Chúng tôi không chỉ bàn giao sản phẩm. Chúng tôi sẵn sàng hỗ trợ, tư vấn để tối ưu hiệu quả landing page trong các chiến dịch tương lai.",
+          "en": "We don't just deliver a product. We provide support and consultation to help you optimize your landing page for future campaigns.",
+          "ja": "納品して終わりではありません。将来のキャンペーンで効果を最適化するため、いつでもサポートとコンサルティングをご提供します。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/ser_4.png",
+        "titles": {
+          "vi": "NỀN TẢNG CHUẨN SEO",
+          "en": "SEO-READY",
+          "ja": "SEO最適化"
+        },
+        "description": {
+          "vi": "Chúng tôi xây dựng landing page với cấu trúc heading, tối ưu thẻ meta và mã nguồn sạch, giúp công cụ tìm kiếm dễ dàng xếp hạng trang của bạn cao hơn.",
+          "en": "We build landing pages with proper heading structure, meta tag optimization, and clean code, making it easy for search engines to rank your page favorably.",
+          "ja": "適切な見出し構造、メタタグの最適化、クリーンなコードでページを構築し、検索エンジンがページを高く評価するための土台を築きます。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/ser_6.png",
+        "titles": {
+          "vi": "DỄ DÀNG TÍCH HỢP",
+          "en": "SEAMLESS INTEGRATION",
+          "ja": "スムーズな連携"
+        },
+        "description": {
+          "vi": "Chúng tôi đảm bảo landing page có thể dễ dàng gắn các mã theo dõi như Google Analytics, Facebook Pixel, và tích hợp với các công cụ email marketing hoặc CRM của bạn.",
+          "en": "We ensure your landing page can be easily equipped with tracking codes like Google Analytics, Facebook Pixel, and integrate with your email marketing tools or CRM.",
+          "ja": "GoogleアナリティクスやFacebookピクセルなどの追跡コードを容易に設置でき、各種メールマーケティングツールやCRMとも連携可能です。"
+        }
+      }
+    ]
+  },
+
+  "intro_tabs": {
+    "items": [
+      {
+        "titles": {
+          "vi": "BÓNG ĐÁ",
+          "en": "Football",
+          "ja": "サッカー"
+        },
+        "description": {
+          "vi": "Giới thiệu lịch sử hình thành và phát triển của bóng đá hiện đại. Tổng quan các giải đấu lớn như World Cup, Champions League. Phân tích chiến thuật phổ biến trong bóng đá hiện đại. Video sử dụng người dẫn ảo và hình ảnh minh họa 3D sinh động. Giọng đọc tự nhiên kết hợp phụ đề tiếng Việt. Phù hợp cho học sinh, người yêu thể thao, hoặc đào tạo ngoại ngữ ",
+          "en": "Provides learning content for each level from basic to advanced. Rich lesson system with videos, images and interactive exercises. Integrates lectures from native teachers to improve listening and speaking skills. Supports testing and assessment of abilities at each learning stage. Provides personalized learning paths according to each student's goals. Applying AI technology to suggest lessons suitable for ability. Exam preparation system with questions updated according to each actual exam. Allows tracking of learning progress and analysis of strengths and weaknesses.",
+          "ja": "基礎から上級まで、レベルごとに学習コンテンツを提供します。動画、画像、インタラクティブな演習を備えた豊富なレッスンシステム。ネイティブ講師による講義を統合し、リスニングとスピーキングのスキルを向上させます。各学習段階で能力のテストと評価をサポートします。各生徒の目標に応じてパーソナライズされた学習パスを提供します。AIテクノロジーを適用して、能力に適したレッスンを提案します。実際の試験に応じて質問が更新される試験準備システム。学習の進捗状況の追跡と長所と短所の分析が可能です。"
+        },
+        "icon": "fa-solid fa-newspaper",
+        "ser_image": "./images/lesson.jpg"
+      },
+      {
+        "titles": {
+          "vi": "Du lịch",
+          "en": "Travel",
+          "ja": "旅行"
+        },
+        "description": {
+          "vi": "Khám phá các điểm đến nổi tiếng khắp thế giới. Tìm hiểu văn hoá, con người và phong tục địa phương. Video trình bày cảnh đẹp chân thực với hình ảnh sắc nét. Hướng dẫn chi tiết về cách di chuyển, chi phí và mẹo du lịch. Giọng đọc tự nhiên, dễ hiểu, phù hợp cho người học ngoại ngữ. Mang lại trải nghiệm du lịch sống động mà không cần phải đi xa.",
+          "en": "Explore famous destinations around the world. Learn about cultures, people, and local customs. Videos showcase stunning scenery with sharp images. Detailed guides on transportation, costs, and travel tips. Natural and clear voice-over, suitable for language learners. Brings a vivid travel experience without having to travel far.",
+          "ja": "探索世界著名的旅游目的地。了解各地文化、人文与风俗习惯。视频展现高清真实的美景。详细介绍交通、花费及旅行技巧。自然易懂的旁白适合语言学习者。让人足不出户也能体验生动的旅行。"
+        },
+        "icon": "fa-solid fa-lightbulb",
+        "ser_image": "./images/23.png"
+      },
+      {
+        "titles": {
+          "vi": "Nấu ăn",
+          "en": "Cooking",
+          "ja": "烹饪"
+        },
+        "description": {
+          "vi": "Hướng dẫn cách nấu các món ăn ngon từ nhiều quốc gia. Video minh hoạ từng bước chế biến chi tiết và dễ hiểu. Chia sẻ bí quyết chọn nguyên liệu tươi và gia vị phù hợp. Cung cấp mẹo trình bày món ăn đẹp mắt và hấp dẫn. Giọng đọc rõ ràng, phù hợp cho người mới học nấu ăn. Khơi dậy đam mê ẩm thực và khám phá văn hoá ẩm thực thế giới.",
+          "en": "Learn how to cook delicious dishes from various countries. Videos illustrate each step in a clear and detailed way. Share tips on choosing fresh ingredients and suitable spices. Provide ideas for beautiful and attractive food presentation. Clear voice-over suitable for beginner cooks. Sparks a passion for cuisine and exploring global food culture.",
+          "ja": "学习制作来自世界各地的美味佳肴。视频详细演示每一个烹饪步骤。分享如何挑选新鲜食材及合适的调料。介绍美观又吸引人的摆盘技巧。清晰易懂的旁白适合烹饪初学者。激发人们对美食和世界饮食文化的热情。"
+        },
+        "icon": "fa-solid fa-rss",
+        "ser_image": "./images/english.png"
+      },
+      {
+        "titles": {
+          "vi": "Công nghệ",
+          "en": "Technology",
+          "ja": "科技"
+        },
+        "description": {
+          "vi": "Cập nhật những xu hướng công nghệ mới nhất trên thế giới. Giải thích khái niệm AI, blockchain, và các phần mềm hiện đại. Video trực quan dễ hiểu giúp người xem tiếp cận công nghệ nhanh chóng. Chia sẻ ứng dụng công nghệ trong đời sống và công việc. Giọng đọc dễ nghe, giúp ghi nhớ thuật ngữ chuyên ngành. Truyền cảm hứng khám phá và học hỏi không ngừng về công nghệ.",
+          "en": "Update on the latest technology trends worldwide. Explain concepts like AI, blockchain, and modern software. Visual and easy-to-understand videos help viewers grasp technology quickly. Share how technology applies in life and work. Pleasant voice-over helps memorize technical terms. Inspires continuous learning and curiosity about technology.",
+          "ja": "更新全球最新科技趋势。解释人工智能、区块链及现代软件等概念。视频直观易懂，帮助观众快速掌握技术。分享科技在生活和工作中的应用。语音轻松易懂，有助于记忆专业术语。激发探索科技与不断学习的热情。"
+        },
+        "icon": "fa-solid fa-coins",
+        "ser_image": "./images/26.jpeg"
+      },
+      {
+        "titles": {
+          "vi": "Kinh doanh",
+          "en": "Business",
+          "ja": "商业"
+        },
+        "description": {
+          "vi": "Cung cấp kiến thức cơ bản về quản lý, tài chính và marketing. Phân tích các xu hướng kinh doanh mới trên thị trường. Video đưa ra ví dụ thực tiễn, giúp hiểu rõ cách áp dụng. Hướng dẫn xây dựng chiến lược phát triển doanh nghiệp. Giọng đọc rõ ràng, giúp dễ tiếp thu thông tin chuyên sâu. Khuyến khích người xem phát triển tư duy và kỹ năng kinh doanh.",
+          "en": "Provide basic knowledge of management, finance, and marketing. Analyze new business trends in the market. Videos offer practical examples for better understanding. Guide on building business development strategies. Clear voice-over helps absorb advanced information. Encourages viewers to develop business skills and mindset.",
+          "ja": "提供管理、财务和市场营销的基础知识。分析市场上的新兴商业趋势。视频通过实际案例帮助理解应用。指导如何制定企业发展战略。清晰易懂的旁白有助于掌握深入信息。鼓励观众培养商业思维与技能。"
+        },
+        "icon": "fa-solid fa-robot",
+        "ser_image": "./images/assistant.png"
+      },
+      {
+        "titles": {
+          "vi": "Văn hoá",
+          "en": "Culture",
+          "ja": "文化"
+        },
+        "description": {
+          "vi": "Khám phá nền văn hoá đặc sắc của các quốc gia trên thế giới. Giới thiệu lễ hội, nghệ thuật và truyền thống phong phú. Video thể hiện hình ảnh sống động và nhiều góc nhìn thú vị. Giúp người xem hiểu sâu về con người và xã hội mỗi vùng đất. Giọng đọc nhẹ nhàng, phù hợp cho mọi lứa tuổi. Tạo động lực học ngoại ngữ thông qua khám phá văn hoá.",
+          "en": "Explore the unique cultures of countries worldwide. Introduce festivals, arts, and rich traditions. Videos showcase vivid images and fascinating perspectives. Help viewers gain deep insights into people and societies. Gentle voice-over suitable for all ages. Inspire language learning through cultural discovery.",
+          "ja": "探索世界各国独特的文化。介绍丰富的节日、艺术及传统。视频展现生动的画面和多样的视角。帮助观众深入了解各地的人文与社会。轻柔的旁白适合所有年龄层。通过文化探索激发语言学习兴趣。"
+        },
+        "icon": "fa-solid fa-chart-simple",
+        "ser_image": "./images/24.png"
+      },
+      {
+        "titles": {
+          "vi": "Sức khỏe",
+          "en": "Health",
+          "ja": "健康"
+        },
+        "description": {
+          "vi": "Chia sẻ kiến thức về chăm sóc sức khỏe và phòng ngừa bệnh. Hướng dẫn các bài tập đơn giản để duy trì thể lực. Video minh hoạ cách ăn uống lành mạnh và đủ chất. Giải thích rõ ràng về các vấn đề sức khỏe thường gặp. Giọng đọc dễ nghe, tạo cảm giác gần gũi. Khuyến khích lối sống lành mạnh và tinh thần tích cực.",
+          "en": "Share knowledge on health care and disease prevention. Guide simple exercises to maintain fitness. Videos illustrate healthy and balanced eating habits. Clearly explain common health issues. Friendly voice-over creates a warm feeling. Encourage a healthy lifestyle and positive mindset.",
+          "ja": "分享健康护理及疾病预防知识。指导简单的运动以保持体能。视频演示健康均衡的饮食习惯。清晰解释常见健康问题。亲切的旁白带来温暖感受。鼓励健康生活方式及积极心态。"
+        },
+        "icon": "fa-solid fa-fingerprint",
+        "ser_image": "./images/online.png"
+      }
+    ]
+  },
+  "projects_demo": {
+    "prj_title": {
+      "vi": "Triết Lý Tạo Nên Sự Khác Biệt",
+      "en": "Our Philosophy Makes the Difference",
+      "ja": "違いを生み出す私たちの哲学"
+    },
+    "items": [
+      {
+        "be_image": "images/benefit_2.png",
+        "benefit": {
+          "vi": "Thiết Kế Lấy Khách Hàng Làm Trung Tâm",
+          "en": "Customer-Centric Design",
+          "ja": "顧客中心の設計"
+        },
+        "be_description": {
+          "vi": "Chúng tôi bắt đầu bằng việc lắng nghe bạn. Phân tích đối thủ, thấu hiểu chân dung khách hàng và hành trình của họ để vạch ra một chiến lược rõ ràng. Mỗi landing page được tạo ra không chỉ để trông đẹp mắt, mà còn để dẫn dắt người xem một cách tự nhiên đến hành động cuối cùng.",
+          "en": "We start by listening to you. We analyze competitors and understand your customer's profile and journey to outline a clear strategy. Every landing page is created not just to look beautiful, but to naturally guide visitors to the final action.",
+          "ja": "まずはお客様のお話をお伺いすることから始めます。競合を分析し、顧客像とその購買プロセスを理解した上で、明確な戦略を描きます。制作される各ランディングページは、ただ美しいだけでなく、訪問者を自然に最終的な行動へと導くように設計されています。"
+        }
+      },
+      {
+        "be_image": "images/benefit_3.png",
+        "benefit": {
+          "vi": "Tối Ưu Hóa Dựa Trên Dữ Liệu & Hiệu Suất",
+          "en": "Data-Driven Optimization & Performance",
+          "ja": "データとパフォーマンスに基づいた最適化"
+        },
+        "be_description": {
+          "vi": "Vẻ đẹp sẽ trở nên vô nghĩa nếu trang web tải chậm. Chúng tôi cam kết xây dựng landing page với mã nguồn sạch, tối ưu tốc độ, chuẩn SEO và tương thích hoàn hảo trên mọi thiết bị. Mọi thứ đều sẵn sàng để bạn có thể đo lường và đánh giá hiệu quả.",
+          "en": "Beauty becomes meaningless if a page loads slowly. We are committed to building landing pages with clean code, optimized speed, SEO-friendliness, and perfect compatibility on all devices. Everything is ready for you to measure and evaluate performance.",
+          "ja": "ページの読み込みが遅ければ、美しさは意味をなしません。私たちは、クリーンなコード、最適化された速度、SEO対策、そしてあらゆるデバイスでの完璧な互換性を備えたランディングページを構築することをお約束します。すべてが、お客様による効果測定と評価のために準備されています。"
+        }
+      }
+    ],
+    "prj_description": {
+      "vi": "Chúng tôi tin rằng một landing page thành công là sự kết hợp giữa chiến lược thấu đáo và kỹ thuật xuất sắc.",
+      "en": "We believe a successful landing page is a combination of insightful strategy and technical excellence.",
+      "ja": "成功するランディングページとは、洞察に満ちた戦略と卓越した技術力の融合であると、私たちは信じています。"
+    }
+  },
+  "official_disclosures": {
+    "ofd_title": {
+      "vi": "MỘT SỐ CHỨC NĂNG",
+      "en": "SOME FUNCTIONS",
+      "ja": "いくつかの機能"
+    },
+    "items": [
+      {
+        "ofd_image": "images/product_image1.png",
+        "item_title": {
+          "vi": "BIỆT THỰ MẶT TRỜI",
+          "en": "SUN VILLA",
+          "ja": "サンヴィラ"
+        },
+        "date": "18.06.2018",
+        "link": "#"
+      },
+      {
+        "ofd_image": "images/product_image2.png",
+        "item_title": {
+          "vi": "NGÔI NHÀ THIÊN NHIÊN",
+          "en": "NATURAL HOUSE",
+          "ja": "自然の家"
+        },
+        "date": "18.06.2018",
+        "link": "#"
+      },
+      {
+        "ofd_image": "images/product_image3.png",
+        "item_title": {
+          "vi": "BIỆT THỰ ĐÊM SÁNG",
+          "en": "VILLA AT NIGHT",
+          "ja": "夜のヴィラ"
+        },
+        "date": "18.06.2018",
+        "link": "#"
+      }
+    ]
+  },
+
+  "language_tools": {
+    "tool_title": {
+      "vi": "Quy Trình Sáng Tạo Đột Phá",
+      "en": "Innovative Creative Workflow",
+      "ja": "革新的な創造プロセス"
+    },
+    "items": [
+      {
+        "ofd_image": "images/product_1.png",
+        "item_tool": {
+          "vi": "Chuyển văn bản thành video",
+          "en": "Convert Text to Video",
+          "ja": "テキストを動画に変換"
+        }
+      },
+      {
+        "ofd_image": "images/product_1.png",
+        "item_tool": {
+          "vi": "Giọng nói AI chuyên nghiệp",
+          "en": "Professional AI Voices",
+          "ja": "プロのAI音声"
+        }
+      },
+      {
+        "ofd_image": "images/product_1.png",
+        "item_tool": {
+          "vi": "Tạo nhân vật ảo (AI Avatar)",
+          "en": "Create AI Avatars",
+          "ja": "AIアバター生成"
+        }
+      },
+      {
+        "ofd_image": "images/product_1.png",
+        "item_tool": {
+          "vi": "Cá nhân hóa thương hiệu",
+          "en": "Brand Personalization",
+          "ja": "ブランドカスタマイズ"
+        }
+      },
+      {
+        "ofd_image": "images/product_1.png",
+        "item_tool": {
+          "vi": "Tối ưu đa nền tảng",
+          "en": "Multi-Platform Optimization",
+          "ja": "マルチプラットフォーム最適化"
+        }
+      },
+      {
+        "ofd_image": "images/product_1.png",
+        "item_tool": {
+          "vi": "Video tương tác thông minh",
+          "en": "Smart Interactive Video",
+          "ja": "スマートインタラクティブ動画"
+        }
+      }
+    ]
+  },
+
+  "buttons": {
+    "btn_benefit": {
+      "vi": "Tìm hiểu thêm",
+      "en": "Learn More",
+      "ja": "もっと詳しく知る"
+    },
+    "btn_price": {
+      "vi": "Mua",
+      "en": "Choose plan",
+      "ja": "プランを選ぶ"
+    },
+    "btn_all": {
+      "vi": "Xem chi tiết tại đây",
+      "en": "See details here",
+      "ja": "詳細はこちらをご覧ください"
+    },
+
+    "btn_free": {
+      "vi": "Bắt đầu",
+      "en": "Get started",
+      "ja": "始めましょう"
+    },
+
+    "btn_send": {
+      "vi": "Gửi thông tin",
+      "en": "Send information",
+      "ja": "情報を送信する"
+    }
+  },
+
+  "partner": {
+    "vi": "ĐỐI TÁC CHIẾN LƯỢC",
+    "en": "PARTNERS",
+    "ja": "パートナー"
+  },
+
+  "free_trail": {
+    "vi": "Sở hữu Landing Page Chuyên Nghiệp chỉ với 199.000đ",
+    "en": "Get a Professional Landing Page for Only 199,000đ",
+    "ja": "わずか199,000ドンでプロ品質のLPを制作"
+  },
+
+  "feedback": {
+    "fb_title": {
+      "vi": "Khách Hàng Nói Gì Về Chúng Tôi",
+      "en": "What Our Clients Say",
+      "ja": "お客様の声"
+    },
+    "items": [
+      {
+        "fb_icon": "images/fb_ava1.jpg",
+        "fb_name": "Đặng Văn Nam",
+        "fb_description": {
+          "vi": "Sau khi ra mắt landing page do các bạn thiết kế, tỷ lệ chuyển đổi của chiến dịch quảng cáo đã tăng 35%. Thiết kế đẹp, tốc độ nhanh và thông điệp bán hàng rất thuyết phục. Cảm ơn đội ngũ!",
+          "en": "After launching the landing page you designed, our ad campaign's conversion rate increased by 35%. Beautiful design, fast speed, and a very persuasive sales message. Thanks to the team!",
+          "ja": "貴社がデザインしたランディングページを公開した後、広告キャンペーンのコンバージョン率が35%も向上しました。美しいデザイン、高速な表示、そして説得力のある販売メッセージに感謝しています！"
+        }
+      },
+      {
+        "fb_icon": "images/fb_ava.jpg",
+        "fb_name": "Nguyễn Phương Nhi",
+        "fb_description": {
+          "vi": "Tôi đã tiết kiệm được rất nhiều thời gian và không cần phải lo lắng về kỹ thuật. Chỉ cần đưa ra ý tưởng, các bạn đã biến nó thành một trang giới thiệu sự kiện chuyên nghiệp. Rất đáng tiền.",
+          "en": "I saved so much time and didn't have to worry about the technical details. I just provided the idea, and you turned it into a professional event page. Truly worth the investment.",
+          "ja": "技術的なことを心配せず、多くの時間を節約できました。アイデアを伝えただけで、プロフェッショナルなイベント紹介ページに仕上げていただき、本当に価値のある投資でした。"
+        }
+      },
+      {
+        "fb_icon": "images/fb_ava2.jpg",
+        "fb_name": "Trần Trung Hiếu",
+        "fb_description": {
+          "vi": "Hợp tác với đội ngũ của bạn thật tuyệt vời. Giao tiếp rõ ràng, tiến độ nhanh chóng và sản phẩm cuối cùng vượt xa mong đợi của tôi. Một đối tác rất đáng tin cậy cho các dự án tương lai.",
+          "en": "Working with your team was fantastic. Communication was clear, the timeline was fast, and the final product exceeded my expectations. A very reliable partner for future projects.",
+          "ja": "チームとの連携は素晴らしかったです。コミュニケーションは明確で、プロジェクトの進行も速く、最終的な成果物は期待をはるかに超えるものでした。将来のプロジェクトにおいても、非常に信頼できるパートナーです。"
+        }
+      }
+    ]
+  },
+
+  "footer": {
+    "address": {
+      "vi": "Ngách 49/41 Phố Huỳnh Thúc Kháng, <br>Quận Đống Đa, Hà Nội",
+      "en": "Alley 49/41 Huynh Thuc Khang Street, <br>Dong Da, Hanoi",
+      "ja": "Alley 49/41, Huynh Thuc Khang Street, <br>Dong Da District, ハノイ, ベトナム"
+    },
+    "phone_footer": {
+      "vi": "05 82 225566",
+      "en": "05 82 225566",
+      "ja": "05 82 225566"
+    },
+
+    "email_footer": {
+      "vi": "support@csoftlife.com",
+      "en": "support@csoftlife.com",
+      "ja": "support@csoftlife.com"
+    },
+    "title_address": {
+      "vi": "Chúng tôi",
+      "en": "About Us",
+      "ja": "私たちについて"
+    }
+  },
+
+  "menu_footer": {
+    "items": [
+      {
+        "function": {
+          "vi": "Giáo dục",
+          "en": "Education",
+          "ja": "教育"
+        }
+      },
+      {
+        "function": {
+          "vi": "Bất động sản",
+          "en": "Real Estate",
+          "ja": "不動産"
+        }
+      },
+      {
+        "function": {
+          "vi": "Bán hàng trực tuyến",
+          "en": "E-commerce",
+          "ja": "オンライン販売"
+        }
+      },
+
+      {
+        "function": {
+          "vi": "Tin tức",
+          "en": "News",
+          "ja": "ニュース"
+        }
+      },
+      {
+        "function": {
+          "vi": "Khách sạn",
+          "en": "Hotel",
+          "ja": "ホテル"
+        }
+      },
+      {
+        "function": {
+          "vi": "Dùng thử",
+          "en": "Try it out",
+          "ja": "試してみてください"
+        }
+      }
+    ]
+  },
+
+  "social": {
+    "vi": "Theo dõi chúng tôi",
+    "en": "Follow us",
+    "ja": "私たちに従ってください"
+  },
+
+  "category": {
+    "vi": "Phần mềm",
+    "en": "Software",
+    "ja": "ソフトウェア"
+  },
+
+  "payment": {
+    "vi": "Phương thức thanh toán",
+    "en": "Payment method",
+    "ja": "支払方法"
+  },
+
+  "copy": {
+    "vi": "© 2026 CSOFTLIFE. Bản quyền thuộc về CSOFTLIFE",
+    "en": "© 2026 CSOFTLIFE. All Rights Reserved - Powered by CSOFTLIFE",
+    "ja": "© 2026 CSOFTLIFE. 全著作権所有 - CSOFTLIFEによる提供"
+  },
+
+  "policies": {
+    "policy_title": {
+      "vi": "Chính sách",
+      "en": "Policy",
+      "ja": "ポリシー"
+    },
+    "items": [
+      {
+        "policy_function": {
+          "vi": "Chính sách bảo mật",
+          "en": "Privacy policy",
+          "ja": "プライバシーポリシー"
+        }
+      },
+      {
+        "policy_function": {
+          "vi": "Chính sách dùng AI",
+          "en": "AI Policy",
+          "ja": "AI ポリシー"
+        }
+      },
+      {
+        "policy_function": {
+          "vi": "Chính sách thanh toán",
+          "en": "Payment policy",
+          "ja": "支払いポリシーー"
+        }
+      },
+      {
+        "policy_function": {
+          "vi": "Chính sách hoàn tiền",
+          "en": "Refund policy",
+          "ja": "返金ポリシー"
+        }
+      },
+      {
+        "policy_function": {
+          "vi": "Chính sách sử dụng dịch vụ",
+          "en": "Service Usage Policy",
+          "ja": "サービス利用規約"
+        }
+      },
+      {
+        "policy_function": {
+          "vi": "Điều khoản sử dụng",
+          "en": "Terms of Use",
+          "ja": "利用規約（りようきやく)"
+        }
+      }
+    ]
+  },
+
+  "title_address": {
+    "vi": "Về chúng tôi",
+    "en": "About Us",
+    "ja": "私たちについて"
+  },
+
+  "tool_link": {
+    "vi": "Khám phá ngay",
+    "en": "Explore now",
+    "ja": "今すぐ探索してください"
+  },
+
+  "alert_language": {
+    "en": {
+      "title": "Successfully!",
+      "success_message": "Language has been changed successfully.",
+      "error_message": "An error occurred while changing the language."
+    },
+    "vi": {
+      "title": "Thành công!",
+      "success_message": "Ngôn ngữ đã được chuyển đổi thành công.",
+      "error_message": "Có lỗi xảy ra khi đổi ngôn ngữ."
+    },
+    "ja": {
+      "title": "T成功しました!",
+      "success_message": "言語が正常に変更されました。",
+      "error_message": "言語の変更中にエラーが発生しました。"
+    }
+  },
+
+  "language_header": {
+    "vi": "Giải Pháp Landing Page Cho Mọi Mục Tiêu",
+    "en": "Landing Page Solutions for Every Goal",
+    "ja": "あらゆる目的に対応するランディングページソリューション"
+  },
+
+  "language_description": {
+    "vi": "Từ trang bán sản phẩm đến giới thiệu sự kiện, chúng tôi biến mọi ý tưởng của bạn thành những trang landing page chuyên nghiệp và hiệu quả.",
+    "en": "From product sales to event promotions, we transform your ideas into professional and effective landing pages.",
+    "ja": "製品販売からイベント告知まで、お客様のアイデアをプロフェッショナルで効果的なランディングページへと作り上げます。"
+  },
+
+  "language_card": {
+    "items": [
+      {
+        "item_title": {
+          "vi": "Tăng Doanh Số & Thu Hút Khách Hàng",
+          "en": "Marketing & Sales Videos",
+          "ja": "マーケティング・販売促進動画"
+        },
+        "description": {
+          "vi": "Thiết kế landing page tập trung vào việc giới thiệu sản phẩm, dịch vụ và tối ưu hóa chuyển đổi. Thu thập thông tin khách hàng tiềm năng (lead) một cách hiệu quả với các biểu mẫu được bố trí thông minh.",
+          "en": "Create stunning product ads, engaging service introductions, or short clips for social media. We help you boost conversion rates and reach millions of potential customers.",
+          "ja": "魅力的な製品広告、サービス紹介動画、SNS用のショートクリップを制作。コンバージョン率を高め、数百万の潜在顧客にアプローチするお手伝いをします。"
+        }
+      },
+      {
+        "item_title": {
+          "vi": "Quảng Bá Sự Kiện & Ra Mắt Sản Phẩm",
+          "en": "Training & Educational Content",
+          "ja": "研修・教育コンテンツ"
+        },
+        "description": {
+          "vi": "Tạo ấn tượng mạnh mẽ cho các sự kiện, webinar, hoặc chiến dịch ra mắt sản phẩm. Cung cấp thông tin chi tiết, lịch trình, và form đăng ký tham gia chuyên nghiệp để tăng tỷ lệ tham dự.",
+          "en": "Transform dry documents into intuitive internal training videos, product tutorials, or new employee onboarding content. Save time and enhance learning effectiveness.",
+          "ja": "難解な資料を、直感的な社内研修動画、製品チュートリアル、新人研修コンテンツに変換。時間を節約し、学習効果を高めます。"
+        }
+      },
+      {
+        "item_title": {
+          "vi": "Landing Page Thương Hiệu & Nâng Cao",
+          "en": "Brand & Advanced Landing Pages",
+          "ja": "ブランディング＆高度なLP"
+        },
+        "description": {
+          "vi": "Xây dựng các landing page tập trung vào việc kể câu chuyện thương hiệu. Phù hợp cho các chiến dịch quảng bá hình ảnh, giới thiệu dịch vụ cao cấp, hoặc các dự án đòi hỏi hiệu ứng và tương tác phức tạp, vượt xa một trang bán hàng thông thường.",
+          "en": "We build landing pages focused on telling a compelling brand story. Ideal for brand awareness campaigns, introducing high-ticket services, or projects requiring complex animations and interactions that go beyond a standard sales page.",
+          "ja": "ブランドストーリーを伝えることに特化したランディングページを構築します。ブランド認知度向上キャンペーン、高価格帯サービスの紹介、または標準的な販売ページを超える複雑なアニメーションやインタラクションが求められるプロジェクトに最適です。"
+        }
+      }
+    ]
+  },
+
+  "download": {
+    "vi": "Tải ứng dụng",
+    "en": "Download the application",
+    "ja": "アプリケーションをダウンロードする"
+  },
+
+  "certified": {
+    "vi": "Chứng nhận bởi",
+    "en": "Certified by",
+    "ja": "によって認定されました"
+  },
+
+  "privacy": {
+    "pcy_service": {
+      "vi": "Điều khoản dịch vụ",
+      "en": "Terms Of Service",
+      "ja": "利用規約"
+    },
+    "pcy_policy": {
+      "vi": "Chính sách bảo mật",
+      "en": "Privacy Policy",
+      "ja": "プライバシーポリシー"
+    },
+    "pcy_help": {
+      "vi": "Trợ giúp",
+      "en": "Support",
+      "ja": "サポート"
+    }
+  },
+
+  "localeMap": {
+    "vi": "vi-VN",
+    "en": "en-US",
+    "ja": "ja-JP"
+  },
+
+  "contact_section": {
+    "contact_title": {
+      "vi": "Liên hệ với chúng tôi!",
+      "en": "Contact with us!",
+      "ja": "接触私たちと一緒に！"
+    },
+    "title_description": {
+      "vi": "Hãy để lại thông tin, chúng tôi sẽ liên hệ và hỗ trợ xử lý mọi vướng mắc của bạn",
+      "en": "Please leave your information, we will contact and assist in handling all your problems",
+      "ja": "あなたの情報を残してください。私たちは が連絡し、すべての問題の処理を支援します。"
+    },
+    "contact_name": {
+      "vi": "Họ tên (*)",
+      "en": "Full name (*)",
+      "ja": "フルネーム (*)"
+    },
+    "contact_phone": {
+      "vi": "Số điện thoại (*)",
+      "en": "Phone number (*)",
+      "ja": "電話番号(*)"
+    },
+    "contact_mail": {
+      "vi": "Email (*)",
+      "en": "Email (*)",
+      "ja": "メールアドレス(*)"
+    },
+    "contact_interested": {
+      "vi": "Bạn quan tâm đến",
+      "en": "You are interested",
+      "ja": "興味がありますね"
+    },
+    "contact_content": {
+      "vi": "Nội dung (*)",
+      "en": "Content (*)",
+      "ja": "コンテンツ (*)"
+    },
+    "contact_security": {
+      "vi": "Bằng việc gửi đăng ký nhận tư vấn, bạn đã đồng ý với Chính sách bảo mật thông tin của IPAGE.",
+      "en": "By submitting your registration for consultation, you agree to IPAGE's Information Privacy Policy.",
+      "ja": "相談登録を送信すると、IPAGE の情報プライバシー ポリシーに同意したものとみなされます。"
+    },
+    "placeholder_name": {
+      "vi": "Nhập họ và tên của bạn",
+      "en": "Enter your first and last name",
+      "ja": "姓名を入力してください"
+    },
+    "placeholder_phone": {
+      "vi": "+84 Nhập số điện thoại của bạn",
+      "en": "+84 Enter your phone number",
+      "ja": "+84 電話番号を入力してください"
+    },
+    "placeholder_mail": {
+      "vi": "Nhập địa chỉ email của bạn",
+      "en": "Enter your email address",
+      "ja": "メールアドレスを入力してください"
+    },
+    "placeholder_content": {
+      "vi": "Bạn có câu hỏi gì?\n- Hãy cho IPAGE biết bạn đang thắc mắc điều gì\n- Câu hỏi cần giải đáp",
+      "en": "Do you have any questions?\n- Let IPAGE know what you're wondering\n- Question needs to be answered",
+      "ja": "質問がありますか？\n- IPAGEにあなたの疑問を知らせてください\n- 回答が必要な質問"
+    },
+    "text_interested": {
+      "vi": [
+        { "value": "", "text": "Lựa chọn" },
+        { "value": "phan-mem", "text": "VBDS - Quản lý bất động sản" },
+        { "value": "ho-tro-ky-thuat", "text": "VECP - Quản lý bán hàng" },
+        { "value": "tu-van", "text": "VHD - Quản lý khách sạn" },
+        { "value": "vstudy", "text": "VSTUDY - Nền tảng học tiếng Anh" },
+        { "value": "vcms", "text": "VCMS - Hệ thống quản lý tin tức" },
+        { "value": "dich-vu-khac", "text": "Dịch vụ khác" }
+      ],
+      "en": [
+        { "value": "", "text": "Select" },
+        { "value": "phan-mem", "text": "VBDS - Real Estate Management" },
+        { "value": "ho-tro-ky-thuat", "text": "VECP - Sales Management" },
+        { "value": "tu-van", "text": "VHD - Hotel Management" },
+        { "value": "vstudy", "text": "VSTUDY - English Learning Platform" },
+        { "value": "vcms", "text": "VCMS - News Management System" }
+      ],
+      "ja": [
+        { "value": "", "text": "選択" },
+        { "value": "phan-mem", "text": "VBDS - 不動産管理" },
+        { "value": "ho-tro-ky-thuat", "text": "VECP - 営業管理" },
+        { "value": "tu-van", "text": "VHD - ホテル管理" },
+        { "value": "vstudy", "text": "VSTUDY - 英語学習プラットフォーム" },
+        { "value": "vcms", "text": "VCMS - ニュース管理システム" }
+      ]
+    }
+  }
+}

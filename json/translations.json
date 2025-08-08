@@ -1,0 +1,25 @@
+{
+  "translations": {
+    "vi": {
+      "title": "CẢM ƠN BẠN!",
+      "subtitle": "ĐÃ TIN TƯỞNG VÀ LỰA CHỌN DỊCH VỤ CỦA CHÚNG TÔI",
+      "message": "Chúng tôi rất vinh hạnh được đồng hành cùng bạn trong hành trình tạo nên những video chất lượng cao, chuyên nghiệp và sáng tạo – đừng quên tham gia cộng đồng để nhận thêm nhiều tài nguyên hữu ích!",
+      "button_text": "THAM GIA GROUP ZALO"
+    },
+    "en": {
+      "title": "THANK YOU!",
+      "subtitle": "FOR TRUSTING AND CHOOSING OUR SERVICES",
+      "message": "We are honored to accompany you on the journey of creating high-quality, professional, and creative videos – don’t forget to join the community to access more valuable resources!",
+      "button_text": "JOIN ZALO GROUP"
+    },
+    "jp": {
+      "title": "ありがとうございました！",
+      "subtitle": "当社のサービスを信頼してお選びいただき、ありがとうございます",
+      "message": "高品質でプロフェッショナルかつクリエイティブな動画を制作する旅路に、私たちがご一緒できることを光栄に思います。ぜひコミュニティに参加して、より多くの有益なリソースを手に入れてください！",
+      "button_text": "ZALOグループに参加"
+    }
+  },
+  "other_settings": {
+    "version": "1.0.0"
+  }
+}

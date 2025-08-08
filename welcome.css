@@ -1,0 +1,195 @@
+/* --- Cài đặt chung & Font --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: "Be Vietnam Pro", sans-serif;
+  /* font-family: "VNEFont1", sans-serif; */
+  line-height: 1.6;
+}
+
+/* --- Container chính bao bọc toàn bộ trang --- */
+.landing-container {
+  width: 100%;
+  min-height: 100vh; /* Sử dụng min-height để đảm bảo nội dung không bị cắt trên màn hình nhỏ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+
+  /* THAY ĐỔI HÌNH NỀN CỦA BẠN TẠI ĐÂY */
+  background-image: url("./images/bg_home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* --- Wrapper để nhóm hình ảnh và thẻ nội dung --- */
+.content-wrapper {
+  display: flex;
+  align-items: flex-end; /* Căn các item theo đáy */
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* --- Khu vực chứa hình ảnh người đàn ông --- */
+.image-container {
+  flex-shrink: 0; /* Ngăn hình ảnh bị co lại */
+  /* Hiệu ứng hình ảnh chồng lên thẻ một chút */
+  /* margin-right: -60px; */
+  position: relative;
+  z-index: 2; /* Đảm bảo hình ảnh nằm trên thẻ */
+}
+
+.person-image {
+  max-height: 85vh;
+  max-width: 100%;
+  height: auto;
+  display: block; /* Loại bỏ khoảng trắng thừa dưới ảnh */
+}
+
+/* --- Thẻ nội dung màu trắng --- */
+.card {
+  background-color: white;
+  padding: 2.5rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: center;
+  z-index: 1;
+}
+
+.card h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #4a00e0; /* Màu tím đậm */
+  margin-bottom: 0.5rem;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #4a00e0; /* Màu tím đậm */
+  margin-bottom: 1.5rem;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(90deg, #8e2de2, #4a00e0);
+  color: white;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  animation: pulse 2.5s infinite; /* Tên animation, thời gian, lặp lại vô hạn */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* --- Định nghĩa Keyframes cho Animation "pulse" --- */
+/* Keyframes định nghĩa các bước của một hoạt ảnh */
+@keyframes pulse {
+  /* Trạng thái bắt đầu (0%) và kết thúc (100%) của một chu kỳ */
+  0% {
+    transform: scale(1); /* Kích thước bình thường */
+    box-shadow: 0 4px 15px rgba(74, 0, 224, 0.2);
+  }
+
+  /* Trạng thái ở giữa chu kỳ (50%) */
+  50% {
+    transform: scale(1.05); /* Phóng to lên 5% */
+    box-shadow: 0 6px 20px rgba(74, 0, 224, 0.4); /* Tăng bóng đổ để đẹp hơn */
+  }
+
+  /* Trở về trạng thái ban đầu để tạo vòng lặp mượt mà */
+  100% {
+    transform: scale(1); /* Kích thước bình thường */
+    box-shadow: 0 4px 15px rgba(74, 0, 224, 0.2);
+  }
+}
+
+/* --- Xử lý khi người dùng HOVER vào nút --- */
+.cta-button:hover {
+  /* Dừng animation lại */
+  animation: none;
+
+  /* Giữ nút ở trạng thái phóng to nhẹ để có phản hồi tốt hơn */
+  /* Hoặc bạn có thể set scale(1) để nó giữ nguyên kích thước gốc */
+  transform: scale(1.1); /* Phóng to hơn một chút khi hover */
+  box-shadow: 0 8px 25px rgba(74, 0, 224, 0.5); /* Tăng bóng đổ mạnh hơn */
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(74, 0, 224, 0.4);
+}
+
+/* --- RESPONSIVE DESIGN --- */
+
+/* Tablet (màn hình nhỏ hơn 1024px) */
+@media (max-width: 1024px) {
+  .content-wrapper {
+    align-items: center; /* Căn giữa theo chiều dọc */
+  }
+
+  .person-image {
+    max-height: 70vh;
+  }
+
+  .card {
+    max-width: 500px;
+    padding: 2rem;
+  }
+
+  .card h1 {
+    font-size: 2rem;
+  }
+
+  .card h2 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile (màn hình nhỏ hơn 768px) */
+@media (max-width: 768px) {
+  .landing-container {
+    padding: 1rem;
+    /* Cho phép cuộn trên mobile nếu nội dung dài */
+    height: auto;
+  }
+
+  .content-wrapper {
+    /* Xếp chồng các thành phần theo chiều dọc */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-container {
+    margin-right: 0; /* Bỏ hiệu ứng chồng lấn */
+    margin-bottom: -40px; /* Để phần đầu của thẻ nằm sau chân của ảnh */
+    width: 80%; /* Thu nhỏ ảnh một chút */
+  }
+
+  .person-image {
+    max-height: 50vh; /* Giảm chiều cao ảnh trên mobile */
+  }
+
+  .card {
+    padding: 2.5rem 1.5rem 1.5rem; /* Tăng padding top để có không gian cho phần ảnh bị che */
+    width: 100%;
+  }
+}

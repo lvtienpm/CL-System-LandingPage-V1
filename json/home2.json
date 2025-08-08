@@ -1,0 +1,849 @@
+{
+  "menu": {
+    "home": {
+      "vi": "Trang chủ",
+      "en": "Home",
+      "ja": "ホーム"
+    },
+    "introduce": {
+      "vi": "Giới thiệu",
+      "en": "Introduce",
+      "ja": "導入"
+    },
+    "features": {
+      "vi": "Tính năng",
+      "en": "Features",
+      "ja": "特徴"
+    },
+    "cus_partner": {
+      "vi": "Khách hàng & Đối tác",
+      "en": "Customers & Partners",
+      "ja": "顧客とパートナー"
+    },
+    "price_table": {
+      "vi": "Bảng giá",
+      "en": "Price list",
+      "ja": "価格表"
+    },
+
+    "contact": {
+      "vi": "Liên hệ",
+      "en": "Contact",
+      "ja": "連絡先"
+    },
+    "submenu": {
+      "company_profile": {
+        "vi": "Hồ sơ công ty",
+        "en": "Company Profile",
+        "ja": "会社概要"
+      },
+      "vision_mission": {
+        "vi": "Tầm nhìn & Sứ mệnh",
+        "en": "Vision & Mission",
+        "ja": "ビジョンとミッション"
+      },
+      "board_of_directors": {
+        "vi": "Hội đồng quản trị",
+        "en": "Board of Directors",
+        "ja": "取締役会"
+      },
+      "executive_board": {
+        "vi": "Ban điều hành",
+        "en": "Executive Board",
+        "ja": "経営陣"
+      },
+      "policy_compliance": {
+        "vi": "Tuân thủ chính sách",
+        "en": "Policy Compliance",
+        "ja": "ポリシー遵守"
+      },
+      "community_responsibility": {
+        "vi": "Trách nhiệm cộng đồng",
+        "en": "Community Responsibility",
+        "ja": "社会的責任"
+      }
+    }
+  },
+  "topbar": {
+    "search_placeholder": {
+      "vi": "Tìm kiếm...",
+      "en": "Search...",
+      "ja": "検索..."
+    },
+    "language": {
+      "vi": "Tiếng Việt",
+      "en": "English",
+      "ja": "日本語"
+    }
+  },
+  "header": {
+    "home": {
+      "vi": "Trang chủ",
+      "en": "Home",
+      "ja": "ホーム"
+    },
+    "about_kpf": {
+      "vi": "về kpf",
+      "en": "About KPF",
+      "ja": "KPFについて"
+    },
+    "subsidiaries": {
+      "vi": "Công ty con",
+      "en": "Subsidiaries",
+      "ja": "子会社"
+    },
+    "shareholder_relations": {
+      "vi": "Quan hệ cổ đông",
+      "en": "Shareholder Relations",
+      "ja": "株主関係"
+    },
+    "news": {
+      "vi": "Tin tức",
+      "en": "News",
+      "ja": "ニュース"
+    },
+    "recruitment": {
+      "vi": "Tuyển dụng",
+      "en": "Recruitment",
+      "ja": "採用"
+    },
+    "contact": {
+      "vi": "Liên hệ",
+      "en": "Contact",
+      "ja": "連絡先"
+    }
+  },
+
+  "logo_partner": {
+    "items": [
+      {
+        "logo_image": "images/partners-1.webp"
+      },
+      {
+        "logo_image": "images/partner-2.png"
+      },
+      {
+        "logo_image": "images/partner-6.png"
+      },
+      {
+        "logo_image": "images/partner-3.png"
+      },
+      {
+        "logo_image": "images/partner-4.png"
+      },
+      {
+        "logo_image": "images/partner-5.png"
+      },
+
+      {
+        "logo_image": "images/vheli.png"
+      },
+      {
+        "logo_image": "images/logosvg.svg"
+      },
+      {
+        "logo_image": "images/vhd.png"
+      },
+      {
+        "logo_image": "images/csoft_login.svg"
+      },
+      {
+        "logo_image": "images/logo_flc.png"
+      }
+    ]
+  },
+
+  "slider": {
+    "slider_title": {
+      "vi": "GIẢI PHÁP QUẢN LÝ BẤT ĐỘNG SẢN TỐI ƯU",
+      "en": "OPTIMAL REAL ESTATE MANAGEMENT SOLUTION",
+      "ja": "最適な不動産管理ソリューション"
+    },
+    "slider_description": {
+      "vi": "Từ quản lý danh sách tài sản, đăng tin tự động, phân tích thị trường bằng AI đến chăm sóc khách hàng hiệu quả – tất cả đều được tối ưu hóa để nâng cao hiệu suất kinh doanh của bạn!",
+      "en": "From property listing management, automated posting, AI-powered market analysis to efficient customer care – all optimized to enhance your business performance!",
+      "ja": "物件リスト管理、自動投稿、AI を活用した市場分析から効率的な顧客ケアまで、すべてがビジネス パフォーマンスの向上のために最適化されています。"
+    },
+    "button": {
+      "vi": "Tìm hiểu thêm",
+      "en": "Learn More",
+      "ja": "さらに詳しく"
+    }
+  },
+  "intro": {
+    "company_introduction": {
+      "title": {
+        "vi": "GIỚI THIỆU VỀ CÔNG TY ĐẦU TƯ TÀI CHÍNH HOÀNG MINH",
+        "en": "INTRODUCTION TO HOANG MINH FINANCIAL INVESTMENT COMPANY",
+        "ja": "ホアンミンファイナンシャルインベストメント会社の紹介"
+      },
+      "link_text": {
+        "vi": "Tìm hiểu thêm",
+        "en": "Learn More",
+        "ja": "さらに詳しく"
+      }
+    },
+    "vision_mission": {
+      "title": {
+        "vi": "TẦM NHÌN VÀ SỨ MỆNH CỦA CHÚNG TÔI",
+        "en": "OUR VISION AND MISSION",
+        "ja": "私たちのビジョンとミッション"
+      },
+      "link_text": {
+        "vi": "Tìm hiểu thêm",
+        "en": "Learn More",
+        "ja": "さらに詳しく"
+      }
+    }
+  },
+  "price_table": {
+    "price_title": {
+      "vi": "BẢNG GIÁ PHẦN MỀM",
+      "en": "SOFTWARE PRICE LIST",
+      "ja": "ソフトウェア価格リスト"
+    },
+    "items": [
+      {
+        "icon": "icon-coins",
+        "ser_image": "images/post_service.png",
+        "title_packages": {
+          "vi": "GÓI CƠ BẢN",
+          "en": "BASIC",
+          "ja": "ベーシック"
+        },
+        "description": {
+          "vi": "Đăng tin rao bán/cho thuê. Quản lý khách hàng tiềm năng. Lọc & tìm kiếm nâng cao. Tính năng tự động gợi ý khách hàng. Không tích hợp hợp đồng điện tử.",
+          "en": "Post ads for sale/rent. Manage potential customers. Advanced filtering & searching. Automatic customer suggestion feature. Does not integrate electronic contracts.",
+          "ja": "販売/レンタルの広告を掲載します。潜在的な顧客を管理します。高度なフィルタリングと検索。自動顧客提案機能。電子契約は統合していません"
+        }
+      },
+      {
+        "icon": "icon-weather-sun-wind",
+        "ser_image": "images/suggestion_service.png",
+        "title_packages": {
+          "vi": "GÓI NÂNG CAO",
+          "en": "PREMIUM",
+          "ja": "プレミアム"
+        },
+        "description": {
+          "vi": "Quản lý giao dịch & hợp đồng. Tự động gợi ý khách hàng. Quản lý lịch hẹn xem nhà. Lưu trữ và phân loại dữ liệu khách hàng. Không có AI dự đoán xu hướng giá thị trường.",
+          "en": "Transaction & contract management. Automatically suggest customers. Manage home viewing appointments. Store and classify customer data. There is no AI that predicts market price trends.",
+          "ja": "取引と契約の管理。自動的に顧客を提案します。自宅内覧の予約を管理します。顧客データを保存および分類します。市場価格の動向を予測するAIは存在しません。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/automatic_service.png",
+        "title_packages": {
+          "vi": "GÓI DOANH NGHIỆP",
+          "en": "BUSINESS",
+          "ja": "仕事"
+        },
+        "description": {
+          "vi": "AI phân tích thị trường. Báo cáo hiệu suất môi giới. Tích hợp chatbot hỗ trợ khách hàng. Quản lý toàn bộ danh sách BĐS. Bảo mật & phân quyền người dùng.",
+          "en": "AI analyzes the market. Broker performance reports. Integrate customer support chatbot. Manage all real estate listings. Security & user authorization.",
+          "ja": "AIが市場を分析。ブローカーのパフォーマンスレポート。カスタマーサポートチャットボットを統合します。すべての不動産物件を管理します。セキュリティとユーザー認証。"
+        }
+      }
+    ]
+  },
+  "services": {
+    "title": {
+      "vi": "PHẦN MỀM TỐT NHẤT ĐỂ QUẢN LÝ BẤT ĐỘNG SẢN",
+      "en": "THE BEST SOFTWARE TO MANAGE YOUR PROPERTY",
+      "ja": "不動産管理に最適なソフトウェア"
+    },
+    "items": [
+      {
+        "icon": "icon-coins",
+        "ser_image": "images/book.svg",
+        "titles": {
+          "vi": "ĐĂNG TIN BẤT ĐỘNG SẢN",
+          "en": "POST NEWS",
+          "ja": "ニュースを投稿する"
+        },
+        "description": {
+          "vi": "Cho phép đăng bài mô tả chi tiết về bất động sản (hình ảnh, vị trí, giá, diện tích, tiện ích, v.v.), hỗ trợ nhập dữ liệu nhanh từ file Excel hoặc API từ sàn BĐS.",
+          "en": "Allows posting detailed descriptions of real estate (images, location, price, area, amenities, etc.), supports quick data import from Excel files or API from the real estate floor.",
+          "ja": "不動産の詳細な説明（画像、所在地、価格、面積、設備など）を投稿でき、不動産フロアからのExcelファイルまたはAPIからの迅速なデータインポートをサポートします。"
+        }
+      },
+      {
+        "icon": "icon-weather-sun-wind",
+        "ser_image": "images/ser_1.svg",
+        "titles": {
+          "vi": "Gợi ý BĐS phù hợp",
+          "en": "Suggest suitable estate",
+          "ja": "適切な物件をご提案します"
+        },
+        "description": {
+          "vi": "AI phân tích nhu cầu khách hàng dựa trên hành vi tìm kiếm và lịch sử truy cập, từ đó đưa ra gợi ý bất động sản phù hợp với ngân sách, vị trí và loại hình mong muốn.",
+          "en": "AI analyzes customer needs based on search behavior and access history, thereby providing real estate suggestions suitable to budget, location and desired type.",
+          "ja": "検索行動やアクセス履歴からAIが顧客ニーズを分析し、予算や立地、希望タイプに合わせた不動産を提案。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/automatic_service.png",
+        "titles": {
+          "vi": "TỰ ĐỘNG ĐĂNG TIN",
+          "en": "AUTOMATICALLY POST NEWS",
+          "ja": "ニュースを自動的に投稿する"
+        },
+        "description": {
+          "vi": "AI hỗ trợ viết mô tả hấp dẫn cho bài đăng chỉ với một số thông tin cơ bản, tối ưu SEO để giúp tin đăng tiếp cận nhiều khách hàng hơn.",
+          "en": "AI supports writing attractive descriptions for posts with just some basic information, optimizing SEO to help posts reach more customers.",
+          "ja": "AI は、いくつかの基本情報だけで投稿の魅力的な説明を作成することをサポートし、SEO を最適化して投稿がより多くの顧客にリーチできるようにします。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/report_service.png",
+        "titles": {
+          "vi": "BÁO CÁO TÀI CHÍNH",
+          "en": "FINANCIAL REPORTINGS",
+          "ja": "財務報告"
+        },
+        "description": {
+          "vi": "AI tự động thu thập, xử lý dữ liệu tài chính và tạo báo cáo chi tiết, giúp theo dõi hiệu quả kinh doanh và dự đoán xu hướng thị trường. Phân tích tài chính giúp đưa ra các quyết định đầu tư chính xác, tối ưu hóa lợi nhuận.",
+          "en": "AI automatically collects and processes financial data and creates detailed reports, helping to track business performance and predict market trends. Financial analysis helps make accurate investment decisions and optimize profits.",
+          "ja": "AI は財務データを自動的に収集して処理し、詳細なレポートを作成して、業績の追跡や市場動向の予測に役立ちます。財務分析は、正確な投資決定を下し、利益を最適化するのに役立ちます。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/ser_5.svg",
+        "titles": {
+          "vi": "Chatbot hỗ trợ",
+          "en": "Chatbot support",
+          "ja": "チャットボットのサポート"
+        },
+        "description": {
+          "vi": "AI hỗ trợ tư vấn trực tuyến, giải đáp mọi thắc mắc của khách hàng về các thông tin bất động sản, hỗ trợ đặt lịch xem nhà, tư vấn pháp lý và hướng dẫn thủ tục mua bán một cách nhanh chóng và chính xác.",
+          "en": "AI supports online consultation, answers all customer questions about real estate information, supports scheduling house viewings, provides legal advice and guides buying and selling procedures quickly and accurately.",
+          "ja": "AI はオンライン相談をサポートし、不動産情報に関するすべての顧客の質問に答え、住宅の内覧スケジュールをサポートし、法的アドバイスを提供し、売買手順を迅速かつ正確にガイドします。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/chart (1).svg",
+        "titles": {
+          "vi": "Phân tích thị trường",
+          "en": "Market analysis",
+          "ja": "市場分析"
+        },
+        "description": {
+          "vi": "AI theo dõi biến động giá cả, lượng giao dịch để dự báo thị trường, cung cấp báo cáo giúp nhà đầu tư đưa ra quyết định chính xác.",
+          "en": "AI monitors price fluctuations and transaction volume to forecast the market, providing reports to help investors make accurate decisions.",
+          "ja": "AIが価格変動や取引量を監視して市場を予測し、投資家の正確な意思決定に役立つレポートを提供します。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/face_service.png",
+        "titles": {
+          "vi": "Nhận diện hình ảnh",
+          "en": "Image recognition",
+          "ja": "画像認識"
+        },
+        "description": {
+          "vi": "AI có thể phân tích ảnh bất động sản để nhận diện tình trạng nhà đất, kiểm tra giấy tờ pháp lý bằng OCR, giúp phát hiện rủi ro trước khi giao dịch.",
+          "en": "AI can analyze real estate photos to identify real estate conditions, check legal documents with OCR, and help detect risks before transactions.",
+          "ja": "AI は不動産の写真を分析して不動産の状況を特定したり、OCR で法的文書をチェックしたり、取引前のリスク検出を支援したりできます。"
+        }
+      },
+      {
+        "icon": "icon-office",
+        "ser_image": "images/pricing_service.png",
+        "titles": {
+          "vi": "Định giá bất động sản",
+          "en": "Real estate valuation",
+          "ja": "不動産評価"
+        },
+        "description": {
+          "vi": "AI thu thập dữ liệu từ thị trường, so sánh với các bất động sản tương tự, cung cấp giá trị ước tính sát thực tế, giúp chủ bất động sản định giá hiệu quả.",
+          "en": "AI collects data from the market, compares it with similar properties, provides realistic estimated values, and helps real estate owners set prices effectively.",
+          "ja": "AI は市場からデータを収集し、類似の物件と比較して現実的な推定値を提供し、不動産所有者が効果的に価格を設定できるように支援します。"
+        }
+      }
+    ]
+  },
+
+  "intro_tabs": {
+    "items": [
+      {
+        "titles": {
+          "vi": "Đăng tin",
+          "en": "Post news",
+          "ja": "ニュースを投稿する"
+        },
+        "description": {
+          "vi": "Mô tả chi tiết về bất động sản. Hỗ trợ nhập dữ liệu nhanh từ file Excel hoặc API. Định dạng bài đăng theo tiêu chuẩn SEO. Hỗ trợ đăng tin trên nhiều nền tảng khác nhau. Lưu trữ và quản lý danh sách tin đăng. Cập nhật trạng thái bất động sản. Hẹn giờ đăng tin tự động. Kiểm tra tính hợp lệ của thông tin trước khi đăng.",
+          "en": "Detailed description of the property. Supports quick data import from Excel files or API. Format posts according to SEO standards. Support posting news on many different platforms. Store and manage posting lists. Update real estate status. Schedule automatic posting. Check the validity of information before posting.",
+          "ja": "物件の詳しい説明。 Excel ファイルまたは API からの迅速なデータ インポートをサポートします。 SEO 標準に従って投稿をフォーマットします。さまざまなプラットフォームでのニュースの投稿をサポートします。投稿リストを保存および管理します。不動産の状況を更新します。自動投稿をスケジュールします。投稿する前に情報の有効性を確認してください。"
+        },
+        "icon": "fa-solid fa-newspaper",
+        "ser_image": "./images/1.png"
+      },
+      {
+        "titles": {
+          "vi": "Gợi ý",
+          "en": "Suggest",
+          "ja": "提案する"
+        },
+        "description": {
+          "vi": "Phân tích nhu cầu khách hàng dựa trên hành vi tìm kiếm. Đề xuất bất động sản theo ngân sách, vị trí, loại hình. Cung cấp danh sách bất động sản theo sở thích cá nhân. Đưa ra cảnh báo khi có bất động sản phù hợp mới xuất hiện. Lưu lại danh sách gợi ý để khách hàng xem lại sau. So sánh các bất động sản theo nhiều tiêu chí khác nhau. Gửi thông báo qua email hoặc tin nhắn khi có BĐS phù hợp. Gợi ý dựa trên xu hướng thị trường và dữ liệu người dùng.",
+          "en": "Analyze customer needs based on search behavior. Recommend real estate by budget, location, type. Provide real estate listings according to personal preferences. Issue alerts when new suitable properties appear. Save the suggestion list for customers to review later. Compare real estate according to many different criteria. Send notifications via email or text message when suitable properties become available. Suggestions based on market trends and user data.",
+          "ja": "検索行動に基づいて顧客のニーズを分析します。予算、立地、タイプ別に不動産をご提案します。個人の好みに応じた不動産物件を提供します。新しい適切なプロパティが出現したときにアラートを発行します。顧客が後で確認できるように提案リストを保存します。さまざまな基準に基づいて不動産を比較します。適切な物件が利用可能になったときに、電子メールまたはテキスト メッセージで通知を送信します。市場動向やユーザーデータに基づいたご提案。"
+        },
+        "icon": "fa-solid fa-lightbulb",
+        "ser_image": "./images/10.png"
+      },
+      {
+        "titles": {
+          "vi": "Tự động đăng",
+          "en": "Auto post",
+          "ja": "自動投稿"
+        },
+        "description": {
+          "vi": "AI hỗ trợ viết mô tả hấp dẫn cho bài đăng. Đề xuất tiêu đề tối ưu để thu hút người mua. Tự động thêm thẻ SEO giúp bài đăng hiển thị tốt hơn. Lên lịch đăng tin tự động theo thời gian tối ưu. Đồng bộ hóa bài đăng trên nhiều kênh khác nhau. Gợi ý hình ảnh minh họa phù hợp với nội dung bài đăng. Tích hợp tính năng chỉnh sửa bài đăng nhanh chóng. Thông báo khi bài đăng cần cập nhật thông tin.",
+          "en": "AI helps write attractive descriptions for posts. Suggest optimal titles to attract buyers. Automatically add SEO tags to help posts display better. Schedule posts automatically at the optimal time. Sync posts across different channels. Suggest illustrations suitable for the post content. Integrated quick post editing feature. Notify when posts need updating information.",
+          "ja": "AI は、投稿の魅力的な説明文を作成するのに役立ちます。購入者を惹きつける最適なタイトルを提案します。 SEO タグを自動的に追加して、投稿の表示を改善します。最適な時間に自動的に投稿をスケジュールします。さまざまなチャネル間で投稿を同期します。投稿内容に合わせたイラストをご提案します。統合されたクイック投稿編集機能。投稿に情報の更新が必要なときに通知します。"
+        },
+        "icon": "fa-solid fa-rss",
+        "ser_image": "./images/3.png"
+      },
+      {
+        "titles": {
+          "vi": "Báo cáo tài chính",
+          "en": "Financial reports",
+          "ja": "財務報告書"
+        },
+        "description": {
+          "vi": "Thu thập và xử lý dữ liệu tài chính tự động. Tạo báo cáo chi tiết về dòng tiền và lợi nhuận. Dự báo xu hướng tài chính dựa trên dữ liệu thực tế. So sánh hiệu suất tài chính theo thời gian. Đưa ra đề xuất tối ưu hóa chi phí và doanh thu. Tạo báo cáo tùy chỉnh theo yêu cầu người dùng. Hỗ trợ xuất báo cáo dưới nhiều định dạng khác nhau. Tích hợp với phần mềm kế toán và hệ thống quản lý tài chính.",
+          "en": "Collect and process financial data automatically. Create detailed reports on cash flow and profits. Forecast financial trends based on real data. Compare financial performance over time. Make recommendations to optimize costs and revenue. Create custom reports according to user requirements. Support exporting reports in many different formats. Integrates with accounting software and financial management systems.",
+          "ja": "財務データを自動的に収集して処理します。キャッシュフローと利益に関する詳細なレポートを作成します。実際のデータに基づいて財務トレンドを予測します。長期にわたる財務パフォーマンスを比較します。コストと収益を最適化するための推奨事項を作成します。ユーザーの要件に従ってカスタム レポートを作成します。さまざまな形式でのレポートのエクスポートをサポートします。会計ソフトウェアや財務管理システムと統合します。"
+        },
+        "icon": "fa-solid fa-coins",
+        "ser_image": "./images/4.png"
+      },
+      {
+        "titles": {
+          "vi": "Chatbot",
+          "en": "Chatbot",
+          "ja": "24時間年中無休のチャットボット"
+        },
+        "description": {
+          "vi": "Giải đáp thắc mắc của khách hàng về bất động sản. Hỗ trợ tìm kiếm thông tin nhanh chóng. Hướng dẫn khách hàng đặt lịch xem nhà. Tư vấn pháp lý cơ bản về giao dịch bất động sản. Gửi thông báo và nhắc nhở lịch hẹn quan trọng. Kết nối khách hàng với chuyên viên tư vấn khi cần thiết. Học hỏi từ các cuộc trò chuyện để cải thiện phản hồi. Hỗ trợ đa ngôn ngữ giúp khách hàng quốc tế dễ dàng sử dụng.",
+          "en": "Answer customers' questions about real estate. Supports finding information quickly. Instruct customers to schedule home viewings. Basic legal advice on real estate transactions. Send notifications and important appointment reminders. Connect customers with consultants when necessary. Learn from conversations to improve responses. Multi-language support makes it easy for international customers to use.",
+          "ja": "不動産に関するお客様の疑問にお答えします。情報の迅速な検索をサポートします。顧客に住宅内覧のスケジュールを立てるよう指示します。不動産取引に関する基本的な法律アドバイス。通知や重要な予定のリマインダーを送信します。必要に応じて顧客をコンサルタントにつなぎます。会話から学び、応答を改善します。多言語サポートにより、海外の顧客も簡単に使用できます。"
+        },
+        "icon": "fa-solid fa-robot",
+        "ser_image": "./images/5.png"
+      },
+      {
+        "titles": {
+          "vi": "Phân tích thị trường",
+          "en": "Market analysis",
+          "ja": "市場分析"
+        },
+        "description": {
+          "vi": "Theo dõi biến động giá bất động sản theo khu vực. Phân tích lượng giao dịch trong từng phân khúc. Dự đoán xu hướng thị trường trong tương lai. Cung cấp báo cáo chi tiết về cung và cầu thị trường. So sánh giá bất động sản giữa các khu vực khác nhau. Xác định thời điểm mua/bán hợp lý dựa trên dữ liệu thị trường. Đánh giá mức độ tiềm năng của từng loại bất động sản. Gợi ý chiến lược đầu tư hiệu quả theo xu hướng thị trường.",
+          "en": "Monitor real estate price fluctuations by region. Analyze transaction volume in each segment. Predict future market trends. Provides detailed reports on market supply and demand. Compare real estate prices between different areas. Determine the appropriate time to buy/sell based on market data. Evaluate the potential level of each type of real estate. Suggest effective investment strategies according to market trends.",
+          "ja": "地域ごとの不動産価格の変動を監視します。各セグメントの取引量を分析します。将来の市場動向を予測します。市場の需要と供給に関する詳細なレポートを提供します。さまざまなエリアの不動産価格を比較します。市場データに基づいて適切な売買時期を決定します。不動産の種類ごとに潜在的なレベルを評価します。市場動向に応じた効果的な投資戦略をご提案します。"
+        },
+        "icon": "fa-solid fa-chart-simple",
+        "ser_image": "./images/6.png"
+      },
+      {
+        "titles": {
+          "vi": "Nhận diện & pháp lý",
+          "en": "Identity & legality",
+          "ja": "身元と合法性"
+        },
+        "description": {
+          "vi": "Phân tích hình ảnh để nhận diện tình trạng bất động sản. Kiểm tra giấy tờ pháp lý bằng công nghệ OCR. Xác thực thông tin sổ đỏ, giấy phép xây dựng. Phát hiện rủi ro pháp lý trước khi giao dịch. So sánh hình ảnh thực tế với thông tin trên giấy tờ. Hỗ trợ trích xuất nội dung từ tài liệu giấy tờ liên quan. Cảnh báo nếu bất động sản có tranh chấp pháp lý. Lưu trữ và quản lý hồ sơ pháp lý một cách an toàn.",
+          "en": "Analyze images to identify real estate condition. Check legal documents using OCR technology. Verify red book information and construction permits. Detect legal risks before trading. Compare actual images with information on documents. Support extracting content from related documents. Warning if real estate has legal disputes. Store and manage legal documents securely.",
+          "ja": "画像を分析して不動産の状態を特定します。 OCR テクノロジーを使用して法的文書をチェックします。レッドブックの情報と建設許可を確認してください。取引前に法的リスクを検出します。実際の画像と書類の情報を比較します。関連ドキュメントからのコンテンツの抽出をサポートします。不動産に法的紛争がある場合は警告します。法的文書を安全に保管および管理します。"
+        },
+        "icon": "fa-solid fa-fingerprint",
+        "ser_image": "./images/8.png"
+      },
+      {
+        "titles": {
+          "vi": "Định giá",
+          "en": "Pricing",
+          "ja": "価格設定"
+        },
+        "description": {
+          "vi": "Thu thập dữ liệu từ thị trường bất động sản. So sánh với các bất động sản tương tự để đưa ra giá hợp lý. Cung cấp giá trị ước tính sát với thực tế. Xác định yếu tố ảnh hưởng đến giá trị bất động sản. Phân tích lịch sử giá để dự đoán xu hướng trong tương lai. Gợi ý mức giá chào bán tối ưu giúp tăng cơ hội giao dịch. Tạo báo cáo định giá chi tiết cho chủ sở hữu và người mua. Hỗ trợ tư vấn chiến lược định giá phù hợp với thị trường.",
+          "en": "Collect data from the real estate market. Compare with similar properties to come up with a fair price. Provides estimated values ​​close to reality. Identify factors that affect real estate value. Analyze price history to predict future trends. Suggest optimal asking price to help increase transaction opportunities. Create detailed valuation reports for owners and buyers. Support consulting on pricing strategies appropriate to the market.",
+          "ja": "不動産市場からデータを収集します。類似物件と比較して適正価格を導き出します。現実に近い推定値を提供します。不動産価値に影響を与える要因を特定します。価格履歴を分析して将来の傾向を予測します。最適な提示価格を提案し、取引機会の拡大に貢献します。所有者と購入者向けに詳細な評価レポートを作成します。市場に応じた価格戦略のコンサルティングをサポートします。"
+        },
+        "icon": "fa-solid fa-tag",
+        "ser_image": "./images/8.png"
+      }
+    ]
+  },
+  "projects_demo": {
+    "prj_title": {
+      "vi": "Lợi ích khi dùng phần mềm",
+      "en": "Benefits of using software",
+      "ja": "ソフトウェアを使用する利点"
+    },
+    "items": [
+      {
+        "be_image": "images/benefit_2.png",
+        "benefit": {
+          "vi": "Quản lý khách hàng & giao dịch",
+          "en": "Customer & transaction management",
+          "ja": "顧客および取引管理"
+        },
+        "be_description": {
+          "vi": "Hệ thống quản lý khách hàng & giao dịch giúp lưu trữ và tổ chức dữ liệu khách hàng một cách khoa học, theo dõi lịch sử giao dịch chi tiết, tự động nhắc nhở lịch hẹn và hợp đồng sắp hết hạn. Công nghệ AI hỗ trợ phân loại khách hàng theo nhu cầu, dự đoán xu hướng mua bán, đồng thời cung cấp báo cáo phân tích chuyên sâu, giúp doanh nghiệp tối ưu chiến lược kinh doanh, nâng cao trải nghiệm khách hàng và tăng tỷ lệ chốt giao dịch một cách hiệu quả.",
+          "en": "The customer & transaction management system helps to store and organize customer data scientifically, track detailed transaction history, automatically remind appointments and contracts about to expire. AI technology supports customer classification according to needs, predicts buying and selling trends, and provides in-depth analysis reports, helping businesses optimize business strategies, improve customer experience and increase transaction closing rates effectively.",
+          "ja": "顧客および取引管理システムは、顧客データを科学的に保存および整理し、詳細な取引履歴を追跡し、予定や期限切れの契約を自動的に思い出させるのに役立ちます。 AI テクノロジーは、ニーズに応じた顧客の分類、購入傾向の予測、詳細な分析レポートの提供をサポートし、企業がビジネス戦略を最適化し、顧客エクスペリエンスを向上させ、取引成約率を効果的に高めるのに役立ちます。"
+        }
+      },
+      {
+        "be_image": "images/benefit_3.png",
+        "benefit": {
+          "vi": "Báo cáo và thống kê chi tiết",
+          "en": "Detailed reports and statistics",
+          "ja": "詳細なレポートと統計"
+        },
+        "be_description": {
+          "vi": "Hệ thống quản lý khách hàng & giao dịch giúp lưu trữ và tổ chức dữ liệu khách hàng một cách khoa học, theo dõi lịch sử giao dịch chi tiết, tự động nhắc nhở lịch hẹn và hợp đồng sắp hết hạn. Công nghệ AI hỗ trợ phân loại khách hàng theo nhu cầu, dự đoán xu hướng mua bán, đồng thời cung cấp báo cáo phân tích chuyên sâu, giúp doanh nghiệp tối ưu chiến lược kinh doanh, nâng cao trải nghiệm khách hàng và tăng tỷ lệ chốt giao dịch một cách hiệu quả.",
+          "en": "The customer & transaction management system helps store and organize customer data scientifically, track detailed transaction history, and automatically remind appointments and expiring contracts. AI technology supports classifying customers according to needs, predicting purchasing trends, and providing in-depth analytical reports, helping businesses optimize business strategies, improve customer experience and effectively increase transaction closing rates.",
+          "ja": "顧客および取引管理システムは、顧客データを科学的に保存および整理し、詳細な取引履歴を追跡し、予定や期限切れの契約を自動的に思い出させるのに役立ちます。 AI テクノロジーは、ニーズに応じた顧客の分類、購入傾向の予測、詳細な分析レポートの提供をサポートし、企業がビジネス戦略を最適化し、顧客エクスペリエンスを向上させ、取引成約率を効果的に高めるのに役立ちます。"
+        }
+      }
+    ],
+    "prj_description": {
+      "vi": "Các Dự Án Bất Động Sản Tiêu Biểu đề cập đến những dự án bất động sản nổi bật, thể hiện sự đổi mới và chất lượng trong thiết kế, xây dựng và phát triển. Những dự án này không chỉ góp phần nâng cao giá trị bất động sản mà còn tạo ra không gian sống và làm việc tiện nghi cho cộng đồng. Chúng thường bao gồm các căn hộ cao cấp, khu nghỉ dưỡng, trung tâm thương mại và các khu đô thị hiện đại, đáp ứng nhu cầu ngày càng cao của thị trường và người tiêu dùng.",
+      "en": "Outstanding Real Estate Projects refers to outstanding real estate projects that demonstrate innovation and quality in design, construction and development. These projects not only contribute to improving real estate value but also create comfortable living and working spaces for the community. They often include luxury apartments, resorts, commercial centers and modern urban areas, meeting the increasing needs of the market and consumers.",
+      "ja": "優れた不動産プロジェクトとは、設計、建設、開発において革新性と品質を実証した優れた不動産プロジェクトを指します。これらのプロジェクトは、不動産価値の向上に貢献するだけでなく、地域社会の快適な居住空間や執務空間の創出にも貢献します。これらには高級アパートメント、リゾート、商業センター、近代的な都市部が含まれることが多く、市場や消費者の増大するニーズに応えています。"
+    }
+  },
+  "official_disclosures": {
+    "ofd_title": {
+      "vi": "MỘT SỐ CHỨC NĂNG",
+      "en": "SOME FUNCTIONS",
+      "ja": "いくつかの機能"
+    },
+    "items": [
+      {
+        "ofd_image": "images/product_1.png",
+        "item_title": {
+          "vi": "BIỆT THỰ MẶT TRỜI",
+          "en": "SUN VILLA",
+          "ja": "サンヴィラ"
+        },
+        "date": "18.06.2018",
+        "link": "#"
+      },
+      {
+        "ofd_image": "images/product_1.png",
+        "item_title": {
+          "vi": "NGÔI NHÀ THIÊN NHIÊN",
+          "en": "NATURAL HOUSE",
+          "ja": "自然の家"
+        },
+        "date": "18.06.2018",
+        "link": "#"
+      },
+      {
+        "ofd_image": "images/product_1.png",
+        "item_title": {
+          "vi": "BIỆT THỰ ĐÊM SÁNG",
+          "en": "VILLA AT NIGHT",
+          "ja": "夜のヴィラ"
+        },
+        "date": "18.06.2018",
+        "link": "#"
+      }
+    ]
+  },
+
+  "buttons": {
+    "btn_benefit": {
+      "vi": "Tìm hiểu thêm",
+      "en": "Learn More",
+      "ja": "もっと詳しく知る"
+    },
+    "btn_price": {
+      "vi": "Mua",
+      "en": "Choose plan",
+      "ja": "プランを選ぶ"
+    },
+    "btn_all": {
+      "vi": "Xem chi tiết tại đây",
+      "en": "See details here",
+      "ja": "詳細はこちらをご覧ください"
+    },
+
+    "btn_free": {
+      "vi": "Bắt đầu",
+      "en": "Get started",
+      "ja": "始めましょう"
+    },
+
+    "btn_send": {
+      "vi": "Gửi thông tin",
+      "en": "Send information",
+      "ja": "情報を送信する"
+    }
+  },
+
+  "partner": {
+    "vi": "ĐỐI TÁC CHIẾN LƯỢC",
+    "en": "PARTNERS",
+    "ja": "パートナー"
+  },
+
+  "free_trail": {
+    "vi": "Hãy dùng thử miễn phí trong 30 ngày",
+    "en": "Let's try it's free trail for 30 days",
+    "ja": "30日間無料でお試しください"
+  },
+
+  "feedback": {
+    "fb_title": {
+      "vi": "Đánh giá từ khách hàng và đối tác",
+      "en": "Evaluation from Customers and Partners",
+      "ja": "お客様やパートナーからのレビュー"
+    },
+    "items": [
+      {
+        "fb_icon": "images/avatar3.jpg",
+        "fb_name": "Trịnh Trần Tuấn",
+        "fb_description": {
+          "vi": "Phần mềm hỗ trợ tôi trong việc quản lý danh mục bất động sản một cách thuận tiện, đơn giản và đạt hiệu quả cao hơn.",
+          "en": "The software supports me in managing my real estate portfolio in a convenient, simple and more effective way.",
+          "ja": "このソフトウェアは、便利でシンプル、そしてより効果的な方法で不動産ポートフォリオを管理するのに役立ちます。"
+        }
+      },
+      {
+        "fb_icon": "images/avatar3.jpg",
+        "fb_name": "Alex D",
+        "fb_description": {
+          "vi": "Giao diện trực quan, dễ sử dụng. Quản lý khách hàng và giao dịch trở nên đơn giản hơn nhờ vào công nghệ tiên tiến.",
+          "en": "Intuitive interface, easy to use. Customer and transaction management becomes simpler thanks to advanced technology.",
+          "ja": "直感的なインターフェースで使いやすい。高度なテクノロジーのおかげで、顧客と取引の管理が簡単になります。"
+        }
+      },
+      {
+        "fb_icon": "images/avatar3.jpg",
+        "fb_name": "Kim Mi Cheo",
+        "fb_description": {
+          "vi": "Hệ thống báo cáo chi tiết, hỗ trợ trong việc theo dõi và phân tích thị trường bất động sản thông minh và nâng cao hiệu suất.",
+          "en": "Detailed reporting system, support in monitoring and analyzing the smart real estate market and improving performance.",
+          "ja": "詳細なレポート システム、スマート不動産市場の監視と分析、およびパフォーマンスの向上における優れたサポート。"
+        }
+      }
+    ]
+  },
+
+  "footer": {
+    "address": {
+      "vi": "Địa chỉ: 26 Nguyễn Khắc Nhu, Phường Trúc Bạch, Quận Ba Đình",
+      "en": "Address: 26 Nguyễn Khắc Nhu, Truc Bach Ward, Ba Dinh District, Hanoi",
+      "ja": "住所: 26 Nguyen Khac Nhu、Truc Bach Ward、Ba Dinh District、Hanoi"
+    },
+    "phone_footer": {
+      "vi": "SĐT: 05 82 225566",
+      "en": "Phone: 05 82 225566",
+      "ja": "電話: 05 82 225566"
+    },
+    "fax": {
+      "vi": "Fax: 84 4 38686263",
+      "en": "Fax: 84 4 38686263",
+      "ja": "Fax: 84 4 38686263"
+    },
+    "email_footer": {
+      "vi": "Email: support@csoftlife.com",
+      "en": "Email: support@csoftlife.com",
+      "ja": "電子メール: support@csoftlife.com"
+    },
+    "copyright": {
+      "vi": "Copyright 2025 Công Ty Cổ Phần Đầu Tư Tài Chính Hoàng Minh (KPF). All Rights Reserved.",
+      "en": "Copyright 2025 Hoang Minh Financial Investment Joint Stock Company (KPF). All Rights Reserved.",
+      "ja": "2018年著作権ホアンミンファイナンシャルインベストメント株式会社（KPF）。すべての権利を保有します。"
+    }
+  },
+
+  "menu_footer": {
+    "items": [
+      {
+        "function": {
+          "vi": "Giới thiệu",
+          "en": "Introduce",
+          "ja": "導入"
+        }
+      },
+      {
+        "function": {
+          "vi": "Tính năng",
+          "en": "Features",
+          "ja": "特徴"
+        }
+      },
+      {
+        "function": {
+          "vi": "Bảng giá",
+          "en": "Price list",
+          "ja": "価格表"
+        }
+      },
+      {
+        "function": {
+          "vi": "Khách hàng & Đối tác",
+          "en": "Customers & Partners",
+          "ja": "顧客とパートナー"
+        }
+      },
+      {
+        "function": {
+          "vi": "Hỗ trợ",
+          "en": "Support",
+          "ja": "サポート"
+        }
+      },
+      {
+        "function": {
+          "vi": "Liên hệ",
+          "en": "Contact",
+          "ja": "接触"
+        }
+      },
+      {
+        "function": {
+          "vi": "Đăng ký dùng thử",
+          "en": "Sign up for a trial",
+          "ja": "トライアルにサインアップする"
+        }
+      }
+    ]
+  },
+
+  "social": {
+    "vi": "Theo dõi chúng tôi",
+    "en": "Follow us",
+    "ja": "私たちに従ってください"
+  },
+  "download": {
+    "vi": "Tải xuống",
+    "en": "Download",
+    "ja": "ダウンロード"
+  },
+
+  "privacy": {
+    "pcy_service": {
+      "vi": "Điều khoản dịch vụ",
+      "en": "Terms Of Service",
+      "ja": "利用規約"
+    },
+    "pcy_policy": {
+      "vi": "Chính sách bảo mật",
+      "en": "Privacy Policy",
+      "ja": "プライバシーポリシー"
+    },
+    "pcy_help": {
+      "vi": "Giúp đỡ",
+      "en": "Help",
+      "ja": "ヘルプ"
+    }
+  },
+
+  "localeMap": {
+    "vi": "vi-VN",
+    "en": "en-US",
+    "ja": "ja-JP"
+  },
+
+  "contact_section": {
+    "contact_title": {
+      "vi": "Liên hệ với chúng tôi!",
+      "en": "Contact with us!",
+      "ja": "接触私たちと一緒に！"
+    },
+    "title_description": {
+      "vi": "Hãy để lại thông tin, VRE sẽ liên hệ và hỗ trợ xử lý mọi vướng mắc của bạn",
+      "en": "Please leave your information, VRE will contact and assist in handling all your problems",
+      "ja": "あなたの情報を残してください。VRE が連絡し、すべての問題の処理を支援します。"
+    },
+    "contact_name": {
+      "vi": "Họ tên (*)",
+      "en": "Full name (*)",
+      "ja": "フルネーム (*)"
+    },
+    "contact_phone": {
+      "vi": "Số điện thoại (*)",
+      "en": "Phone number (*)",
+      "ja": "電話番号(*)"
+    },
+    "contact_mail": {
+      "vi": "Email (*)",
+      "en": "Email (*)",
+      "ja": "メールアドレス(*)"
+    },
+    "contact_interested": {
+      "vi": "Bạn quan tâm đến",
+      "en": "You are interested",
+      "ja": "興味がありますね"
+    },
+    "contact_content": {
+      "vi": "Nội dung (*)",
+      "en": "Content (*)",
+      "ja": "コンテンツ (*)"
+    },
+    "contact_security": {
+      "vi": "Bằng việc gửi đăng ký nhận tư vấn, bạn đã đồng ý với Chính sách bảo mật thông tin của VRE.",
+      "en": "By submitting your registration for consultation, you agree to VRE's Information Privacy Policy.",
+      "ja": "相談登録を送信すると、VRE の情報プライバシー ポリシーに同意したものとみなされます。"
+    },
+    "placeholder_name": {
+      "vi": "Nhập họ và tên của bạn",
+      "en": "Enter your first and last name",
+      "ja": "姓名を入力してください"
+    },
+    "placeholder_phone": {
+      "vi": "+84 Nhập số điện thoại của bạn",
+      "en": "+84 Enter your phone number",
+      "ja": "+84 電話番号を入力してください"
+    },
+    "placeholder_mail": {
+      "vi": "Nhập địa chỉ email của bạn",
+      "en": "Enter your email address",
+      "ja": "メールアドレスを入力してください"
+    },
+    "placeholder_content": {
+      "vi": "Bạn có câu hỏi gì?\n- Hãy cho VRE biết bạn đang thắc mắc điều gì\n- Câu hỏi cần giải đáp",
+      "en": "Do you have any questions?\n- Let VRE know what you're wondering\n- Question needs to be answered",
+      "ja": "質問がありますか？\n- VREにあなたの疑問を知らせてください\n- 回答が必要な質問"
+    },
+    "text_interested": {
+      "vi": [
+        { "value": "", "text": "Lựa chọn" },
+        { "value": "phan-mem", "text": "Phần mềm" },
+        { "value": "ho-tro-ky-thuat", "text": "Hỗ trợ kỹ thuật" },
+        { "value": "tu-van", "text": "Tư vấn giải pháp" },
+        { "value": "dich-vu-khac", "text": "Dịch vụ khác" }
+      ],
+      "en": [
+        { "value": "", "text": "Select" },
+        { "value": "software", "text": "Software" },
+        { "value": "tech-support", "text": "Technical Support" },
+        { "value": "consulting", "text": "Consulting Services" },
+        { "value": "other-services", "text": "Other Services" }
+      ],
+      "ja": [
+        { "value": "", "text": "選択する" },
+        { "value": "ソフトウェア", "text": "ソフトウェア" },
+        { "value": "技術サポート", "text": "技術サポート" },
+        { "value": "コンサルティング", "text": "コンサルティングサービス" },
+        { "value": "その他のサービス", "text": "その他のサービス" }
+      ]
+    }
+  }
+}

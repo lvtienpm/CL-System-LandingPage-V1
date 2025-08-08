@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cảm Ơn Bạn!</title>
+        <link rel="stylesheet" href="welcome.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700;900&display=swap"
+            rel="stylesheet">
+        <!-- favicon.ico -->
+        <link rel="icon" type="image/x-icon" href="./images/favicon.svg">
+    </head>
+    <body>
+
+        <main class="landing-container">
+            <div class="content-wrapper">
+                <div class="image-container">
+                    <img src="./images/img_avatar1.png" alt="Chuyên gia"
+                        class="person-image">
+                </div>
+                <div class="card">
+                    <h1 id="title">CẢM ƠN BẠN!</h1>
+                    <h2 id="subtitle">ĐÃ TIN TƯỞNG VÀ LỰA CHỌN DỊCH VỤ CỦA CHÚNG
+                        TÔI</h2>
+                    <p id="message">
+                        Chúng tôi rất vinh hạnh được đồng hành cùng bạn trong
+                        hành trình tạo nên những video chất lượng cao, chuyên
+                        nghiệp và sáng tạo.
+                        Đừng quên tham gia cộng đồng để nhận thêm nhiều tài
+                        nguyên hữu ích!
+                    </p>
+                    <a href="https://zalo.me/g/vhywrj288" class="cta-button"
+                        id="cta-button">
+                        THAM GIA GROUP ZALO
+                    </a>
+                </div>
+            </div>
+        </main>
+        <script>
+     // Chạy script sau khi toàn bộ cây DOM của trang đã được tải xong
+    document.addEventListener('DOMContentLoaded', async function() {
+
+    // Lấy ngôn ngữ từ trang trước, nếu không có thì mặc định là 'vi'
+    const lang = sessionStorage.getItem('selectedLanguage') || 'vi';
+    try {
+        const response = await fetch('json/translations.json'); 
+        // Kiểm tra xem yêu cầu có thành công không (HTTP status 200-299)
+        if (!response.ok) {
+            // Nếu không thành công (ví dụ: file không tồn tại), ném ra một lỗi
+            throw new Error(`Lỗi mạng: ${response.status} - Không tìm thấy file translations.json`);
+        }
+
+        // Chuyển đổi nội dung trả về từ dạng text sang đối tượng JavaScript (JSON)
+        const data = await response.json();
+        
+        // Lấy đúng khối nội dung dựa trên ngôn ngữ đã chọn
+        const content = data.translations[lang];
+
+        // Nếu không có bản dịch cho ngôn ngữ đó, hiển thị cảnh báo và dùng tiếng Việt
+        if (!content) {
+            console.warn(`Không tìm thấy bản dịch cho '${lang}', sử dụng 'vi' làm mặc định.`);
+            content = data.translations['vi'];
+        }
+
+        document.getElementById('title').textContent = content.title;
+        document.getElementById('subtitle').textContent = content.subtitle;
+        document.getElementById('message').textContent = content.message;
+        document.getElementById('cta-button').textContent = content.button_text;
+
+    } catch (error) {
+        console.error('Đã xảy ra lỗi nghiêm trọng:', error);
+        
+        // Hiển thị một thông báo lỗi thân thiện cho người dùng
+        const cardElement = document.querySelector('.card');
+        if (cardElement) {
+            cardElement.innerHTML = '<h1>Lỗi tải dữ liệu</h1><p>Không thể tải nội dung trang. Vui lòng thử lại sau.</p>';
+        }
+    }
+});
+            </script>
+    </body>
+</html>

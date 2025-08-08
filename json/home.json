@@ -1,0 +1,369 @@
+{
+    "menu": {
+        "home": {
+        "vi": "Trang chủ",
+        "en": "Home",
+        "ja": "ホーム"
+        },
+        "about_vre": {
+        "vi": "Về chúng tôi",
+        "en": "About VRE",
+        "ja": "VREについて"
+        },
+        "projects": {
+        "vi": "Dự Án",
+        "en": "Projects",
+        "ja": "プロジェクト"
+        },
+        "shareholder_relations": {
+        "vi": "Quan hệ cổ đông",
+        "en": "Shareholder Relations",
+        "ja": "株主関係"
+        },
+        "news": {
+        "vi": "Tin tức",
+        "en": "News",
+        "ja": "ニュース"
+        },
+        "recruitment": {
+        "vi": "Tuyển dụng",
+        "en": "Recruitment",
+        "ja": "採用"
+        },
+        "contact": {
+        "vi": "Liên hệ",
+        "en": "Contact",
+        "ja": "連絡先"
+        },
+        "submenu": {
+        "company_profile": {
+            "vi": "Hồ sơ công ty",
+            "en": "Company Profile",
+            "ja": "会社概要"
+        },
+        "vision_mission": {
+            "vi": "Tầm nhìn & Sứ mệnh",
+            "en": "Vision & Mission",
+            "ja": "ビジョンとミッション"
+        },
+        "board_of_directors": {
+            "vi": "Hội đồng quản trị",
+            "en": "Board of Directors",
+            "ja": "取締役会"
+        },
+        "executive_board": {
+            "vi": "Ban điều hành",
+            "en": "Executive Board",
+            "ja": "経営陣"
+        },
+        "policy_compliance": {
+            "vi": "Tuân thủ chính sách",
+            "en": "Policy Compliance",
+            "ja": "ポリシー遵守"
+        },
+        "community_responsibility": {
+            "vi": "Trách nhiệm cộng đồng",
+            "en": "Community Responsibility",
+            "ja": "社会的責任"
+        }
+        }
+    },
+    "topbar": {
+      "search_placeholder": {
+        "vi": "Tìm kiếm...",
+        "en": "Search...",
+        "ja": "検索..."
+      },
+      "language": {
+        "vi": "Tiếng Việt",
+        "en": "English",
+        "ja": "日本語"
+      }
+    },
+    "header": {
+      "home": {
+        "vi": "Trang chủ",
+        "en": "Home",
+        "ja": "ホーム"
+      },
+      "about_kpf": {
+        "vi": "về kpf",
+        "en": "About KPF",
+        "ja": "KPFについて"
+      },
+      "subsidiaries": {
+        "vi": "Công ty con",
+        "en": "Subsidiaries",
+        "ja": "子会社"
+      },
+      "shareholder_relations": {
+        "vi": "Quan hệ cổ đông",
+        "en": "Shareholder Relations",
+        "ja": "株主関係"
+      },
+      "news": {
+        "vi": "Tin tức",
+        "en": "News",
+        "ja": "ニュース"
+      },
+      "recruitment": {
+        "vi": "Tuyển dụng",
+        "en": "Recruitment",
+        "ja": "採用"
+      },
+      "contact": {
+        "vi": "Liên hệ",
+        "en": "Contact",
+        "ja": "連絡先"
+      }
+    },
+
+   
+
+    "logo_partner": {
+      "items": [
+        {
+          "logo_image": "images/logo_vin.png"
+        },
+        {
+          "logo_image": "images/nova.png"
+        },
+        {
+          "logo_image": "images/logo_flc.png"
+        },
+        {
+          "logo_image": "images/logo_sunshine.png"
+        },
+        {
+          "logo_image": "images/logo_kepper.png"
+        },
+        {
+          "logo_image": "images/nova.png"
+        }
+      ]
+    },
+    
+    "slider": [
+      {
+        "slider_title": {
+          "vi": "GIẢI PHÁP PHẦN MỀM BẤT ĐỘNG SẢN TOÀN DIỆN CHO DOANH NGHIỆP CỦA BẠN",
+          "en": "COMPREHENSIVE REAL ESTATE SOFTWARE SOLUTIONS FOR YOUR BUSINESS",
+          "ja": "ビジネスのための総合的な不動産ソフトウェア ソリューション"
+        },
+        "slider_description": {
+          "vi": "Bạn đang gặp khó khăn trong việc quản lý danh sách bất động sản, theo dõi khách hàng tiềm năng và tối ưu chiến lược kinh doanh? Phần mềm của chúng tôi cung cấp một hệ thống quản lý toàn diện, giúp bạn kiểm soát mọi quy trình từ đăng tin, chăm sóc khách hàng đến xử lý hợp đồng. Tích hợp công nghệ AI phân tích thị trường theo thời gian thực, giúp bạn đưa ra quyết định chính xác, tăng lợi nhuận và giảm thiểu rủi ro.",
+          "en": "Are you having difficulty managing your real estate listings, tracking potential customers and optimizing your business strategy? Our software provides a comprehensive management system, helping you control every process from posting, customer care to contract processing. Integrating AI technology to analyze the market in real time, helping you make accurate decisions, increase profits and minimize risks.",
+          "ja": "不動産物件の管理、潜在顧客の追跡、ビジネス戦略の最適化に問題がありますか?当社のソフトウェアは包括的な管理システムを提供し、掲載、顧客ケアから契約処理に至るあらゆるプロセスの管理を支援します。 AI テクノロジーを統合してリアルタイムで市場を分析し、正確な意思決定を行い、利益を増やし、リスクを最小限に抑えることができます。"
+        },
+        "button": {
+          "vi": "Tìm hiểu thêm",
+          "en": "Learn More",
+          "ja": "さらに詳しく"
+        }
+      },
+      {
+        "slider_title": {
+          "vi": "TỐI ƯU DOANH THU & QUẢN LÝ BĐS DỄ DÀNG HƠN",
+          "en": "OPTIMIZE REVENUE & EASIER REAL ESTATE MANAGEMENT",
+          "ja": "収益の最適化と不動産管理の容易化"
+        },
+        "slider_description": {
+          "vi": "Phần mềm quản lý bất động sản giúp bạn kiểm soát toàn bộ danh sách nhà đất, theo dõi tiến độ giao dịch và quản lý khách hàng một cách chuyên nghiệp. Tích hợp công nghệ AI giúp phân tích thị trường, dự báo xu hướng và đưa ra đề xuất tối ưu. Với giao diện trực quan, bạn có thể dễ dàng quản lý tài sản, hợp đồng và dòng tiền, đảm bảo hiệu suất kinh doanh luôn đạt mức cao nhất.",
+          "en": "Real estate management software helps you control all real estate listings, track transaction progress and manage customers professionally. Integrating AI technology helps analyze the market, forecast trends and make optimal recommendations. With an intuitive interface, you can easily manage assets, contracts and cash flow, ensuring business performance is always at the highest level.",
+          "ja": "不動産管理ソフトウェアは、すべての不動産物件を管理し、取引の進行状況を追跡し、専門的に顧客を管理するのに役立ちます。 AI テクノロジーを統合することで、市場を分析し、傾向を予測し、最適な推奨を行うことができます。直感的なインターフェイスにより、資産、契約、キャッシュ フローを簡単に管理でき、ビジネス パフォーマンスを常に最高レベルに保つことができます。"
+        },
+        "button": {
+          "vi": "Tìm hiểu thêm",
+          "en": "Learn More",
+          "ja": "さらに詳しく"
+        }
+      },
+      {
+        "slider_title": {
+          "vi": "NẮM BẮT THỊ TRƯỜNG VỚI PHÂN TÍCH CHUYÊN SÂU",
+          "en": "CAPTURE THE MARKET WITH IN-DEPTH ANALYSIS",
+          "ja": "徹底した分析で市場を攻略する"
+        },
+        "slider_description": {
+          "vi": "Thị trường bất động sản thay đổi liên tục, nhưng bạn sẽ luôn đi trước một bước với công cụ phân tích mạnh mẽ. Phần mềm cung cấp dữ liệu chi tiết về xu hướng giá, nhu cầu khách hàng và chiến lược của đối thủ cạnh tranh. Biểu đồ trực quan, báo cáo chi tiết và công cụ dự đoán thông minh giúp bạn ra quyết định chính xác, tối ưu danh mục đầu tư và nâng cao lợi nhuận.",
+          "en": "The real estate market changes constantly, but you'll always be one step ahead with powerful analytics. The software provides detailed data on price trends, customer demand and competitor strategies. Intuitive charts, detailed reports and smart prediction tools help you make accurate decisions, optimize your investment portfolio and increase profits.",
+          "ja": "不動産市場は常に変化しますが、強力な分析により常に一歩先を行くことができます。このソフトウェアは、価格傾向、顧客の需要、競合他社の戦略に関する詳細なデータを提供します。直感的なチャート、詳細なレポート、スマートな予測ツールは、正確な意思決定、投資ポートフォリオの最適化、利益の増加に役立ちます。"
+        },
+        "button": {
+          "vi": "Tìm hiểu thêm",
+          "en": "Learn More",
+          "ja": "さらに詳しく"
+        }
+      }
+    ],
+    "intro": {
+      "company_introduction": {
+        "title": {
+          "vi": "GIỚI THIỆU VỀ CÔNG TY ĐẦU TƯ TÀI CHÍNH HOÀNG MINH",
+          "en": "INTRODUCTION TO HOANG MINH FINANCIAL INVESTMENT COMPANY",
+          "ja": "ホアンミンファイナンシャルインベストメント会社の紹介"
+        },
+        "link_text": {
+          "vi": "Tìm hiểu thêm",
+          "en": "Learn More",
+          "ja": "さらに詳しく"
+        }
+      },
+      "vision_mission": {
+        "title": {
+          "vi": "TẦM NHÌN VÀ SỨ MỆNH CỦA CHÚNG TÔI",
+          "en": "OUR VISION AND MISSION",
+          "ja": "私たちのビジョンとミッション"
+        },
+        "link_text": {
+          "vi": "Tìm hiểu thêm",
+          "en": "Learn More",
+          "ja": "さらに詳しく"
+        }
+      }
+    },
+    "services": {
+          "title": {
+            "vi": "TÍNH NĂNG NỔI BẬT",
+            "en": "FEATURES",
+            "ja": "特徴"
+          },
+          "items": [
+            {
+              "icon": "icon-coins",
+              "ser_image": "images/service_img1.png",
+              "titles": {
+                "vi": "QUẢN LÝ BẤT ĐỘNG SẢN HIỆU QUẢ",
+                "en": "EFFECTIVE REAL ESTATE MANAGEMENT",
+                "ja": "効果的な不動産管理"
+              },
+              "description": {
+                "vi": "HỆ THỐNG CRM MẠNH MẼ",
+                "en": "POWERFUL CRM SYSTEM",
+                "ja": "強力な CRM システム"
+              }
+            },
+            {
+              "icon": "icon-weather-sun-wind",
+              "ser_image": "images/crm (1).png",
+              "titles": {
+                "vi": "HỆ THỐNG CRM MẠNH MẼ",
+                "en": "POWERFUL CRM SYSTEM",
+                "ja": "強力な CRM システム"
+              },
+              "description": {
+                "vi": "Đầu tư và phát triển bất động sản nghỉ dưỡng",
+                "en": "Investment and development of resort real estate",
+                "ja": "リゾート不動産の投資と開発"
+              }
+            },
+            {
+              "icon": "icon-office",
+              "ser_image": "images/service_img3.png",
+              "titles": {
+                "vi": "TỰ ĐỘNG ĐĂNG TIN",
+                "en": "AUTOMATICALLY POST NEWS",
+                "ja": "ニュースを自動的に投稿する"
+              },
+              "description": {
+                "vi": "Xây dựng các công trình cơ sở hạ tầng và dự án lớn",
+                "en": "Construction of infrastructure and large projects",
+                "ja": "インフラと大規模プロジェクトの建設"
+              }
+            },
+            {
+              "icon": "icon-office",
+              "ser_image": "images/service_img3.png",
+              "titles": {
+                "vi": "TỰ ĐỘNG BÁO CÁO & PHÂN TÍCH TÀI CHÍNH",
+                "en": "AUTOMATIC REPORTING & FINANCIAL ANALYSIS",
+                "ja": "自動レポートと財務分析"
+              },
+              "description": {
+                "vi": "Xây dựng các công trình cơ sở hạ tầng và dự án lớn",
+                "en": "Construction of infrastructure and large projects",
+                "ja": "インフラと大規模プロジェクトの建設"
+              }
+            }
+          ]
+    },
+    "projects_demo": {
+      "prj_title": {
+      "vi": "Tại sao lại dùng phần mềm này",
+      "en": "NOTABLE REAL ESTATE PROJECTS",
+      "ja": "典型的な不動産プロジェクト"
+      },
+      "prj_description":{
+        "vi": "Các Dự Án Bất Động Sản Tiêu Biểu đề cập đến những dự án bất động sản nổi bật, thể hiện sự đổi mới và chất lượng trong thiết kế, xây dựng và phát triển. Những dự án này không chỉ góp phần nâng cao giá trị bất động sản mà còn tạo ra không gian sống và làm việc tiện nghi cho cộng đồng. Chúng thường bao gồm các căn hộ cao cấp, khu nghỉ dưỡng, trung tâm thương mại và các khu đô thị hiện đại, đáp ứng nhu cầu ngày càng cao của thị trường và người tiêu dùng.",
+        "en": "Outstanding Real Estate Projects refers to outstanding real estate projects that demonstrate innovation and quality in design, construction and development. These projects not only contribute to improving real estate value but also create comfortable living and working spaces for the community. They often include luxury apartments, resorts, commercial centers and modern urban areas, meeting the increasing needs of the market and consumers.",
+        "ja": "優れた不動産プロジェクトとは、設計、建設、開発において革新性と品質を実証した優れた不動産プロジェクトを指します。これらのプロジェクトは、不動産価値の向上に貢献するだけでなく、地域社会の快適な居住空間や執務空間の創出にも貢献します。これらには高級アパートメント、リゾート、商業センター、近代的な都市部が含まれることが多く、市場や消費者の増大するニーズに応えています。"
+      }
+     },   
+    "official_disclosures": {
+        "ofd_title": {
+        "vi": "BẤT ĐỘNG SẢN ĐỘC QUYỀN",
+        "en": "EXCLUSIVE PROPERTIES",
+        "ja": "独占的な不動産"
+        },
+        "items": [
+        {
+            "ofd_image": "images/bds_7.png",
+            "item_title": {
+            "vi": "BIỆT THỰ MẶT TRỜI",
+            "en": "SUN VILLA",
+            "ja": "サンヴィラ"
+            },
+            "date": "18.06.2018",
+            "link": "#"
+        },
+        {
+            "ofd_image": "images/bds_6.png",
+            "item_title": {
+            "vi": "NGÔI NHÀ THIÊN NHIÊN",
+            "en": "NATURAL HOUSE",
+            "ja": "自然の家"
+            },
+            "date": "18.06.2018",
+            "link": "#"
+        },
+        {
+            "ofd_image": "images/bds_8.png",
+            "item_title": {
+            "vi": "BIỆT THỰ ĐÊM SÁNG",
+            "en": "VILLA AT NIGHT",
+            "ja": "夜のヴィラ"
+            },
+            "date": "18.06.2018",
+            "link": "#"
+        }
+        ]
+    },      
+    "footer": {
+      "address": {
+        "vi": "Tầng 17, toà nhà Geleximco, Số 36 phố Hoàng Cầu, Đống Đa, Hà Nội",
+        "en": "17th Floor, Geleximco Building, 36 Hoang Cau Street, Dong Da, Hanoi",
+        "ja": "ハノイ、ドンダ区、ホアンカウ通り36番、ゲレクシムコビル17階"
+      },
+      "phone": {
+        "vi": "84 24 39970803",
+        "en": "84 24 39970803",
+        "ja": "84 24 39970803"
+      },
+      "fax": {
+        "vi": "Fax: 84 4 38686263",
+        "en": "Fax: 84 4 38686263",
+        "ja": "Fax: 84 4 38686263"
+      },
+      "email": {
+        "vi": "info@kpf.com.vn",
+        "en": "info@kpf.com.vn",
+        "ja": "info@kpf.com.vn"
+      },
+      "copyright": {
+        "vi": "Copyright 2018 Công Ty Cổ Phần Đầu Tư Tài Chính Hoàng Minh (KPF). All Rights Reserved.",
+        "en": "Copyright 2018 Hoang Minh Financial Investment Joint Stock Company (KPF). All Rights Reserved.",
+        "ja": "2018年著作権ホアンミンファイナンシャルインベストメント株式会社（KPF）。すべての権利を保有します。"
+      }
+    }
+}
+  

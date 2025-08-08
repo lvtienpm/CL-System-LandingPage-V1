@@ -1,0 +1,3365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content>
+        <meta name="author" content="congnd91">
+        <title>IPage - Thiết Kế Landing Page Chuyên Nghiệp | Tối Ưu Chuyển
+            Đổi & Doanh Thu</title>
+
+        <!-- Vender -->
+        <link href="css/font-awesome.min.css" rel="stylesheet" />
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+        <link href="css/icomoon.css" rel="stylesheet" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/animate.css" rel="stylesheet" />
+        <link href="css/owl.carousel.css" rel="stylesheet" />
+        <!-- Main CSS (SCSS Compile) -->
+        <!-- <link href="css/main_test.css" rel="stylesheet" /> -->
+        <link href="css/csoftlife.css" rel="stylesheet" />
+
+        <!-- favicon.ico -->
+        <link rel="icon" type="image/x-icon" href="./images/favicon.svg">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+            rel="stylesheet">
+        <!-- AOS CSS -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1"></script>
+
+        <!-- Thư viện Swiper -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <script
+            src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet">
+
+        <!-- jQuery (bắt buộc) -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+        <!--scrip file-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script type="module" src="js/axios.js" defer></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+        <!-- <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz2ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"> -->
+
+        <script src="https://apis.google.com/js/platform.js" async
+            defer></script>
+
+    </head>
+
+    <body>
+
+        <nav class="menu-res d-block d-sm-none">
+            <!-- Nút đóng menu -->
+            <div class="menu-close" onclick="closeMenu()">✕</div>
+            <div class="menu-res-inner">
+                <ul>
+                    <li><a href="#" id="exam_sub">Đề thi</a></li>
+                    <!-- <li class="menu-item-has-children">
+                        <a id="home_sub">về kpf </a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="#"> <i
+                                        class="icon icon-arrow-right4"></i> Hồ
+                                    sơ công ty </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i
+                                        class="icon icon-arrow-right4"></i> Tầm
+                                    nhìn & Sứ mệnh</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i
+                                        class="icon icon-arrow-right4"></i> Hội
+                                    đồng quản trị</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i
+                                        class="icon icon-arrow-right4"></i> Ban
+                                    điều hành</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i
+                                        class="icon icon-arrow-right4"></i> Tuân
+                                    thủ chính sách</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i
+                                        class="icon icon-arrow-right4"></i>
+                                    Trách nhiệm cộng đồng</a>
+                            </li>
+                        </ul>
+                    </li> -->
+
+                    <li><a href="#khoa_hoc" id="courses_sub">công ty con
+                        </a></li>
+                    <li><a href="#services" id="category_sub">Danh mục
+                        </a></li>
+                    <!-- <li><a href="#strategic-partners" id="cus_partner_sub"> quan
+                            hệ cổ đông </a></li> -->
+                    <li><a href="#table_price" id="price_table_sub">tin tức</a>
+                    </li>
+                    <!-- <li><a href="#unique" id="try_sub">Dùng thử </a>
+                    </li> -->
+                    <!-- <li><a href="#"> tuyển dụng </a></li> -->
+                    <li><a href="#contact_section" id="contact_sub">liên
+                            hệ</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- <div class="imageTet">
+        <div class="couplet couplet-left">
+            <img src="images/cd_1.png" alt="Câu đối trái">
+        </div>
+        
+        <div class="couplet couplet-right">
+            <img src="images/cd_2.png" alt="Câu đối phải">
+        </div>
+       </div> -->
+        <!--preload-->
+        <div class="loader" id="page-loader">
+        </div>
+        <div class="page">
+            <!--topbar-->
+            <div class="topbar">
+                <div class="container">
+                    <div class="tb-left pull-left">
+                        <div class="rb-logos">
+                            <a href="#">
+                                <img class="header_partner" alt
+                                    src="images/IDP.png">
+                            </a>
+                            <a href="#">
+                                <img class="header_partner" alt
+                                    src="images/IPP.png">
+                            </a>
+                            <a href="#">
+                                <img class="header_partner" alt
+                                    src="images/British.png">
+                            </a>
+                            <!-- <a href="#">
+                                <img class="header_partner" alt
+                                    src="images/microsoft.png">
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="tb-right pull-right search_item"
+                        style="margin-top: 5px">
+                        <div class="search">
+                            <input type="text" placeholder="Tìm kiếm...">
+                            <button><i class="icon icon-search"></i></button>
+                        </div>
+
+                        <div class="language">
+                            <a href="#" id="vi" onclick="changeLanguage('vi')">
+                                <img alt src="images/vietnam.png">
+
+                            </a>
+                            <a href="#" id="en" onclick="changeLanguage('en')">
+                                <img alt src="images/uk.png">
+
+                            </a>
+                            <a href="#" id="ja" onclick="changeLanguage('ja')">
+                                <img alt src="images/jp.png">
+                            </a>
+                        </div>
+                        <!-- HTML -->
+                        <!-- <div class="auth-section">
+                         
+                            <div class="greeting-dropdown d-none"
+                                id="greeting-dropdown">
+                                <button class="dropdown-btn"
+                                    id="greetingButton">
+                                    Xin chào, <span id="greetingName">Người
+                                        dùng</span>!
+                                </button>
+                                <div class="dropdown-menu" id="dropdownMenu">
+                                    <a href="/profile.html"
+                                        class="dropdown-item">Hồ sơ</a>
+                                    <a href="#" onclick="logout()"
+                                        class="dropdown-item"
+                                        id="logout-btn">Đăng xuất</a>
+                                </div>
+                            </div>
+
+                     
+                            <div class="auth-buttons" id="auth-buttons">
+                                <a href="/login.html"
+                                    class="action-btn login-btn">Đăng nhập</a>
+                                <a href="/register.html"
+                                    class="action-btn register-btn">Đăng ký</a>
+                            </div>
+                        </div> -->
+
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <!--header-->
+            <header class="header">
+                <div class="container">
+                    <div class="logo_left">
+                        <a href="#" class="logo">
+
+                            <img class="logo_menu" alt
+                                src="images/csoft_logo.svg">
+                        </a>
+                        <span class="time-now" id="dateDisplay">
+                            Thứ bảy, 1/3/2025
+                        </span>
+                    </div>
+                    <!--menu-->
+                    <nav id="menu" class="menu hidden-sm-down">
+                        <ul>
+                            <li><a href="#"><i
+                                        class="fa-solid fa-house fa"></i></a></li>
+                            <!-- <li><a href="#" id="home">Trang chủ</a></li> -->
+                            <li><a href="#"
+                                    id="features_price"></a></li>
+                            <li class="has-mega">
+                                <a href="#showcase-section" id="templates"></a>
+
+                            </li>
+
+                            <!-- <li><a href="#strategic-partners" id="cus_partner">
+                                    quan hệ
+                                    cổ đông </a></li> -->
+                            <li class="has-child"><a href="#table_price"
+                                    id="price_table"></a>
+                                <!-- <li class="has-child"><a href="#faq"
+                                        id="faq">tin
+                                        tức</a> -->
+                                <!-- <ul class="submenu">
+                                    <li>
+                                        <a href="#" id="company_profile"> <i
+                                                class="icon icon-arrow-right4"></i>
+                                            Hồ sơ công ty </a> </li>
+                                    <li>
+                                        <a href="#" id="vision_mission"> <i
+                                                class="icon icon-arrow-right4"></i>
+                                            Tầm nhìn & Sứ mệnh</a> </li>
+                                    <li>
+                                        <a href="#" id="board_of_directors"> <i
+                                                class="icon icon-arrow-right4"></i>
+                                            Hội đồng quản trị</a> </li>
+                                    <li>
+                                        <a href="#" id="executive_board"> <i
+                                                class="icon icon-arrow-right4"></i>
+                                            Ban điều hành</a> </li>
+                                    <li>
+                                        <a href="#" id="policy_compliance"> <i
+                                                class="icon icon-arrow-right4"></i>
+                                            Tuân thủ chính sách</a> </li>
+                                    <li>
+                                        <a href="#"
+                                            id="community_responsibility"> <i
+                                                class="icon icon-arrow-right4"></i>
+                                            Trách nhiệm cộng đồng</a> </li>
+                                </ul> -->
+                            </li>
+
+                            <li><a href="#services"
+                                    id="category_menu"></a></li>
+                            <!-- <li><a href="#unique"
+                                    id="try"></a></li> -->
+                            <li><a href="#contact_section"
+                                    id="contact"></a></li>
+                        </ul>
+                    </nav>
+                    <div class="menu-icon d-block d-lg-none">
+                        <i class="fa fa-navicon"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </header>
+            <!--sliderhome-->
+            <!-- Đảm bảo bạn đã nhúng link CSS và JS của Bootstrap 5 vào file của mình -->
+
+            <section class="home-slider" id="home-slider">
+                <div class="home-item imagess">
+                    <div class="home-item-des">
+                        <div class="item-des-inner">
+                            <div class="container">
+
+                                <div class="row min-vh-100 align-items-center">
+
+                                    <!-- Cột Hình Ảnh -->
+                                    <div
+                                        class="col-12 col-md-6 col-lg-6 text-center">
+                                        <!-- THAY ĐỔI 2: Thêm class 'img-fluid' để ảnh luôn responsive -->
+                                        <img alt="Landing Page Mockup"
+                                            src="images/intro_img3.png"
+                                            class="img-fluid">
+                                    </div>
+
+                                    <!-- Cột Nội Dung -->
+                                    <div class="col-12 col-md-6 col-lg-6">
+
+                                        <div class="item-des-content">
+                                            <!-- Giữ nguyên các class cũ, chỉ xóa style inline -->
+                                            <h2 class="slider_title">BIẾN Ý
+                                                TƯỞNG CỦA BẠN THÀNH WEBSITE ĐỘT
+                                                PHÁ DOANH THU</h2>
+                                            <p class="slider_description">
+                                                Một website thông thường có quá
+                                                nhiều thông tin gây nhiễu.
+                                                Landing Page là trang bán hàng
+                                                được thiết kế tập trung 100% vào
+                                                một mục tiêu duy nhất: biến
+                                                người truy cập từ quảng cáo
+                                                thành khách hàng. Chúng tôi tạo
+                                                ra những trang đích sắc bén đó
+                                                cho bạn.
+                                            </p>
+
+                                            <div class="hero-actions">
+                                                <a href="#projects"
+                                                    class="btn btn-light btn-lg btn-primary-cta">Vì
+                                                    Sao Chọn Chúng Tôi</a>
+                                                <a href="#pricing"
+                                                    class="btn btn-outline-light btn-lg btn-secondary-cta">Báo
+                                                    Giá Nhanh</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="intro" id="intro">
+                <div class="container">
+                    <div class="tabs">
+                        <div class="tab active" data-tab="1"></div>
+                        <div class="tab" data-tab="2"></div>
+                        <div class="tab" data-tab="3"></div>
+                        <div class="tab" data-tab="4"></div>
+                        <div class="tab" data-tab="5"></div>
+                        <div class="tab" data-tab="6"></div>
+                        <div class="tab" data-tab="7"></div>
+
+                        <div class="tab-line"></div>
+                    </div>
+
+                    <div class="tab-content active" id="tab-1">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="tab-image">
+                            <video width="100%" controls>
+                                <source src="./video/video4.mp4"
+                                    type="video/mp4">
+                                Trình duyệt của bạn không hỗ trợ video.
+                            </video>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="tab-2">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="tab-image">
+                            <video width="100%" controls>
+                                <source src="./video/video3.mp4"
+                                    type="video/mp4">
+                                Trình duyệt của bạn không hỗ trợ video.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="tab-3">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="tab-image">
+                            <video width="100%" controls>
+                                <source src="./video/video2.mp4"
+                                    type="video/mp4">
+                                Trình duyệt của bạn không hỗ trợ video.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="tab-4">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="tab-image">
+                            <video width="100%" controls>
+                                <source src="./video/video1.mp4"
+                                    type="video/mp4">
+                                Trình duyệt của bạn không hỗ trợ video.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="tab-5">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="tab-image">
+                            <video width="100%" controls>
+                                <source src="./video/video1.mp4"
+                                    type="video/mp4">
+                                Trình duyệt của bạn không hỗ trợ video.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="tab-6">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="tab-image">
+                            <video width="100%" controls>
+                                <source src="./video/video1.mp4"
+                                    type="video/mp4">
+                                Trình duyệt của bạn không hỗ trợ video.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="tab-7">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="tab-image">
+                            <video width="100%" controls>
+                                <source src="./video/video1.mp4"
+                                    type="video/mp4">
+                                Trình duyệt của bạn không hỗ trợ video.
+                            </video>
+                        </div>
+                    </div>
+
+                </div>
+            </section> -->
+
+            <!--section-->
+            <section class="section" id="services">
+                <div class="section-caption">
+                    <h2 class="custom-font-1" id="title"></h2>
+                </div>
+                <div class="container">
+                    <div class="row row-fix30">
+                        <div
+                            class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-fix30 col-item">
+                            <div class="service_item d-flex flex-column h-100">
+                                <a href="#">
+                                    <i class='bx bx-bullseye custom-icon'></i>
+
+                                    <div class="si_caption">
+                                        <p id="titles" class="titles"
+                                            data-index="0">
+                                            <i
+                                                class="icon icon-arrow-right2"></i>
+                                        </p>
+                                        <p class="description"
+                                            data-index="0"> </p>
+                                        <div class="button_container">
+                                            <a href="#"
+                                                class="my_button btn_benefit"
+                                                data-index="0">Tìm hiểu
+                                                thêm</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-fix30 col-item">
+                            <div class="service_item d-flex flex-column h-100">
+                                <a href="#">
+                                    <i class='bx bx-diamond custom-icon'></i>
+
+                                    <div class="si_caption">
+                                        <p id="titles" class="titles"
+                                            data-index="1">
+                                            <i
+                                                class="icon icon-arrow-right2"></i>
+                                        </p>
+                                        <p class="description"
+                                            data-index="1"> </p>
+                                        <div class="button_container">
+                                            <a href="#"
+                                                class="my_button btn_benefit"
+                                                data-index="0">Tìm hiểu
+                                                thêm</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-fix30 col-item">
+                            <div class="service_item d-flex flex-column h-100">
+                                <a href="#">
+                                    <i
+                                        class='bx bx-rocket custom-icon'></i>
+
+                                    <div class="si_caption">
+                                        <p id="titles" class="titles"
+                                            data-index="2">
+                                            <i
+                                                class="icon icon-arrow-right2"></i>
+                                        </p>
+                                        <p class="description"
+                                            data-index="2"> </p>
+                                        <div class="button_container">
+                                            <a href="#"
+                                                class="my_button btn_benefit"
+                                                data-index="0">Tìm hiểu
+                                                thêm</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-fix30 col-item">
+                            <div class="service_item d-flex flex-column h-100">
+                                <a href="#">
+                                    <i class='bx bx-devices custom-icon'></i>
+
+                                    <div class="si_caption">
+                                        <p id="titles" class="titles"
+                                            data-index="3">
+                                            <i
+                                                class="icon icon-arrow-right2"></i>
+                                        </p>
+                                        <p class="description"
+                                            data-index="3"> </p>
+                                        <div class="button_container">
+                                            <a href="#"
+                                                class="my_button btn_benefit"
+                                                data-index="0">Tìm hiểu
+                                                thêm</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-fix30 col-item">
+                            <div class="service_item d-flex flex-column h-100">
+                                <a href="#">
+                                    <i
+                                        class='bx bx-timer custom-icon'></i>
+
+                                    <div class="si_caption">
+                                        <p id="titles" class="titles"
+                                            data-index="4">
+                                            <i
+                                                class="icon icon-arrow-right2"></i>
+                                        </p>
+                                        <p class="description"
+                                            data-index="4"> </p>
+                                        <div class="button_container">
+                                            <a href="#"
+                                                class="my_button btn_benefit"
+                                                data-index="0">Tìm hiểu
+                                                thêm</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-fix30 col-item">
+                            <div class="service_item d-flex flex-column h-100">
+                                <a href="#">
+                                    <i
+                                        class='bx bx-conversation custom-icon'></i>
+                                    <div class="si_caption">
+                                        <p id="titles" class="titles"
+                                            data-index="5">
+                                            <i
+                                                class="icon icon-arrow-right2"></i>
+                                        </p>
+                                        <p class="description"
+                                            data-index="5"> </p>
+                                        <div class="button_container">
+                                            <a href="#"
+                                                class="my_button btn_benefit"
+                                                data-index="0">Tìm hiểu
+                                                thêm</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-fix30 col-item">
+                            <div class="service_item d-flex flex-column h-100">
+                                <a href="#">
+                                    <i
+                                        class='bx bx-search-alt custom-icon'></i>
+
+                                    <div class="si_caption">
+                                        <p id="titles" class="titles"
+                                            data-index="6">
+                                            <i
+                                                class="icon icon-arrow-right2"></i>
+                                        </p>
+                                        <p class="description"
+                                            data-index="6"> </p>
+                                        <div class="button_container">
+                                            <a href="#"
+                                                class="my_button btn_benefit"
+                                                data-index="0">Tìm hiểu
+                                                thêm</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-fix30 col-item">
+                            <div class="service_item d-flex flex-column h-100">
+                                <a href="#">
+                                    <i class='bx bx-pulse custom-icon'></i>
+
+                                    <div class="si_caption">
+                                        <p id="titles" class="titles"
+                                            data-index="7">
+                                            <i
+                                                class="icon icon-arrow-right2"></i>
+                                        </p>
+                                        <p class="description"
+                                            data-index="7"> </p>
+                                        <div class="button_container">
+                                            <a href="#"
+                                                class="my_button btn_benefit"
+                                                data-index="0">Tìm hiểu
+                                                thêm</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="button_all">
+                    <a href="#" class="my_button btn_all" id="btn_all"
+                        data-index="0">Xem chi tiết tại đây <i
+                            class="icon icon-arrow-right2"></i></a>
+                </div>
+
+            </section>
+
+            <!-- ============================================ -->
+            <!-- BẮT ĐẦU SECTION THƯ VIỆN VIDEO MẪU -->
+            <!-- ============================================ -->
+            <section id="showcase-section py-5" class="showcase-section py-5">
+                <div class="container">
+
+                    <!-- Tiêu đề và Slogan -->
+                    <div class="section-header text-center">
+                        <h2 class="custom-font-1">Thư viện Landing Page mẫu</h2>
+                        <p class="slogan">GIAO DIỆN CHUYÊN NGHIỆP CHO TỪNG CHIẾN
+                            DỊCH –
+                            LANDING PAGE CHÍNH LÀ BƯỚC KHỞI ĐẦU.
+                        </p>
+                    </div>
+
+                    <!-- Các nút lọc theo danh mục -->
+                    <div class="row">
+                        <div
+                            class="col-lg-12 d-flex justify-content-center mb-4">
+                            <div class="filter-buttons">
+                                <button class="btn filter-btn active"
+                                    data-filter="*">Tất cả</button>
+                                <button class="btn filter-btn"
+                                    data-filter=".review">Bán hàng </button>
+                                <button class="btn filter-btn"
+                                    data-filter=".marketing">Giáo dục</button>
+                                <button class="btn filter-btn"
+                                    data-filter=".training">Bất động
+                                    sản</button>
+                                <button class="btn filter-btn"
+                                    data-filter=".news">Thời trang & Làm
+                                    đẹp</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Lưới hiển thị các video -->
+                    <div class="row video-grid">
+
+                        <!-- Video Item 1 (Marketing) -->
+                        <div class="col-lg-4 col-md-6 video-item marketing">
+                            <div class="video-card">
+                                <div class="video-thumbnail">
+                                    <img alt
+                                        src="images/product_img5-1.png" />
+                                </div>
+                                <h5 class="custom-font-1 video-title">Chiến dịch
+                                    quảng cáo sản
+                                    phẩm mới</h5>
+                            </div>
+                        </div>
+
+                        <!-- Video Item 2 (Đào tạo) -->
+                        <div class="col-lg-4 col-md-6 video-item training">
+                            <div class="video-card">
+                                <div class="video-thumbnail">
+                                    <img alt
+                                        src="images/product_img6-1.png" />
+                                </div>
+                                <h5 class="custom-font-1 video-title">Chủ đề về
+                                    nội thất</h5>
+                            </div>
+                        </div>
+
+                        <!-- Video Item 3 (Tin tức) -->
+                        <div class="col-lg-4 col-md-6 video-item news">
+                            <div class="video-card">
+                                <div class="video-thumbnail">
+                                    <div class="video-thumbnail">
+                                        <img alt
+                                            src="images/product_img7.png" />
+                                    </div>
+                                    <h5
+                                        class="custom-font-1 video-title">Landing
+                                        Page về mỹ phẩm</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Video Item 4 (Review) -->
+                        <div class="col-lg-4 col-md-6 video-item review">
+                            <div class="video-card">
+                                <div class="video-thumbnail">
+                                    <img alt
+                                        src="images/product_img8-1.png" />
+                                </div>
+                                <h5 class="custom-font-1 video-title">Landing
+                                    Page Thời trang</h5>
+                            </div>
+                        </div>
+
+                        <!-- Video Item 5 (Marketing) -->
+                        <div class="col-lg-4 col-md-6 video-item marketing">
+                            <div class="video-card">
+                                <div class="video-thumbnail">
+                                    <img alt
+                                        src="images/product_img9.png" />
+                                </div>
+                                <h5 class="custom-font-1 video-title">Landing
+                                    Page ẩm thực</h5>
+                            </div>
+                        </div>
+
+                        <!-- Video Item 6 (Đào tạo) -->
+                        <div class="col-lg-4 col-md-6 video-item training">
+                            <div class="video-card">
+                                <div class="video-thumbnail">
+                                    <img alt
+                                        src="images/product_img10.png" />
+                                </div>
+                                <h5 class="custom-font-1 video-title">Landing
+                                    Page Y khoa</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- ============================================ -->
+            <!-- KẾT THÚC SECTION THƯ VIỆN VIDEO MẪU -->
+            <!-- ============================================ -->
+
+            <!--section-->
+            <!-- <section class="section" id="unique">
+                <div class="section-caption">
+                    <h2 id="ofd_title" style="color: white;"></h2>
+                </div>
+
+                <div class="container">
+
+                    <div class="row row-fix30">
+
+                        <div
+                            class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                            <div class="service-item">
+                                <a href="#">
+                                    <img alt src="images/8.png"
+                                        class="ofd_image" data-index="3">
+
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                            <div class="service-item">
+                                <a href="#">
+                                    <img alt src="images/8.png"
+                                        class="ofd_image" data-index="4">
+
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                            <div class="service-item">
+                                <a href="#">
+                                    <img alt src="images/8.png"
+                                        class="ofd_image" data-index="5">
+
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section> -->
+
+            <!-- BẮT ĐẦU KHỐI TRÌNH DIỄN TỰ ĐỘNG -->
+            <section class="container my-5 planSection">
+                <!-- ===== BẮT ĐẦU PHẦN TIÊU ĐỀ ĐÃ THÊM VÀO ===== -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center mb-5">
+                        <h2 class="section-title">
+                            Tập trung vào kinh doanh của bạn
+                            <br>
+                            <span class="highlight-text">landing page cứ để
+                                chúng tôi lo</span>
+                        </h2>
+                        <p class="section-subtitle">
+                            Bạn là chuyên gia trong lĩnh vực của mình, và
+                            chúng
+                            tôi cũng vậy. Hãy xem quy trình 4 bước chuyên
+                            nghiệp
+                            của chúng tôi biến ý tưởng của bạn thành hiện
+                            thực.
+                        </p>
+                    </div>
+                </div>
+                <!-- ===== KẾT THÚC PHẦN TIÊU ĐỀ ===== -->
+                <div class="row align-items-start">
+                    <!-- CỘT TIMELINE BÊN TRÁI -->
+                    <div class="col-md-4">
+                        <!-- Wrapper này không cần sticky nữa -->
+                        <div class="timeline-stepper-wrapper">
+                            <ul class="timeline-stepper">
+                                <div id="timeline-progress"></div>
+
+                                <!-- Bước 1 -->
+                                <li class="timeline-item" data-step="1">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h3 class="timeline-title">Bước 1:
+                                            Phân
+                                            Tích Yêu Cầu</h3>
+                                        <p>Chúng tôi lắng nghe ý tưởng, mục
+                                            tiêu
+                                            và khách hàng mục tiêu của
+                                            bạn.</p>
+                                        <!-- Thanh tiến trình của riêng bước này -->
+                                        <div
+                                            class="timeline-step-progress"></div>
+                                    </div>
+                                </li>
+
+                                <!-- Bước 2 -->
+                                <li class="timeline-item" data-step="2">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h3 class="timeline-title">Bước 2:
+                                            Thiết
+                                            Kế Giao Diện (UI/UX)</h3>
+                                        <p>Tạo ra bản thiết kế trực quan,
+                                            tập
+                                            trung vào trải nghiệm người
+                                            dùng.</p>
+                                        <div
+                                            class="timeline-step-progress"></div>
+                                    </div>
+                                </li>
+
+                                <!-- Các bước còn lại tương tự -->
+                                <li class="timeline-item" data-step="3">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h3 class="timeline-title">Bước 3:
+                                            Lập
+                                            Trình & Tích Hợp</h3>
+                                        <p>Biến thiết kế thành landing page
+                                            hoàn
+                                            chỉnh, đáp ứng mọi thiết bị.</p>
+                                        <div
+                                            class="timeline-step-progress"></div>
+                                    </div>
+                                </li>
+
+                                <li class="timeline-item" data-step="4">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h3 class="timeline-title">Bước 4:
+                                            Bàn
+                                            Giao & Hỗ Trợ</h3>
+                                        <p>Bàn giao sản phẩm hoàn thiện và
+                                            đồng
+                                            hành cùng bạn tối ưu hiệu
+                                            quả.</p>
+                                        <div
+                                            class="timeline-step-progress"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- CỘT NỘI DUNG VÀ HÌNH ẢNH BÊN PHẢI -->
+                    <div class="col-md-8">
+                        <!-- Một wrapper để chứa các panel xếp chồng lên nhau -->
+                        <div class="feature-panels-wrapper">
+                            <!-- Panel 1 -->
+                            <div class="auto-feature-panel" data-panel="1">
+                                <div class="panel-text-content">
+                                    <h2>Lắng nghe để thấu hiểu</h2>
+                                    <p>Mọi landing page vĩ đại đều bắt đầu
+                                        từ
+                                        một ý tưởng tuyệt vời, nơi chúng tôi
+                                        biến tầm nhìn của bạn thành một kế
+                                        hoạch
+                                        chi tiết và khả thi.</p>
+                                </div>
+                                <img
+                                    src="./images/timeline_img1.png"
+                                    class="img-fluid rounded shadow-sm mt-3">
+                            </div>
+                            <!-- Panel 2 -->
+                            <div class="auto-feature-panel" data-panel="2">
+                                <h2>Thiết kế không chỉ là làm đẹp</h2>
+                                <p>Giao diện được tạo ra để dẫn dắt khách
+                                    hàng
+                                    hành động...</p>
+                                <img
+                                    src="./images/timeline_img2.png"
+                                    class="img-fluid rounded shadow-sm mt-3">
+                            </div>
+                            <!-- Các panel còn lại tương tự -->
+                            <div class="auto-feature-panel" data-panel="3">
+                                <h2>Code sạch, tốc độ nhanh</h2>
+                                <p>Landing page được lập trình tỉ mỉ, tối ưu
+                                    tốc
+                                    độ tải trang...</p>
+                                <img
+                                    src="./images/timeline_img3.png"
+                                    class="img-fluid rounded shadow-sm mt-3">
+                            </div>
+                            <div class="auto-feature-panel" data-panel="4">
+                                <h2>Đồng hành cùng phát triển</h2>
+                                <p>Sự thành công của bạn là ưu tiên của
+                                    chúng
+                                    tôi...</p>
+                                <img
+                                    src="./images/timeline_img4.png"
+                                    class="img-fluid rounded shadow-sm mt-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section_project" id="khoa_hoc">
+                <div class="language-container">
+                    <div class="language-header">
+                        <h1 id="language_header"></h1>
+                        <p id="language_description"
+                            class="header-desc"></p>
+                    </div>
+
+                    <div class="language-cards">
+                        <div class="card card-ielts">
+                            <div class="card-content">
+                                <h2 class="card_title" data-index="0"></h2>
+                                <p class="card_description"
+                                    data-index="0"></p>
+                                <a href="#" class="card-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M5 12h14M12 5l7 7-7 7" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card card-toeic">
+                            <div class="card-content">
+                                <h2 class="card_title" data-index="1"></h2>
+                                <p class="card_description"
+                                    data-index="1"></p>
+                                <a href="#" class="card-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M5 12h14M12 5l7 7-7 7" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card card-preptalk">
+                            <div class="card-content">
+                                <h2 class="card_title" data-index="2"></h2>
+                                <p class="card_description"
+                                    data-index="2"></p>
+                                <a href="#" class="card-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M5 12h14M12 5l7 7-7 7" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- BẮT ĐẦU SECTION TRIẾT LÝ DỊCH VỤ -->
+            <section class="section philosophy-section" id="philosophy">
+                <div class="container">
+                    <!-- Tiêu đề chính của Section -->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 text-center mb-5 pb-3">
+                            <h2 class="section__heading" id="prj_title">Triết Lý
+                                Tạo Nên Sự Khác Biệt</h2>
+                            <p class="header-desc">Chúng tôi tin rằng một
+                                landing page thành công là sự kết hợp giữa chiến
+                                lược thấu đáo và kỹ thuật xuất sắc.</p>
+                        </div>
+                    </div>
+
+                    <!-- Khối 1: Hình bên trái, chữ bên phải -->
+                    <div class="row align-items-center mb-5 pb-lg-5">
+                        <div class="col-lg-6">
+                            <!-- Sử dụng hình ảnh của bạn -->
+                            <img src="images/benefit_2.png"
+                                alt="Chiến lược lấy khách hàng làm trung tâm"
+                                class="philosophy-img">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="philosophy-content">
+                                <span class="philosophy-tag">CHIẾN LƯỢC</span>
+                                <h3 class="philosophy-title">Thiết Kế Lấy Khách
+                                    Hàng Làm Trung Tâm</h3>
+                                <p class="philosophy-description">
+                                    Chúng tôi bắt đầu bằng việc lắng nghe bạn.
+                                    Phân tích đối thủ, thấu hiểu chân dung khách
+                                    hàng và hành trình của họ để vạch ra một
+                                    chiến lược rõ ràng. Mỗi landing page được
+                                    tạo ra không chỉ để trông đẹp mắt, mà còn để
+                                    dẫn dắt người xem một cách tự nhiên đến hành
+                                    động cuối cùng.
+                                </p>
+                                <a href="#contact" class="btn btn-custom">Khám
+                                    Phá Quy Trình Của Chúng Tôi</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Khối 2: Chữ bên trái, hình bên phải -->
+                    <div class="row align-items-center">
+                        <!-- Dùng order-lg-2 để đảo vị trí ảnh trên màn hình lớn -->
+                        <div class="col-lg-6 order-lg-2">
+                            <!-- Sử dụng hình ảnh của bạn -->
+                            <img src="images/benefit_3.png"
+                                alt="Tối ưu hóa dựa trên dữ liệu"
+                                class="philosophy-img">
+                        </div>
+                        <div class="col-lg-6 order-lg-1">
+                            <div class="philosophy-content">
+                                <span class="philosophy-tag">KỸ THUẬT</span>
+                                <h3 class="philosophy-title">Tối Ưu Hóa Dựa Trên
+                                    Dữ Liệu & Hiệu Suất</h3>
+                                <p class="philosophy-description">
+                                    Vẻ đẹp sẽ trở nên vô nghĩa nếu trang web tải
+                                    chậm. Chúng tôi cam kết xây dựng landing
+                                    page với mã nguồn sạch, tối ưu tốc độ, chuẩn
+                                    SEO và tương thích hoàn hảo trên mọi thiết
+                                    bị. Mọi thứ đều sẵn sàng để bạn có thể đo
+                                    lường và đánh giá hiệu quả.
+                                </p>
+                                <a href="#contact" class="btn btn-custom">Yêu
+                                    Cầu Tư Vấn Kỹ Thuật</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- KẾT THÚC SECTION TRIẾT LÝ DỊCH VỤ -->
+
+            <!--section-->
+            <!-- <section class="section" id="table_price">
+
+                <h2 id="price_title"></h2>
+                <div class="pricing-container owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="pricing-plan basic">
+                            <div class="plan-header">
+                                <div class="icon basic"><i
+                                        class="fas fa-tree"></i></div>
+                                <h3 class="title_packages"
+                                    style="color: black;"
+                                    data-index="0"></h3>
+                                <p><span
+                                        style="color: black;">199.000đ</span><sub
+                                        style="color: black;">/tháng</sub></p>
+                            </div>
+                            <div class="wave"></div>
+                            <ul class="features">
+                                <li></li>
+                                <li></li>
+                                <li class="disabled"></li>
+                                <li class="disabled"></li>
+                                <li class="disabled"></li>
+                            </ul>
+                            <button class="choose-plan basic-btn btn_price"
+                                data-index="0">Choose Plan →</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="pricing-plan premium">
+                            <div class="plan-header">
+                                <div class="icon premium"><i
+                                        class="fas fa-shield-alt"
+                                        style="color: black;"></i></div>
+                                <h3 class="title_packages"
+                                    data-index="1"></h3>
+                                <p><span>$120</span><sub>/mo</sub></p>
+                            </div>
+
+                            <ul class="features">
+                                <li></li>
+                                <li class="disabled"></li>
+                                <li></li>
+                                <li class="disabled"></li>
+                                <li class="disabled"></li>
+                            </ul>
+                            <button
+                                class="choose-plan premium-btn btn_price"
+                                data-index="0">Choose Plan →</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="pricing-plan business">
+                            <div class="plan-header">
+                                <div class="icon business"><i
+                                        class="fa-solid fa-rocket"
+                                        style="color: black;"></i></div>
+                                <h3 class="title_packages"
+                                    data-index="2"></h3>
+                                <p> <span>$299</span><sub>/mo</sub></p>
+                            </div>
+
+                            <ul class="features">
+                                <li></li>
+                                <li></li>
+                                <li class="disabled"></li>
+                                <li class="disabled"></li>
+                                <li class="disabled"></li>
+                            </ul>
+                            <button
+                                class="choose-plan business-btn btn_price"
+                                data-index="0">Choose Plan →</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="pricing-plan custom1">
+                            <div class="plan-header">
+                                <div class="icon custom1"><i
+                                        class="fa-solid fa-gear"
+                                        style="color: black;"></i></div>
+                                <h3 class="title_packages"
+                                    data-index="3"></h3>
+                                <p><span>$399</span><sub>/mo</sub></p>
+                            </div>
+                            <ul class="features">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="disabled"></li>
+                                <li class="disabled"></li>
+                            </ul>
+                            <button
+                                class="choose-plan custom1-btn btn_price"
+                                data-index="0">Choose Plan →</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="pricing-plan custom2">
+                            <div class="plan-header">
+                                <div class="icon custom2"><i
+                                        class="fa-solid fa-bolt"
+                                        style="color: black;"></i></div>
+                                <h3 class="title_packages"
+                                    data-index="4"></h3>
+                                <p><span>$499</span><sub>/mo</sub></p>
+                            </div>
+                            <ul class="features">
+                                <li></li>
+                                <li></li>
+                                <li class="disabled"></li>
+                                <li class="disabled"></li>
+                                <li class="disabled"></li>
+                            </ul>
+                            <button
+                                class="choose-plan custom2-btn btn_price"
+                                data-index="0">Choose Plan →</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="pricing-plan custom3">
+                            <div class="plan-header">
+                                <div class="icon custom3"><i
+                                        class="fa-solid fa-star"
+                                        style="color: black;"></i></div>
+                                <h3 class="title_packages"
+                                    data-index="5"></h3>
+                                <p><span>$599</span><sub>/mo</sub></p>
+                            </div>
+                            <ul class="features">
+                                <li></li>
+                                <li class="disabled"></li>
+                                <li></li>
+                                <li class="disabled"></li>
+                                <li class="disabled"></li>
+                            </ul>
+                            <button
+                                class="choose-plan custom3-btn btn_price"
+                                data-index="0">Choose Plan →</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section> -->
+
+            <!-- BẮT ĐẦU SECTION BẢNG GIÁ - OVERLAP -->
+            <section class="section section-pricing-overlap" id="table_price">
+
+                <!-- PHẦN 1: HEADER NỀN XANH -->
+                <div class="pricing-overlap-header">
+                    <div class="container text-center">
+                        <h2 id="price_title" class="pricing-section-title">Bảng
+                            Giá Dịch Vụ Landing Page</h2>
+                        <p class="pricing-section-subtitle">Chọn gói dịch vụ phù
+                            hợp nhất với nhu cầu và ngân sách của bạn.</p>
+                    </div>
+                </div>
+
+                <!-- PHẦN 2: CÁC GÓI GIÁ -->
+                <div class="pricing-overlap-content">
+                    <div class="container">
+                        <div class="row justify-content-center g-4">
+                            <!-- Mã HTML của 3 gói giá vẫn giữ nguyên như cũ -->
+                            <!-- Ví dụ Gói Khởi Đầu -->
+                            <div class="col-lg-4 col-md-6">
+                                <div
+                                    class="pricing-card pricing-card-highlighted">
+                                    <div class="pricing-ribbon"><span>Ưu
+                                            đãi</span></div>
+                                    <div class="pricing-header">
+                                        <div class="pricing-icon"><i
+                                                class="fas fa-paper-plane"></i></div>
+                                        <h3 class="pricing-title">Gói Khởi
+                                            Đầu</h3>
+                                        <div class="price-tag"><sup>đ</sup><span
+                                                class="price-amount">199,000</span></div>
+                                    </div>
+                                    <ul class="pricing-features">
+                                        <li><span><i
+                                                    class="fas fa-check-circle"></i></span>
+                                            Thiết kế dựa trên 1 mẫu có sẵn</li>
+                                        <li><span><i
+                                                    class="fas fa-check-circle"></i></span>
+                                            Tối đa 4 section nội dung</li>
+                                        <li><span><i
+                                                    class="fas fa-check-circle"></i></span>
+                                            Tối ưu hiển thị trên di động</li>
+                                        <li class="disabled"><span><i
+                                                    class="fas fa-times-circle"></i></span>
+                                            Tích hợp form liên hệ nâng cao</li>
+                                        <li class="disabled"><span><i
+                                                    class="fas fa-times-circle"></i></span>
+                                            Thiết kế độc quyền theo yêu cầu</li>
+                                    </ul>
+                                    <a href="#contact"
+                                        class="btn btn-pricing btn-highlight">Đăng
+                                        Ký Ngay</a>
+                                </div>
+                            </div>
+                            <!-- Gói Chuyên Nghiệp -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="pricing-card">
+                                    <div class="pricing-header">
+                                        <div class="pricing-icon"><i
+                                                class="fas fa-rocket"></i></div>
+                                        <h3 class="pricing-title">Gói Chuyên
+                                            Nghiệp</h3>
+                                        <div class="price-tag"><sup>đ</sup><span
+                                                class="price-amount">1,500,000</span></div>
+                                    </div>
+                                    <ul class="pricing-features">
+                                        <li><span><i
+                                                    class="fas fa-check-circle"></i></span>
+                                            Thiết kế độc quyền theo thương
+                                            hiệu</li>
+                                        <li><span><i
+                                                    class="fas fa-check-circle"></i></span>
+                                            Tối đa 8 section nội dung</li>
+                                        <li><span><i
+                                                    class="fas fa-check-circle"></i></span>
+                                            Tối ưu hiển thị mọi thiết bị</li>
+                                        <li><span><i
+                                                    class="fas fa-check-circle"></i></span>
+                                            Tích hợp form liên hệ nâng cao</li>
+                                        <li class="disabled"><span><i
+                                                    class="fas fa-times-circle"></i></span>
+                                            Tối ưu SEO On-page chuyên sâu</li>
+                                    </ul>
+                                    <a href="#contact"
+                                        class="btn btn-pricing">Chọn Gói Này</a>
+                                </div>
+                            </div>
+                            <!-- Gói Doanh Nghiệp -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="pricing-card">
+                                    <div class="pricing-header">
+                                        <div class="pricing-icon"><i
+                                                class="fas fa-gem"></i></div>
+                                        <h3 class="pricing-title">Gói Doanh
+                                            Nghiệp</h3>
+                                        <div class="price-tag"><span
+                                                class="price-amount"
+                                                style="font-size: 3rem;">Liên
+                                                Hệ</span></div>
+                                    </div>
+                                    <ul class="pricing-features">
+                                        <li><span><i
+                                                    class="fas fa-check-circle"></i></span>
+                                            Mọi tính năng của gói Chuyên
+                                            Nghiệp</li>
+                                        <li><span><i
+                                                    class="fas fa-check-circle"></i></span>
+                                            Không giới hạn section</li>
+                                        <li><span><i
+                                                    class="fas fa-check-circle"></i></span>
+                                            Tối ưu SEO On-page chuyên sâu</li>
+                                        <li><span><i
+                                                    class="fas fa-check-circle"></i></span>
+                                            Tối ưu tốc độ tải trang cao cấp</li>
+                                        <li><span><i
+                                                    class="fas fa-check-circle"></i></span>
+                                            Tư vấn và hỗ trợ ưu tiên</li>
+                                    </ul>
+                                    <a href="#contact"
+                                        class="btn btn-pricing">Liên Hệ Báo
+                                        Giá</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- KẾT THÚC SECTION BẢNG GIÁ - OVERLAP -->
+
+            <!-- BẮT ĐẦU SECTION SO SÁNH GIẢI PHÁP -->
+            <section class="section comparison-section bg-light py-5">
+                <div class="container">
+                    <!-- Tiêu đề Section -->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 text-center mb-5">
+                            <h2 class="comparison-section-title">Lựa Chọn Giải
+                                Pháp Phù Hợp Nhất</h2>
+                            <p class="comparison-section-subtitle">So sánh dịch
+                                vụ chúng tôi với 1 số sản phẩm khác trên thị
+                                trường như "Công cụ tự làm" hoặc
+                                "Freelancer"</p>
+                        </div>
+                    </div>
+
+                    <!-- Bảng So Sánh -->
+                    <div class="comparison-table">
+                        <!-- Dòng Header -->
+                        <div class="row comparison-header gx-0 d-lg-flex">
+                            <div class="col-lg-3"></div>
+                            <!-- Cột trống cho tiêu chí -->
+                            <div class="col-lg-3">
+                                <div
+                                    class="header-card header-card-highlighted">Dịch
+                                    Vụ Của Bạn</div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="header-card">Công Cụ Tự Làm
+                                    (DIY)</div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="header-card">Thuê Freelancer</div>
+                            </div>
+
+                        </div>
+
+                        <!-- Dòng 1: Chi phí sản phẩm -->
+                        <div class="row comparison-row  gx-0">
+                            <div class="col-lg-3">
+                                <div class="feature-title">Chi phí sản
+                                    phẩm</div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div
+                                    class="feature-value feature-value-highlighted"
+                                    data-label="Dịch Vụ Của Bạn">
+                                    <i
+                                        class="fas fa-check-circle text-success"></i>
+                                    <span>Nhận tiền sau khi hoàn thiện</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="feature-value"
+                                    data-label="Công Cụ Tự Làm">
+                                    <i
+                                        class="fas fa-times-circle text-danger"></i>
+                                    <span>Nạp phí</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="feature-value"
+                                    data-label="Thuê Freelancer">
+                                    <i
+                                        class="fas fa-question-circle text-warning"></i>
+                                    <span>Đặt cọc</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Dòng 2: Thiết kế Độc quyền -->
+                        <div class="row comparison-row  gx-0">
+                            <div class="col-lg-3">
+                                <div class="feature-title">Thiết kế Độc
+                                    quyền</div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div
+                                    class="feature-value feature-value-highlighted"
+                                    data-label="Dịch Vụ Của Bạn">
+                                    <i
+                                        class="fas fa-check-circle text-success"></i>
+                                    <span>Cam kết 100%</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="feature-value"
+                                    data-label="Công Cụ Tự Làm">
+                                    <i
+                                        class="fas fa-times-circle text-danger"></i>
+                                    <span>Dùng mẫu có sẵn</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="feature-value"
+                                    data-label="Thuê Freelancer">
+                                    <i
+                                        class="fas fa-question-circle text-warning"></i>
+                                    <span>Tùy năng lực</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Các dòng tiếp theo tương tự -->
+                        <div class="row comparison-row  gx-0">
+                            <div class="col-lg-3">
+                                <div class="feature-title">Tối ưu Chuyển đổi
+                                    Chuyên sâu</div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div
+                                    class="feature-value feature-value-highlighted"
+                                    data-label="Dịch Vụ Của Bạn">
+                                    <i
+                                        class="fas fa-check-circle text-success"></i>
+                                    <span>Ưu tiên hàng đầu</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="feature-value"
+                                    data-label="Công Cụ Tự Làm">
+                                    <i
+                                        class="fas fa-times-circle text-danger"></i>
+                                    <span>Tự làm, không đảm bảo</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="feature-value"
+                                    data-label="Thuê Freelancer">
+                                    <i
+                                        class="fas fa-question-circle text-warning"></i>
+                                    <span>Tùy kinh nghiệm</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row comparison-row  gx-0">
+                            <div class="col-lg-3">
+                                <div class="feature-title">Tiết kiệm Thời gian &
+                                    Công sức</div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div
+                                    class="feature-value feature-value-highlighted"
+                                    data-label="Dịch Vụ Của Bạn">
+                                    <i
+                                        class="fas fa-check-circle text-success"></i>
+                                    <span>Giải pháp trọn gói</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="feature-value"
+                                    data-label="Công Cụ Tự Làm">
+                                    <i
+                                        class="fas fa-times-circle text-danger"></i>
+                                    <span>Tốn thời gian học & làm</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="feature-value"
+                                    data-label="Thuê Freelancer">
+                                    <i
+                                        class="fas fa-question-circle text-warning"></i>
+                                    <span>Tốn thời gian quản lý</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row comparison-row  gx-0">
+                            <div class="col-lg-3">
+                                <div class="feature-title">Hỗ trợ Nhanh chóng &
+                                    Cam kết</div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div
+                                    class="feature-value feature-value-highlighted"
+                                    data-label="Dịch Vụ Của Bạn">
+                                    <i
+                                        class="fas fa-check-circle text-success"></i>
+                                    <span>Cam kết đồng hành</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="feature-value"
+                                    data-label="Công Cụ Tự Làm">
+                                    <i
+                                        class="fas fa-question-circle text-warning"></i>
+                                    <span>Qua ticket/cộng đồng</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="feature-value"
+                                    data-label="Thuê Freelancer">
+                                    <i
+                                        class="fas fa-times-circle text-danger"></i>
+                                    <span>Rủi ro (có thể biến mất)</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- KẾT THÚC SECTION SO SÁNH GIẢI PHÁP -->
+
+            <!-- <section id="tools">
+                <div class="container-tools">
+                    <h1 id="hero-title" class="hero-title"></h1>
+
+                    <div class="tools-grid">
+                   
+                        <div class="tools-column">
+                            <a href="#" class="tool-card">
+                                <div class="tool-icon">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/1161/1161388.png"
+                                        alt="Chuyển văn bản thành video">
+                                </div>
+                                <div class="tool-content">
+                                    <h3 class="tool-title"
+                                        data-index="0"></h3>
+                                    <div class="explore-link">Khám phá ngay
+                                        <span class="arrow">→</span></div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="tool-card">
+                                <div class="tool-icon">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/10829/10829892.png"
+                                        alt="Giọng nói AI">
+                                </div>
+                                <div class="tool-content">
+                                    <h3 class="tool-title"
+                                        data-index="1"></h3>
+                                    <div class="explore-link">Khám phá ngay
+                                        <span class="arrow">→</span></div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="tool-card">
+                                <div class="tool-icon">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png"
+                                        alt="AI Avatar">
+                                </div>
+                                <div class="tool-content">
+                                    <h3 class="tool-title"
+                                        data-index="2"></h3>
+                                    <div class="explore-link">Khám phá ngay
+                                        <span class="arrow">→</span></div>
+                                </div>
+                            </a>
+                        </div>
+
+                      
+                        <div class="center-image">
+                            <img src="images/robot1.png"
+                                alt="Language Learning Tools">
+                        </div>
+
+                  
+                        <div class="tools-column">
+                            <a href="#" class="tool-card">
+                                <div class="tool-icon">
+
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                                        alt="AI Video Creation Tools">
+                                </div>
+                                <div class="tool-content">
+                                    <h3 class="tool-title"
+                                        data-index="3"></h3>
+                                    <div class="explore-link">Khám phá ngay
+                                        <span class="arrow">→</span></div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="tool-card">
+                                <div class="tool-icon">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/11585/11585402.png"
+                                        alt="Cá nhân hóa thương hiệu">
+                                </div>
+                                <div class="tool-content">
+                                    <h3 class="tool-title"
+                                        data-index="4"></h3>
+                                    <div class="explore-link">Khám phá ngay
+                                        <span class="arrow">→</span></div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="tool-card">
+                                <div class="tool-icon">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/893/893257.png"
+                                        alt="Tối ưu đa nền tảng">
+                                </div>
+                                <div class="tool-content">
+                                    <h3 class="tool-title"
+                                        data-index="5"></h3>
+                                    <div class="explore-link">Khám phá ngay
+                                        <span class="arrow">→</span></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+            <!--section-->
+            <section class="section section-fix" id="strategic-partners">
+                <!-- <div class="section-caption-unique">
+                    <h2 id="partner">ĐỐI TÁC CHIẾN LƯỢC</h2>
+                </div>
+                <div class="container">
+                    <section class="partner-slider">
+                        <div class="marquee">
+                            <div class="marquee-content">
+
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b2.png" data-index="0">
+                                </div>
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b2.png" data-index="1">
+                                </div>
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b3.png" data-index="2">
+                                </div>
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b4.png" data-index="3">
+                                </div>
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b1.png" data-index="4">
+                                </div>
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b2.png" data-index="5">
+                                </div>
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b2.png" data-index="6">
+                                </div>
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b2.png" data-index="7">
+                                </div>
+
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b2.png" data-index="0">
+                                </div>
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b2.png" data-index="1">
+                                </div>
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b3.png" data-index="2">
+                                </div>
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b4.png" data-index="3">
+                                </div>
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b1.png" data-index="4">
+                                </div>
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b2.png" data-index="5">
+                                </div>
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b2.png" data-index="6">
+                                </div>
+                                <div class="partner-item">
+                                    <img class="logo_image" alt
+                                        src="images/b2.png" data-index="7">
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                </div> -->
+
+                <div class="container_feedback">
+                    <h1 id="feedback_title">ĐÁNH GIÁ TỪ KHÁCH HÀNG
+                        VÀ ĐỐI TÁC</h1>
+
+                    <div class="testimonials-container"
+                        id="testimonials-container">
+                        <div class="testimonial-card" id="card-1">
+                            <div class="avatar">
+                                <img
+                                    src="images/fb_ava1.jpg"
+                                    class="fb_icon"
+                                    alt="Trịnh Trần Tuấn"
+                                    data-index="0">
+                            </div>
+                            <p
+                                class="testimonial-text fb_description"
+                                data-index="0"></p>
+                            <h3 class="customer-name fb_name"
+                                data-index="0"></h3>
+                        </div>
+
+                        <div class="testimonial-card" id="card-2">
+                            <div class="avatar">
+                                <img
+                                    src="images/fb_ava.jpg"
+                                    class="fb_icon"
+                                    alt="Alex D" data-index="1">
+                            </div>
+                            <p
+                                class="testimonial-text fb_description"
+                                data-index="1"></p>
+                            <h3 class="customer-name fb_name"
+                                data-index="1"></h3>
+                        </div>
+
+                        <div class="testimonial-card" id="card-3">
+                            <div class="avatar">
+                                <img
+                                    src="images/fb_ava2.jpg"
+                                    class="fb_icon"
+                                    data-index="2">
+                            </div>
+                            <p
+                                class="testimonial-text fb_description"
+                                data-index="2"></p>
+                            <h3 class="customer-name fb_name"
+                                data-index="2"></h3>
+                        </div>
+                    </div>
+
+                    <!-- <div class="carousel-indicators"
+                        id="carousel-indicators">
+                        <div class="indicator active"
+                            data-index="0"></div>
+                        <div class="indicator" data-index="1"></div>
+                        <div class="indicator" data-index="2"></div>
+                    </div> -->
+                </div>
+
+            </section>
+
+            <div class="contact-container" id="contact_section">
+                <div class="contact-left">
+                    <h2 class="col-12" id="contact_title">Liên hệ với chúng
+                        tôi!</h2>
+                    <p id="title_description">Hãy để lại thông tin, Vstudy
+                        sẽ
+                        liên hệ và hỗ trợ xử lý mọi vướng mắc của bạn</p>
+                    <img src="images/product_team.jpg" alt="Robot">
+                </div>
+                <div class="contact-right">
+                    <form id="contactForm">
+                        <div class="input-half">
+                            <label id="contact_name" class="col-12">Họ và
+                                tên (*)</label>
+                            <input id="fullName" class="placeholder_name"
+                                type="text"
+                                placeholder="Nhập họ và tên của bạn">
+                        </div>
+
+                        <div class="input-half">
+                            <label id="contact_phone" class="col-12"> Số
+                                điện thoại (*)</label>
+                            <input id="phone" class="placeholder_phone"
+                                type="text"
+                                placeholder="+84 Nhập số điện thoại của bạn">
+                        </div>
+
+                        <div class="input-row">
+                            <div class="input-half">
+                                <label id="contact_mail"
+                                    class="col-12">Email (*)</label>
+                                <input id="email" class="placeholder_mail"
+                                    type="email"
+                                    placeholder="Nhập địa chỉ email của bạn">
+                            </div>
+                        </div>
+
+                        <label id="contact_interested">Bạn quan tâm
+                            đến</label>
+                        <select id="serviceSelect">
+                            <option value>Lựa chọn</option>
+                            <option value="phan-mem">Phần mềm</option>
+                            <option value="ho-tro-ky-thuat">Hỗ trợ kỹ
+                                thuật</option>
+                            <option value="tu-van">Tư vấn giải pháp</option>
+                            <option value="dich-vu-khac">Dịch vụ
+                                khác</option>
+                        </select>
+
+                        <label id="contact_content">Nội dung</label>
+                        <textarea id="message" class="placeholder_content"
+                            placeholder="Bạn có câu hỏi gì?&#10;- Hãy cho IPage biết bạn đang thắc mắc điều gì&#10;- Câu hỏi cần giải đáp"></textarea>
+
+                        <p id="contact_security" class="policy-text">Bằng
+                            việc gửi đăng ký nhận tư vấn, bạn đã đồng ý với
+                            Chính sách bảo mật thông tin của IPage.</p>
+
+                        <button type="submit" id="btn_send">Gửi thông tin <i
+                                class="fas fa-arrow-right"></i></button>
+                    </form>
+
+                </div>
+                <pre id="response" style="color: red;"></pre>
+            </div>
+
+            <!-- Start Section -->
+            <section class="section section__cta">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 text-center">
+                            <!-- NỘI DUNG MỚI: Tập trung vào tư vấn dịch vụ -->
+                            <h2 class="free_trail" id="free_trail">
+                                Biến Ý Tưởng Của Bạn Thành Landing Page
+                                Chuyển
+                                Đổi Cao
+                            </h2>
+                            <p class="cta_subtext">
+                                Ưu đãi có hạn! Nhận ngay một landing page hoàn
+                                chỉnh, tối ưu hiển thị trên di động để bắt đầu
+                                chiến dịch của bạn với chi phí không thể tốt
+                                hơn.
+                            </p>
+                            <a href="#"
+                                class="btn btn-white btn-rounded btn-lg btn-icon-right"
+                                id="btn_free">
+                                Nhận Tư Vấn Miễn Phí <i
+                                    class="fa fa-long-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+
+            <!-- BẮT ĐẦU NÚT QUÀ TẶNG DẠNG THẺ DỌC -->
+            <a href="#" id="floating-gift-button" class="floating-gift-card"
+                data-bs-toggle="modal" data-bs-target="#giftModal"
+                aria-label="Nhận quà tặng đặc biệt">
+                <!-- Bọc cả icon và chữ vào một div để xoay chúng cùng lúc -->
+                <div class="gift-card-inner">
+                    <i class="fas fa-gift gift-icon"></i>
+                    <span class="gift-text">Quà tặng</span>
+                </div>
+            </a>
+            <!-- KẾT THÚC NÚT QUÀ TẶNG DẠNG THẺ DỌC -->
+
+            <!-- Modal (Cửa sổ bật lên khi bấm vào nút) - Đây là ví dụ của Bootstrap 5 -->
+            <div class="modal fade" id="giftModal" tabindex="-1"
+                aria-labelledby="giftModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="giftModalLabel">🎁 Ưu
+                                Đãi Đặc Biệt Dành Cho Bạn!</h5>
+                            <button type="button" class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Cảm ơn bạn đã quan tâm! Chúng tôi xin gửi tặng
+                                bạn voucher <strong>GIẢM GIÁ 10%</strong> cho
+                                gói dịch vụ Landing Page Chuyên Nghiệp.</p>
+                            <p>Hãy liên hệ với chúng tôi và đọc mã
+                                <strong>"UUDAI10"</strong> để nhận khuyến mãi
+                                nhé!</p>
+                            <p>Hãy tham gia nhóm chat Zalo qua đường dẫn:</p>
+                            <p> <a href="https://zalo.me/g/vhywrj288"
+                                    style="color: blue;">
+                                    https://zalo.me/g/vhywrj288
+                                </a></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary"
+                                data-bs-dismiss="modal">Đóng</button>
+                            <a href="#contact" class="btn btn-primary">Liên Hệ
+                                Ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- KẾT THÚC NÚT QUÀ TẶNG NỔI -->
+
+            <button id="scrollTopBtn"
+                onclick="scrollToTop()"><i>▲</i></button>
+
+            <button id="scrollBottomBtn"
+                onclick="scrollToBottom()"><i>▼</i></button>
+
+            <a href="https://zalo.me/your_zalo_id" class="zalo-button"
+                target="_blank">
+                <img src="images/zalo.png" alt="Zalo" />
+            </a>
+
+            <a href="tel:+84xxxxxxxxx" class="phone-button">
+                <svg class="phone-icon" width="30" height="30"
+                    viewBox="0 0 32 32" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M15.9597 13.5093C15.9597 13.808 16.1997 14.0427 16.4931 14.0427C17.1011 14.0427 17.5917 14.5387 17.5917 15.1413C17.5917 15.4347 17.8317 15.6747 18.125 15.6747C18.4184 15.6747 18.6584 15.4347 18.6584 15.1413C18.6584 13.9467 17.6877 12.976 16.4931 12.976C16.1997 12.976 15.9597 13.216 15.9597 13.5093ZM24.6424 15.6747C24.9411 15.6747 25.1757 15.4347 25.1757 15.1413C25.1757 10.352 21.2824 6.45868 16.4931 6.45868C16.1997 6.45868 15.9597 6.69865 15.9597 6.99201C15.9597 7.28534 16.1997 7.52535 16.4931 7.52535C20.6957 7.52535 24.1091 10.944 24.1091 15.1413C24.1091 15.4347 24.349 15.6747 24.6424 15.6747Z"
+                        fill="white"></path>
+                    <path
+                        d="M20.8503 15.1414C20.8503 15.4347 21.0903 15.6747 21.3836 15.6747C21.677 15.6747 21.9169 15.4347 21.9169 15.1414C21.9169 12.1494 19.4849 9.71736 16.4929 9.71736C16.1996 9.71736 15.9596 9.95737 15.9596 10.2507C15.9596 10.5494 16.1996 10.784 16.4929 10.784C18.8983 10.784 20.8503 12.7414 20.8503 15.1414ZM16.4929 3.20001C16.1996 3.20001 15.9596 3.44002 15.9596 3.73335C15.9596 4.0267 16.1996 4.26668 16.4929 4.26668C22.4929 4.26668 27.373 9.14669 27.373 15.1414C27.373 15.4347 27.6076 15.6747 27.9063 15.6747C28.1996 15.6747 28.4396 15.4347 28.4396 15.1414C28.4396 8.5547 23.0796 3.20001 16.4929 3.20001ZM21.7036 20.7627L21.005 21.1414C19.8263 21.7867 18.333 21.568 17.3783 20.6134L11.7463 14.9814C10.7916 14.0267 10.573 12.5333 11.2183 11.3494L11.5969 10.656C12.0236 9.86668 12.1783 8.98136 12.0503 8.09601C11.9276 7.21069 11.5276 6.40535 10.8876 5.76534C10.109 4.9867 9.07429 4.56004 7.97029 4.56004C6.86628 4.56004 5.82628 4.9867 5.0476 5.76534L4.77563 6.04269C3.33562 7.48269 3.17029 9.96268 4.30629 13.0347C5.37826 15.968 7.53829 19.1467 10.3756 21.984C14.701 26.3094 19.5169 28.8 22.973 28.8C24.3383 28.8 25.4956 28.4107 26.3169 27.5894L26.5943 27.312C27.3676 26.5387 27.7996 25.504 27.805 24.3894C27.7996 23.3013 27.3569 22.2347 26.5943 21.472C25.309 20.1867 23.2983 19.8987 21.7036 20.7627Z"
+                        fill="white"></path>
+                </svg>
+            </a>
+
+            <footer class="footer" id="footer">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row align-items-start">
+
+                            <div
+                                class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-4 mt-4">
+                                <a href="#" class="logo d-block mb-4 "
+                                    id="logo_footer">
+                                    <img
+                                        src="images/csoft_logo_test_3 1.svg"
+                                        alt="Logo"
+                                        class="img-logo-footer">
+                                </a>
+                                <div class="qr-code mb-3">
+
+                                    <svg class="qr-code-icon" width="120"
+                                        height="120" viewBox="0 0 25 25"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        style="width: 120px; height: 120px;"><path
+                                            d="       M 7 0 l 1 0 0 1 -1 0 Z  M 9 0 l 1 0 0 1 -1 0 Z M 10 0 l 1 0 0 1 -1 0 Z   M 13 0 l 1 0 0 1 -1 0 Z  M 15 0 l 1 0 0 1 -1 0 Z  M 17 0 l 1 0 0 1 -1 0 Z         M 1 1 l 1 0 0 1 -1 0 Z M 2 1 l 1 0 0 1 -1 0 Z M 3 1 l 1 0 0 1 -1 0 Z M 4 1 l 1 0 0 1 -1 0 Z M 5 1 l 1 0 0 1 -1 0 Z  M 7 1 l 1 0 0 1 -1 0 Z M 8 1 l 1 0 0 1 -1 0 Z   M 11 1 l 1 0 0 1 -1 0 Z M 12 1 l 1 0 0 1 -1 0 Z M 13 1 l 1 0 0 1 -1 0 Z M 14 1 l 1 0 0 1 -1 0 Z M 15 1 l 1 0 0 1 -1 0 Z  M 17 1 l 1 0 0 1 -1 0 Z  M 19 1 l 1 0 0 1 -1 0 Z M 20 1 l 1 0 0 1 -1 0 Z M 21 1 l 1 0 0 1 -1 0 Z M 22 1 l 1 0 0 1 -1 0 Z M 23 1 l 1 0 0 1 -1 0 Z   M 1 2 l 1 0 0 1 -1 0 Z    M 5 2 l 1 0 0 1 -1 0 Z  M 7 2 l 1 0 0 1 -1 0 Z M 8 2 l 1 0 0 1 -1 0 Z M 9 2 l 1 0 0 1 -1 0 Z  M 11 2 l 1 0 0 1 -1 0 Z   M 14 2 l 1 0 0 1 -1 0 Z  M 16 2 l 1 0 0 1 -1 0 Z M 17 2 l 1 0 0 1 -1 0 Z  M 19 2 l 1 0 0 1 -1 0 Z    M 23 2 l 1 0 0 1 -1 0 Z   M 1 3 l 1 0 0 1 -1 0 Z    M 5 3 l 1 0 0 1 -1 0 Z  M 7 3 l 1 0 0 1 -1 0 Z M 8 3 l 1 0 0 1 -1 0 Z M 9 3 l 1 0 0 1 -1 0 Z M 10 3 l 1 0 0 1 -1 0 Z M 11 3 l 1 0 0 1 -1 0 Z   M 14 3 l 1 0 0 1 -1 0 Z M 15 3 l 1 0 0 1 -1 0 Z  M 17 3 l 1 0 0 1 -1 0 Z  M 19 3 l 1 0 0 1 -1 0 Z    M 23 3 l 1 0 0 1 -1 0 Z   M 1 4 l 1 0 0 1 -1 0 Z    M 5 4 l 1 0 0 1 -1 0 Z  M 7 4 l 1 0 0 1 -1 0 Z M 8 4 l 1 0 0 1 -1 0 Z  M 10 4 l 1 0 0 1 -1 0 Z  M 12 4 l 1 0 0 1 -1 0 Z M 13 4 l 1 0 0 1 -1 0 Z  M 15 4 l 1 0 0 1 -1 0 Z  M 17 4 l 1 0 0 1 -1 0 Z  M 19 4 l 1 0 0 1 -1 0 Z    M 23 4 l 1 0 0 1 -1 0 Z   M 1 5 l 1 0 0 1 -1 0 Z M 2 5 l 1 0 0 1 -1 0 Z M 3 5 l 1 0 0 1 -1 0 Z M 4 5 l 1 0 0 1 -1 0 Z M 5 5 l 1 0 0 1 -1 0 Z  M 7 5 l 1 0 0 1 -1 0 Z M 8 5 l 1 0 0 1 -1 0 Z M 9 5 l 1 0 0 1 -1 0 Z  M 11 5 l 1 0 0 1 -1 0 Z   M 14 5 l 1 0 0 1 -1 0 Z M 15 5 l 1 0 0 1 -1 0 Z  M 17 5 l 1 0 0 1 -1 0 Z  M 19 5 l 1 0 0 1 -1 0 Z M 20 5 l 1 0 0 1 -1 0 Z M 21 5 l 1 0 0 1 -1 0 Z M 22 5 l 1 0 0 1 -1 0 Z M 23 5 l 1 0 0 1 -1 0 Z         M 7 6 l 1 0 0 1 -1 0 Z  M 9 6 l 1 0 0 1 -1 0 Z  M 11 6 l 1 0 0 1 -1 0 Z  M 13 6 l 1 0 0 1 -1 0 Z  M 15 6 l 1 0 0 1 -1 0 Z  M 17 6 l 1 0 0 1 -1 0 Z        M 0 7 l 1 0 0 1 -1 0 Z M 1 7 l 1 0 0 1 -1 0 Z M 2 7 l 1 0 0 1 -1 0 Z M 3 7 l 1 0 0 1 -1 0 Z M 4 7 l 1 0 0 1 -1 0 Z M 5 7 l 1 0 0 1 -1 0 Z M 6 7 l 1 0 0 1 -1 0 Z M 7 7 l 1 0 0 1 -1 0 Z  M 9 7 l 1 0 0 1 -1 0 Z   M 12 7 l 1 0 0 1 -1 0 Z  M 14 7 l 1 0 0 1 -1 0 Z   M 17 7 l 1 0 0 1 -1 0 Z M 18 7 l 1 0 0 1 -1 0 Z M 19 7 l 1 0 0 1 -1 0 Z M 20 7 l 1 0 0 1 -1 0 Z M 21 7 l 1 0 0 1 -1 0 Z M 22 7 l 1 0 0 1 -1 0 Z M 23 7 l 1 0 0 1 -1 0 Z M 24 7 l 1 0 0 1 -1 0 Z   M 2 8 l 1 0 0 1 -1 0 Z   M 5 8 l 1 0 0 1 -1 0 Z  M 7 8 l 1 0 0 1 -1 0 Z M 8 8 l 1 0 0 1 -1 0 Z    M 12 8 l 1 0 0 1 -1 0 Z M 13 8 l 1 0 0 1 -1 0 Z    M 17 8 l 1 0 0 1 -1 0 Z  M 19 8 l 1 0 0 1 -1 0 Z M 20 8 l 1 0 0 1 -1 0 Z M 21 8 l 1 0 0 1 -1 0 Z M 22 8 l 1 0 0 1 -1 0 Z M 23 8 l 1 0 0 1 -1 0 Z  M 0 9 l 1 0 0 1 -1 0 Z    M 4 9 l 1 0 0 1 -1 0 Z M 5 9 l 1 0 0 1 -1 0 Z M 6 9 l 1 0 0 1 -1 0 Z  M 8 9 l 1 0 0 1 -1 0 Z  M 10 9 l 1 0 0 1 -1 0 Z M 11 9 l 1 0 0 1 -1 0 Z     M 16 9 l 1 0 0 1 -1 0 Z  M 18 9 l 1 0 0 1 -1 0 Z      M 24 9 l 1 0 0 1 -1 0 Z M 0 10 l 1 0 0 1 -1 0 Z   M 3 10 l 1 0 0 1 -1 0 Z  M 5 10 l 1 0 0 1 -1 0 Z  M 7 10 l 1 0 0 1 -1 0 Z  M 9 10 l 1 0 0 1 -1 0 Z   M 12 10 l 1 0 0 1 -1 0 Z  M 14 10 l 1 0 0 1 -1 0 Z      M 20 10 l 1 0 0 1 -1 0 Z  M 22 10 l 1 0 0 1 -1 0 Z M 23 10 l 1 0 0 1 -1 0 Z  M 0 11 l 1 0 0 1 -1 0 Z M 1 11 l 1 0 0 1 -1 0 Z  M 3 11 l 1 0 0 1 -1 0 Z M 4 11 l 1 0 0 1 -1 0 Z  M 6 11 l 1 0 0 1 -1 0 Z       M 13 11 l 1 0 0 1 -1 0 Z  M 15 11 l 1 0 0 1 -1 0 Z  M 17 11 l 1 0 0 1 -1 0 Z M 18 11 l 1 0 0 1 -1 0 Z M 19 11 l 1 0 0 1 -1 0 Z M 20 11 l 1 0 0 1 -1 0 Z      M 1 12 l 1 0 0 1 -1 0 Z  M 3 12 l 1 0 0 1 -1 0 Z  M 5 12 l 1 0 0 1 -1 0 Z   M 8 12 l 1 0 0 1 -1 0 Z  M 10 12 l 1 0 0 1 -1 0 Z   M 13 12 l 1 0 0 1 -1 0 Z M 14 12 l 1 0 0 1 -1 0 Z M 15 12 l 1 0 0 1 -1 0 Z  M 17 12 l 1 0 0 1 -1 0 Z   M 20 12 l 1 0 0 1 -1 0 Z M 21 12 l 1 0 0 1 -1 0 Z M 22 12 l 1 0 0 1 -1 0 Z M 23 12 l 1 0 0 1 -1 0 Z   M 1 13 l 1 0 0 1 -1 0 Z M 2 13 l 1 0 0 1 -1 0 Z M 3 13 l 1 0 0 1 -1 0 Z M 4 13 l 1 0 0 1 -1 0 Z M 5 13 l 1 0 0 1 -1 0 Z M 6 13 l 1 0 0 1 -1 0 Z  M 8 13 l 1 0 0 1 -1 0 Z  M 10 13 l 1 0 0 1 -1 0 Z M 11 13 l 1 0 0 1 -1 0 Z M 12 13 l 1 0 0 1 -1 0 Z M 13 13 l 1 0 0 1 -1 0 Z    M 17 13 l 1 0 0 1 -1 0 Z M 18 13 l 1 0 0 1 -1 0 Z M 19 13 l 1 0 0 1 -1 0 Z  M 21 13 l 1 0 0 1 -1 0 Z M 22 13 l 1 0 0 1 -1 0 Z  M 24 13 l 1 0 0 1 -1 0 Z     M 4 14 l 1 0 0 1 -1 0 Z    M 8 14 l 1 0 0 1 -1 0 Z M 9 14 l 1 0 0 1 -1 0 Z         M 18 14 l 1 0 0 1 -1 0 Z M 19 14 l 1 0 0 1 -1 0 Z       M 1 15 l 1 0 0 1 -1 0 Z   M 4 15 l 1 0 0 1 -1 0 Z M 5 15 l 1 0 0 1 -1 0 Z M 6 15 l 1 0 0 1 -1 0 Z M 7 15 l 1 0 0 1 -1 0 Z   M 10 15 l 1 0 0 1 -1 0 Z  M 12 15 l 1 0 0 1 -1 0 Z M 13 15 l 1 0 0 1 -1 0 Z M 14 15 l 1 0 0 1 -1 0 Z M 15 15 l 1 0 0 1 -1 0 Z M 16 15 l 1 0 0 1 -1 0 Z  M 18 15 l 1 0 0 1 -1 0 Z  M 20 15 l 1 0 0 1 -1 0 Z   M 23 15 l 1 0 0 1 -1 0 Z   M 1 16 l 1 0 0 1 -1 0 Z M 2 16 l 1 0 0 1 -1 0 Z     M 7 16 l 1 0 0 1 -1 0 Z M 8 16 l 1 0 0 1 -1 0 Z M 9 16 l 1 0 0 1 -1 0 Z M 10 16 l 1 0 0 1 -1 0 Z M 11 16 l 1 0 0 1 -1 0 Z M 12 16 l 1 0 0 1 -1 0 Z M 13 16 l 1 0 0 1 -1 0 Z  M 15 16 l 1 0 0 1 -1 0 Z      M 21 16 l 1 0 0 1 -1 0 Z   M 24 16 l 1 0 0 1 -1 0 Z M 0 17 l 1 0 0 1 -1 0 Z M 1 17 l 1 0 0 1 -1 0 Z M 2 17 l 1 0 0 1 -1 0 Z M 3 17 l 1 0 0 1 -1 0 Z M 4 17 l 1 0 0 1 -1 0 Z M 5 17 l 1 0 0 1 -1 0 Z M 6 17 l 1 0 0 1 -1 0 Z M 7 17 l 1 0 0 1 -1 0 Z       M 14 17 l 1 0 0 1 -1 0 Z M 15 17 l 1 0 0 1 -1 0 Z  M 17 17 l 1 0 0 1 -1 0 Z M 18 17 l 1 0 0 1 -1 0 Z M 19 17 l 1 0 0 1 -1 0 Z  M 21 17 l 1 0 0 1 -1 0 Z   M 24 17 l 1 0 0 1 -1 0 Z        M 7 18 l 1 0 0 1 -1 0 Z M 8 18 l 1 0 0 1 -1 0 Z    M 12 18 l 1 0 0 1 -1 0 Z M 13 18 l 1 0 0 1 -1 0 Z M 14 18 l 1 0 0 1 -1 0 Z M 15 18 l 1 0 0 1 -1 0 Z  M 17 18 l 1 0 0 1 -1 0 Z  M 19 18 l 1 0 0 1 -1 0 Z  M 21 18 l 1 0 0 1 -1 0 Z M 22 18 l 1 0 0 1 -1 0 Z M 23 18 l 1 0 0 1 -1 0 Z   M 1 19 l 1 0 0 1 -1 0 Z M 2 19 l 1 0 0 1 -1 0 Z M 3 19 l 1 0 0 1 -1 0 Z M 4 19 l 1 0 0 1 -1 0 Z M 5 19 l 1 0 0 1 -1 0 Z  M 7 19 l 1 0 0 1 -1 0 Z M 8 19 l 1 0 0 1 -1 0 Z M 9 19 l 1 0 0 1 -1 0 Z M 10 19 l 1 0 0 1 -1 0 Z M 11 19 l 1 0 0 1 -1 0 Z  M 13 19 l 1 0 0 1 -1 0 Z    M 17 19 l 1 0 0 1 -1 0 Z M 18 19 l 1 0 0 1 -1 0 Z M 19 19 l 1 0 0 1 -1 0 Z  M 21 19 l 1 0 0 1 -1 0 Z M 22 19 l 1 0 0 1 -1 0 Z    M 1 20 l 1 0 0 1 -1 0 Z    M 5 20 l 1 0 0 1 -1 0 Z  M 7 20 l 1 0 0 1 -1 0 Z    M 11 20 l 1 0 0 1 -1 0 Z          M 21 20 l 1 0 0 1 -1 0 Z M 22 20 l 1 0 0 1 -1 0 Z    M 1 21 l 1 0 0 1 -1 0 Z    M 5 21 l 1 0 0 1 -1 0 Z  M 7 21 l 1 0 0 1 -1 0 Z    M 11 21 l 1 0 0 1 -1 0 Z M 12 21 l 1 0 0 1 -1 0 Z M 13 21 l 1 0 0 1 -1 0 Z  M 15 21 l 1 0 0 1 -1 0 Z    M 19 21 l 1 0 0 1 -1 0 Z M 20 21 l 1 0 0 1 -1 0 Z M 21 21 l 1 0 0 1 -1 0 Z M 22 21 l 1 0 0 1 -1 0 Z    M 1 22 l 1 0 0 1 -1 0 Z    M 5 22 l 1 0 0 1 -1 0 Z  M 7 22 l 1 0 0 1 -1 0 Z M 8 22 l 1 0 0 1 -1 0 Z  M 10 22 l 1 0 0 1 -1 0 Z M 11 22 l 1 0 0 1 -1 0 Z  M 13 22 l 1 0 0 1 -1 0 Z  M 15 22 l 1 0 0 1 -1 0 Z M 16 22 l 1 0 0 1 -1 0 Z  M 18 22 l 1 0 0 1 -1 0 Z M 19 22 l 1 0 0 1 -1 0 Z       M 1 23 l 1 0 0 1 -1 0 Z M 2 23 l 1 0 0 1 -1 0 Z M 3 23 l 1 0 0 1 -1 0 Z M 4 23 l 1 0 0 1 -1 0 Z M 5 23 l 1 0 0 1 -1 0 Z  M 7 23 l 1 0 0 1 -1 0 Z   M 10 23 l 1 0 0 1 -1 0 Z M 11 23 l 1 0 0 1 -1 0 Z M 12 23 l 1 0 0 1 -1 0 Z M 13 23 l 1 0 0 1 -1 0 Z   M 16 23 l 1 0 0 1 -1 0 Z M 17 23 l 1 0 0 1 -1 0 Z    M 21 23 l 1 0 0 1 -1 0 Z           M 7 24 l 1 0 0 1 -1 0 Z  M 9 24 l 1 0 0 1 -1 0 Z  M 11 24 l 1 0 0 1 -1 0 Z M 12 24 l 1 0 0 1 -1 0 Z   M 15 24 l 1 0 0 1 -1 0 Z   M 18 24 l 1 0 0 1 -1 0 Z M 19 24 l 1 0 0 1 -1 0 Z M 20 24 l 1 0 0 1 -1 0 Z  M 22 24 l 1 0 0 1 -1 0 Z M 23 24 l 1 0 0 1 -1 0 Z "
+                                            fill="#FFFFFF"></path><path
+                                            d="M 0 0 l 1 0 0 1 -1 0 Z M 1 0 l 1 0 0 1 -1 0 Z M 2 0 l 1 0 0 1 -1 0 Z M 3 0 l 1 0 0 1 -1 0 Z M 4 0 l 1 0 0 1 -1 0 Z M 5 0 l 1 0 0 1 -1 0 Z M 6 0 l 1 0 0 1 -1 0 Z  M 8 0 l 1 0 0 1 -1 0 Z   M 11 0 l 1 0 0 1 -1 0 Z M 12 0 l 1 0 0 1 -1 0 Z  M 14 0 l 1 0 0 1 -1 0 Z  M 16 0 l 1 0 0 1 -1 0 Z  M 18 0 l 1 0 0 1 -1 0 Z M 19 0 l 1 0 0 1 -1 0 Z M 20 0 l 1 0 0 1 -1 0 Z M 21 0 l 1 0 0 1 -1 0 Z M 22 0 l 1 0 0 1 -1 0 Z M 23 0 l 1 0 0 1 -1 0 Z M 24 0 l 1 0 0 1 -1 0 Z M 0 1 l 1 0 0 1 -1 0 Z      M 6 1 l 1 0 0 1 -1 0 Z   M 9 1 l 1 0 0 1 -1 0 Z M 10 1 l 1 0 0 1 -1 0 Z      M 16 1 l 1 0 0 1 -1 0 Z  M 18 1 l 1 0 0 1 -1 0 Z      M 24 1 l 1 0 0 1 -1 0 Z M 0 2 l 1 0 0 1 -1 0 Z  M 2 2 l 1 0 0 1 -1 0 Z M 3 2 l 1 0 0 1 -1 0 Z M 4 2 l 1 0 0 1 -1 0 Z  M 6 2 l 1 0 0 1 -1 0 Z    M 10 2 l 1 0 0 1 -1 0 Z  M 12 2 l 1 0 0 1 -1 0 Z M 13 2 l 1 0 0 1 -1 0 Z  M 15 2 l 1 0 0 1 -1 0 Z   M 18 2 l 1 0 0 1 -1 0 Z  M 20 2 l 1 0 0 1 -1 0 Z M 21 2 l 1 0 0 1 -1 0 Z M 22 2 l 1 0 0 1 -1 0 Z  M 24 2 l 1 0 0 1 -1 0 Z M 0 3 l 1 0 0 1 -1 0 Z  M 2 3 l 1 0 0 1 -1 0 Z M 3 3 l 1 0 0 1 -1 0 Z M 4 3 l 1 0 0 1 -1 0 Z  M 6 3 l 1 0 0 1 -1 0 Z      M 12 3 l 1 0 0 1 -1 0 Z M 13 3 l 1 0 0 1 -1 0 Z   M 16 3 l 1 0 0 1 -1 0 Z  M 18 3 l 1 0 0 1 -1 0 Z  M 20 3 l 1 0 0 1 -1 0 Z M 21 3 l 1 0 0 1 -1 0 Z M 22 3 l 1 0 0 1 -1 0 Z  M 24 3 l 1 0 0 1 -1 0 Z M 0 4 l 1 0 0 1 -1 0 Z  M 2 4 l 1 0 0 1 -1 0 Z M 3 4 l 1 0 0 1 -1 0 Z M 4 4 l 1 0 0 1 -1 0 Z  M 6 4 l 1 0 0 1 -1 0 Z   M 9 4 l 1 0 0 1 -1 0 Z  M 11 4 l 1 0 0 1 -1 0 Z   M 14 4 l 1 0 0 1 -1 0 Z  M 16 4 l 1 0 0 1 -1 0 Z  M 18 4 l 1 0 0 1 -1 0 Z  M 20 4 l 1 0 0 1 -1 0 Z M 21 4 l 1 0 0 1 -1 0 Z M 22 4 l 1 0 0 1 -1 0 Z  M 24 4 l 1 0 0 1 -1 0 Z M 0 5 l 1 0 0 1 -1 0 Z      M 6 5 l 1 0 0 1 -1 0 Z    M 10 5 l 1 0 0 1 -1 0 Z  M 12 5 l 1 0 0 1 -1 0 Z M 13 5 l 1 0 0 1 -1 0 Z   M 16 5 l 1 0 0 1 -1 0 Z  M 18 5 l 1 0 0 1 -1 0 Z      M 24 5 l 1 0 0 1 -1 0 Z M 0 6 l 1 0 0 1 -1 0 Z M 1 6 l 1 0 0 1 -1 0 Z M 2 6 l 1 0 0 1 -1 0 Z M 3 6 l 1 0 0 1 -1 0 Z M 4 6 l 1 0 0 1 -1 0 Z M 5 6 l 1 0 0 1 -1 0 Z M 6 6 l 1 0 0 1 -1 0 Z  M 8 6 l 1 0 0 1 -1 0 Z  M 10 6 l 1 0 0 1 -1 0 Z  M 12 6 l 1 0 0 1 -1 0 Z  M 14 6 l 1 0 0 1 -1 0 Z  M 16 6 l 1 0 0 1 -1 0 Z  M 18 6 l 1 0 0 1 -1 0 Z M 19 6 l 1 0 0 1 -1 0 Z M 20 6 l 1 0 0 1 -1 0 Z M 21 6 l 1 0 0 1 -1 0 Z M 22 6 l 1 0 0 1 -1 0 Z M 23 6 l 1 0 0 1 -1 0 Z M 24 6 l 1 0 0 1 -1 0 Z         M 8 7 l 1 0 0 1 -1 0 Z  M 10 7 l 1 0 0 1 -1 0 Z M 11 7 l 1 0 0 1 -1 0 Z  M 13 7 l 1 0 0 1 -1 0 Z  M 15 7 l 1 0 0 1 -1 0 Z M 16 7 l 1 0 0 1 -1 0 Z         M 0 8 l 1 0 0 1 -1 0 Z M 1 8 l 1 0 0 1 -1 0 Z  M 3 8 l 1 0 0 1 -1 0 Z M 4 8 l 1 0 0 1 -1 0 Z  M 6 8 l 1 0 0 1 -1 0 Z   M 9 8 l 1 0 0 1 -1 0 Z M 10 8 l 1 0 0 1 -1 0 Z M 11 8 l 1 0 0 1 -1 0 Z   M 14 8 l 1 0 0 1 -1 0 Z M 15 8 l 1 0 0 1 -1 0 Z M 16 8 l 1 0 0 1 -1 0 Z  M 18 8 l 1 0 0 1 -1 0 Z      M 24 8 l 1 0 0 1 -1 0 Z  M 1 9 l 1 0 0 1 -1 0 Z M 2 9 l 1 0 0 1 -1 0 Z M 3 9 l 1 0 0 1 -1 0 Z    M 7 9 l 1 0 0 1 -1 0 Z  M 9 9 l 1 0 0 1 -1 0 Z   M 12 9 l 1 0 0 1 -1 0 Z M 13 9 l 1 0 0 1 -1 0 Z M 14 9 l 1 0 0 1 -1 0 Z M 15 9 l 1 0 0 1 -1 0 Z  M 17 9 l 1 0 0 1 -1 0 Z  M 19 9 l 1 0 0 1 -1 0 Z M 20 9 l 1 0 0 1 -1 0 Z M 21 9 l 1 0 0 1 -1 0 Z M 22 9 l 1 0 0 1 -1 0 Z M 23 9 l 1 0 0 1 -1 0 Z   M 1 10 l 1 0 0 1 -1 0 Z M 2 10 l 1 0 0 1 -1 0 Z  M 4 10 l 1 0 0 1 -1 0 Z  M 6 10 l 1 0 0 1 -1 0 Z  M 8 10 l 1 0 0 1 -1 0 Z  M 10 10 l 1 0 0 1 -1 0 Z M 11 10 l 1 0 0 1 -1 0 Z  M 13 10 l 1 0 0 1 -1 0 Z  M 15 10 l 1 0 0 1 -1 0 Z M 16 10 l 1 0 0 1 -1 0 Z M 17 10 l 1 0 0 1 -1 0 Z M 18 10 l 1 0 0 1 -1 0 Z M 19 10 l 1 0 0 1 -1 0 Z  M 21 10 l 1 0 0 1 -1 0 Z   M 24 10 l 1 0 0 1 -1 0 Z   M 2 11 l 1 0 0 1 -1 0 Z   M 5 11 l 1 0 0 1 -1 0 Z  M 7 11 l 1 0 0 1 -1 0 Z M 8 11 l 1 0 0 1 -1 0 Z M 9 11 l 1 0 0 1 -1 0 Z M 10 11 l 1 0 0 1 -1 0 Z M 11 11 l 1 0 0 1 -1 0 Z M 12 11 l 1 0 0 1 -1 0 Z  M 14 11 l 1 0 0 1 -1 0 Z  M 16 11 l 1 0 0 1 -1 0 Z     M 21 11 l 1 0 0 1 -1 0 Z M 22 11 l 1 0 0 1 -1 0 Z M 23 11 l 1 0 0 1 -1 0 Z M 24 11 l 1 0 0 1 -1 0 Z M 0 12 l 1 0 0 1 -1 0 Z  M 2 12 l 1 0 0 1 -1 0 Z  M 4 12 l 1 0 0 1 -1 0 Z  M 6 12 l 1 0 0 1 -1 0 Z M 7 12 l 1 0 0 1 -1 0 Z  M 9 12 l 1 0 0 1 -1 0 Z  M 11 12 l 1 0 0 1 -1 0 Z M 12 12 l 1 0 0 1 -1 0 Z    M 16 12 l 1 0 0 1 -1 0 Z  M 18 12 l 1 0 0 1 -1 0 Z M 19 12 l 1 0 0 1 -1 0 Z     M 24 12 l 1 0 0 1 -1 0 Z M 0 13 l 1 0 0 1 -1 0 Z       M 7 13 l 1 0 0 1 -1 0 Z  M 9 13 l 1 0 0 1 -1 0 Z     M 14 13 l 1 0 0 1 -1 0 Z M 15 13 l 1 0 0 1 -1 0 Z M 16 13 l 1 0 0 1 -1 0 Z    M 20 13 l 1 0 0 1 -1 0 Z   M 23 13 l 1 0 0 1 -1 0 Z  M 0 14 l 1 0 0 1 -1 0 Z M 1 14 l 1 0 0 1 -1 0 Z M 2 14 l 1 0 0 1 -1 0 Z M 3 14 l 1 0 0 1 -1 0 Z  M 5 14 l 1 0 0 1 -1 0 Z M 6 14 l 1 0 0 1 -1 0 Z M 7 14 l 1 0 0 1 -1 0 Z   M 10 14 l 1 0 0 1 -1 0 Z M 11 14 l 1 0 0 1 -1 0 Z M 12 14 l 1 0 0 1 -1 0 Z M 13 14 l 1 0 0 1 -1 0 Z M 14 14 l 1 0 0 1 -1 0 Z M 15 14 l 1 0 0 1 -1 0 Z M 16 14 l 1 0 0 1 -1 0 Z M 17 14 l 1 0 0 1 -1 0 Z   M 20 14 l 1 0 0 1 -1 0 Z M 21 14 l 1 0 0 1 -1 0 Z M 22 14 l 1 0 0 1 -1 0 Z M 23 14 l 1 0 0 1 -1 0 Z M 24 14 l 1 0 0 1 -1 0 Z M 0 15 l 1 0 0 1 -1 0 Z  M 2 15 l 1 0 0 1 -1 0 Z M 3 15 l 1 0 0 1 -1 0 Z     M 8 15 l 1 0 0 1 -1 0 Z M 9 15 l 1 0 0 1 -1 0 Z  M 11 15 l 1 0 0 1 -1 0 Z      M 17 15 l 1 0 0 1 -1 0 Z  M 19 15 l 1 0 0 1 -1 0 Z  M 21 15 l 1 0 0 1 -1 0 Z M 22 15 l 1 0 0 1 -1 0 Z  M 24 15 l 1 0 0 1 -1 0 Z M 0 16 l 1 0 0 1 -1 0 Z   M 3 16 l 1 0 0 1 -1 0 Z M 4 16 l 1 0 0 1 -1 0 Z M 5 16 l 1 0 0 1 -1 0 Z M 6 16 l 1 0 0 1 -1 0 Z        M 14 16 l 1 0 0 1 -1 0 Z  M 16 16 l 1 0 0 1 -1 0 Z M 17 16 l 1 0 0 1 -1 0 Z M 18 16 l 1 0 0 1 -1 0 Z M 19 16 l 1 0 0 1 -1 0 Z M 20 16 l 1 0 0 1 -1 0 Z  M 22 16 l 1 0 0 1 -1 0 Z M 23 16 l 1 0 0 1 -1 0 Z          M 8 17 l 1 0 0 1 -1 0 Z M 9 17 l 1 0 0 1 -1 0 Z M 10 17 l 1 0 0 1 -1 0 Z M 11 17 l 1 0 0 1 -1 0 Z M 12 17 l 1 0 0 1 -1 0 Z M 13 17 l 1 0 0 1 -1 0 Z   M 16 17 l 1 0 0 1 -1 0 Z    M 20 17 l 1 0 0 1 -1 0 Z  M 22 17 l 1 0 0 1 -1 0 Z M 23 17 l 1 0 0 1 -1 0 Z  M 0 18 l 1 0 0 1 -1 0 Z M 1 18 l 1 0 0 1 -1 0 Z M 2 18 l 1 0 0 1 -1 0 Z M 3 18 l 1 0 0 1 -1 0 Z M 4 18 l 1 0 0 1 -1 0 Z M 5 18 l 1 0 0 1 -1 0 Z M 6 18 l 1 0 0 1 -1 0 Z   M 9 18 l 1 0 0 1 -1 0 Z M 10 18 l 1 0 0 1 -1 0 Z M 11 18 l 1 0 0 1 -1 0 Z     M 16 18 l 1 0 0 1 -1 0 Z  M 18 18 l 1 0 0 1 -1 0 Z  M 20 18 l 1 0 0 1 -1 0 Z    M 24 18 l 1 0 0 1 -1 0 Z M 0 19 l 1 0 0 1 -1 0 Z      M 6 19 l 1 0 0 1 -1 0 Z      M 12 19 l 1 0 0 1 -1 0 Z  M 14 19 l 1 0 0 1 -1 0 Z M 15 19 l 1 0 0 1 -1 0 Z M 16 19 l 1 0 0 1 -1 0 Z    M 20 19 l 1 0 0 1 -1 0 Z   M 23 19 l 1 0 0 1 -1 0 Z M 24 19 l 1 0 0 1 -1 0 Z M 0 20 l 1 0 0 1 -1 0 Z  M 2 20 l 1 0 0 1 -1 0 Z M 3 20 l 1 0 0 1 -1 0 Z M 4 20 l 1 0 0 1 -1 0 Z  M 6 20 l 1 0 0 1 -1 0 Z  M 8 20 l 1 0 0 1 -1 0 Z M 9 20 l 1 0 0 1 -1 0 Z M 10 20 l 1 0 0 1 -1 0 Z  M 12 20 l 1 0 0 1 -1 0 Z M 13 20 l 1 0 0 1 -1 0 Z M 14 20 l 1 0 0 1 -1 0 Z M 15 20 l 1 0 0 1 -1 0 Z M 16 20 l 1 0 0 1 -1 0 Z M 17 20 l 1 0 0 1 -1 0 Z M 18 20 l 1 0 0 1 -1 0 Z M 19 20 l 1 0 0 1 -1 0 Z M 20 20 l 1 0 0 1 -1 0 Z   M 23 20 l 1 0 0 1 -1 0 Z M 24 20 l 1 0 0 1 -1 0 Z M 0 21 l 1 0 0 1 -1 0 Z  M 2 21 l 1 0 0 1 -1 0 Z M 3 21 l 1 0 0 1 -1 0 Z M 4 21 l 1 0 0 1 -1 0 Z  M 6 21 l 1 0 0 1 -1 0 Z  M 8 21 l 1 0 0 1 -1 0 Z M 9 21 l 1 0 0 1 -1 0 Z M 10 21 l 1 0 0 1 -1 0 Z    M 14 21 l 1 0 0 1 -1 0 Z  M 16 21 l 1 0 0 1 -1 0 Z M 17 21 l 1 0 0 1 -1 0 Z M 18 21 l 1 0 0 1 -1 0 Z     M 23 21 l 1 0 0 1 -1 0 Z M 24 21 l 1 0 0 1 -1 0 Z M 0 22 l 1 0 0 1 -1 0 Z  M 2 22 l 1 0 0 1 -1 0 Z M 3 22 l 1 0 0 1 -1 0 Z M 4 22 l 1 0 0 1 -1 0 Z  M 6 22 l 1 0 0 1 -1 0 Z   M 9 22 l 1 0 0 1 -1 0 Z   M 12 22 l 1 0 0 1 -1 0 Z  M 14 22 l 1 0 0 1 -1 0 Z   M 17 22 l 1 0 0 1 -1 0 Z   M 20 22 l 1 0 0 1 -1 0 Z M 21 22 l 1 0 0 1 -1 0 Z M 22 22 l 1 0 0 1 -1 0 Z M 23 22 l 1 0 0 1 -1 0 Z M 24 22 l 1 0 0 1 -1 0 Z M 0 23 l 1 0 0 1 -1 0 Z      M 6 23 l 1 0 0 1 -1 0 Z  M 8 23 l 1 0 0 1 -1 0 Z M 9 23 l 1 0 0 1 -1 0 Z     M 14 23 l 1 0 0 1 -1 0 Z M 15 23 l 1 0 0 1 -1 0 Z   M 18 23 l 1 0 0 1 -1 0 Z M 19 23 l 1 0 0 1 -1 0 Z M 20 23 l 1 0 0 1 -1 0 Z  M 22 23 l 1 0 0 1 -1 0 Z M 23 23 l 1 0 0 1 -1 0 Z M 24 23 l 1 0 0 1 -1 0 Z M 0 24 l 1 0 0 1 -1 0 Z M 1 24 l 1 0 0 1 -1 0 Z M 2 24 l 1 0 0 1 -1 0 Z M 3 24 l 1 0 0 1 -1 0 Z M 4 24 l 1 0 0 1 -1 0 Z M 5 24 l 1 0 0 1 -1 0 Z M 6 24 l 1 0 0 1 -1 0 Z  M 8 24 l 1 0 0 1 -1 0 Z  M 10 24 l 1 0 0 1 -1 0 Z   M 13 24 l 1 0 0 1 -1 0 Z M 14 24 l 1 0 0 1 -1 0 Z  M 16 24 l 1 0 0 1 -1 0 Z M 17 24 l 1 0 0 1 -1 0 Z    M 21 24 l 1 0 0 1 -1 0 Z   M 24 24 l 1 0 0 1 -1 0 Z"
+                                            fill="#000000"></path>
+                                    </svg>
+                                </div>
+                                <div class="company">
+                                    <p id="title_address">Công ty cổ phần
+                                        VSTUDY</p>
+                                    <p id="address"><i
+                                            class="icon icon-location"></i>
+                                        Địa
+                                        chỉ</p>
+                                    <p id="phone_footer"><i
+                                            class="icon icon-phone2"></i> Số
+                                        điện thoại</p>
+                                    <p id="email_footer"><i
+                                            class="fa fa-envelope"></i>
+                                        Email</p>
+                                </div>
+
+                            </div>
+
+                            <!-- ✅ Gộp 2 cột lại trong 1 col-xl-6 để đảm bảo responsive -->
+                            <div
+                                class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-4 mt-4 px-0  px-sm-3">
+                                <div class="row">
+                                    <!-- Cột: Danh mục -->
+                                    <div class="col-md-6 mb-4  px-sm-3">
+                                        <p id="category">Danh mục</p>
+                                        <ul class="list-unstyled">
+                                            <li><a class="function"
+                                                    href="#home-slider"
+                                                    data-index="0"><i
+                                                        class="icon icon-arrow-right2"></i>Trang
+                                                    Chủ</a></li>
+                                            <li><a class="function"
+                                                    href="#services"
+                                                    data-index="1"><i
+                                                        class="icon icon-arrow-right2"></i>Về
+                                                    KPF</a></li>
+                                            <li><a class="function"
+                                                    href="#strategic-partners"
+                                                    data-index="2"><i
+                                                        class="icon icon-arrow-right2"></i>Quan
+                                                    Hệ Cổ Đông</a></li>
+                                            <li><a class="function" href="#"
+                                                    data-index="3"><i
+                                                        class="icon icon-arrow-right2"></i>Tin
+                                                    Tức</a></li>
+                                            <li><a class="function" href="#"
+                                                    data-index="4"><i
+                                                        class="icon icon-arrow-right2"></i>Tin
+                                                    Tức</a></li>
+                                            <li><a class="function" href="#"
+                                                    data-index="5"><i
+                                                        class="icon icon-arrow-right2"></i>Tin
+                                                    Tức</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Cột: Chính sách -->
+                                    <div class="col-md-6 mb-4  px-sm-3">
+                                        <p id="policies">Chính sách</p>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#home-slider"
+                                                    class="policy_function"
+                                                    data-index="0"><i
+                                                        class="icon icon-arrow-right2"></i>Trang
+                                                    Chủ</a></li>
+                                            <li><a href="#services"
+                                                    class="policy_function"
+                                                    data-index="1"><i
+                                                        class="icon icon-arrow-right2"></i>Về
+                                                    KPF</a></li>
+                                            <li><a
+                                                    href="#strategic-partners"
+                                                    class="policy_function"
+                                                    data-index="2"><i
+                                                        class="icon icon-arrow-right2"></i>Quan
+                                                    hệ cổ đông</a></li>
+                                            <li><a href="#"
+                                                    class="policy_function"
+                                                    data-index="3"><i
+                                                        class="icon icon-arrow-right2"></i>Tin
+                                                    tức</a></li>
+                                            <li><a class="policy_function"
+                                                    href="#"
+                                                    data-index="4"><i
+                                                        class="icon icon-arrow-right2"></i>Tin
+                                                    Tức</a></li>
+                                            <li><a class="policy_function"
+                                                    href="#"
+                                                    data-index="5"><i
+                                                        class="icon icon-arrow-right2"></i>Tin
+                                                    Tức</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- ✅ Dòng dưới: Phương thức thanh toán -->
+                                    <div class="col-12">
+                                        <p
+                                            id="title_payment">Phương thức
+                                            thanh
+                                            toán</p>
+                                        <div
+                                            class="d-flex flex-wrap gap-2  payment-container ">
+                                            <img src="./images/visa.png"
+                                                alt="Visa" width="50"
+                                                class="payment-method">
+                                            <img
+                                                src="./images/mastercard.png"
+                                                alt="Mastercard" width="50"
+                                                class="payment-method">
+                                            <img src="./images/napas.png"
+                                                alt="Napas" width="50"
+                                                class="payment-method">
+                                            <img src="./images/cod.png"
+                                                alt="COD" width="50"
+                                                class="payment-method">
+                                            <img src="./images/momo.png"
+                                                alt="Momo" width="50"
+                                                class="payment-method">
+                                            <img src="./images/vnpay.png"
+                                                alt="VNPay" width="50"
+                                                class="payment-method">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-4 mt-4 ">
+                                <p id="follow">Follow us</p>
+                                <ul
+                                    class="list-inline footer__widget-network">
+                                    <li class="list-inline-item"><a
+                                            href="#"><i
+                                                class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a
+                                            href="#"><i
+                                                class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a
+                                            href="#"><i
+                                                class="fa-brands fa-youtube"></i></a></li>
+                                    <li class="list-inline-item"><a
+                                            href="#"><i
+                                                class="fa-brands fa-linkedin-in"></i></a></li>
+                                </ul>
+
+                                <p class="mt-4" id="download">DOWNLOAD</p>
+                                <div class="d-flex mb-3">
+                                    <img src="./images/img_app.png"
+                                        class="mr-2 store-img"
+                                        alt="App Store">
+                                    <img src="./images/img_ch.png"
+                                        alt="Google Play" class="store-img">
+                                </div>
+
+                                <p class="cert_title mt-4"
+                                    id="cert_title">Chứng
+                                    nhận
+                                    bởi</p>
+                                <div
+                                    class="cert_badges d-flex align-items-center">
+                                    <img src="./images/bo-cong-thuong.png"
+                                        alt="Bộ Công Thương"
+                                        class="cert_logo">
+                                    <img src="./images/dmca.png" alt="DMCA"
+                                        class="cert_logo dmca_img">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- <div class="allright">
+                <div class="container"> 
+                    <div class="row" id="footer_privacy">
+                        <div class="copy">
+                            <p id="copy">© 2025 VSTUDY. Bản quyền thuộc về
+                                VSTUDY</p>
+                        </div>
+                        <div class="privacy">
+                            <ul class="footer__subfooter-liststyle">
+                                <li><a href="#" id="privacy">Terms Of
+                                        Service
+                                        |</a></li>
+                                <li><a href="#" id="policy">Privacy Policy
+                                        |</a></li>
+                                <li><a href="#" id="help">Help</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div> -->
+
+            <!-- BẮT ĐẦU KHỐI FOOTER DƯỚI CÙNG -->
+            <div class="subfooter-wrapper">
+                <div class="container">
+                    <!-- Sử dụng Bootstrap 5 grid system -->
+                    <div class="row align-items-center">
+
+                        <!-- Cột trái: Copyright -->
+                        <div class="col-lg-6 col-12 subfooter-copyright">
+                            <p class="copyright-text">© 2025 IPAGE. Bản quyền
+                                thuộc về IPAGE</p>
+                        </div>
+
+                        <!-- Cột phải: Các liên kết -->
+                        <div class="col-lg-6 col-12 subfooter-links">
+                            <ul class="subfooter-list">
+                                <li><a href="#">Điều khoản dịch vụ</a></li>
+                                <li><a href="#">Chính sách bảo mật</a></li>
+                                <li><a href="#">Trợ giúp</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- KẾT THÚC KHỐI FOOTER DƯỚI CÙNG -->
+        </div>
+
+        <script>
+  // Hàm tiện ích để lấy query param từ URL
+  function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+
+  const userName = getQueryParam("name");
+  if (userName) {
+    localStorage.setItem("username", userName);
+    // ✅ XÓA name khỏi URL để F5 không gán lại localStorage nữa
+    window.history.replaceState({}, document.title, window.location.pathname);
+  }
+</script>
+
+        <script>
+ function logout() {
+  // 1. Xóa username khỏi localStorage
+  localStorage.removeItem("username");
+
+   // 2. Ẩn greeting + dropdown, hiện nút login/register
+    document.getElementById("greeting-dropdown").classList.add("d-none");
+    document.getElementById("auth-buttons").classList.remove("d-none");
+
+    // 3. Ẩn luôn dropdownMenu nếu đang mở (tránh lỗi đọc .style)
+    const dropdownMenu = document.getElementById("dropdownMenu");
+    if (dropdownMenu) {
+      dropdownMenu.style.display = "none";
+    }
+
+  // 2. Gửi yêu cầu logout đến server
+  fetch("http://localhost:3002/auth/google/logout")
+    .then(() => {
+      // 3. Cập nhật giao diện
+      document.getElementById("user-menu").style.display = "none";
+      document.getElementById("auth-buttons").style.display = "block";
+
+      // 4. Chuyển hướng về trang login
+      window.location.href = "login.html?logout=1";
+    })
+    .catch(err => {
+      console.error("Logout error:", err);
+    });
+}
+
+</script>
+
+        <script>
+document.addEventListener('DOMContentLoaded', function() {
+    // ---- CÀI ĐẶT ----
+    const STEP_DURATION_MS = 5000; // Thời gian cho mỗi bước (5000ms = 5 giây)
+
+    // ---- LẤY CÁC THÀNH PHẦN ----
+    const timelineItems = document.querySelectorAll('.timeline-item');
+    const featurePanels = document.querySelectorAll('.auto-feature-panel');
+    const timelineProgress = document.getElementById('timeline-progress');
+    const totalSteps = timelineItems.length;
+
+    // ---- BIẾN ĐIỀU KHIỂN ----
+    let currentStep = 0;
+    let intervalId;
+
+    // ---- HÀM CHÍNH ĐỂ HIỂN THỊ MỘT BƯỚC ----
+    function showStep(stepIndex) {
+        // 1. Tắt active ở tất cả các mục
+        timelineItems.forEach(item => item.classList.remove('active'));
+        featurePanels.forEach(panel => panel.classList.remove('active'));
+        document.querySelectorAll('.timeline-step-progress').forEach(p => {
+            p.classList.remove('animating');
+            p.style.width = '0%';
+        });
+
+        // 2. Kích hoạt mục và panel hiện tại
+        const currentTimelineItem = timelineItems[stepIndex];
+        const currentPanel = document.querySelector(`.auto-feature-panel[data-panel="${stepIndex + 1}"]`);
+        
+        currentTimelineItem.classList.add('active');
+        if (currentPanel) {
+            currentPanel.classList.add('active');
+        }
+        
+        // 3. Cập nhật chiều cao thanh tiến trình chính
+        const dotOffsetTop = currentTimelineItem.offsetTop + currentTimelineItem.querySelector('.timeline-dot').offsetTop;
+        timelineProgress.style.height = (dotOffsetTop) + 'px';
+
+        // 4. Kích hoạt animation cho thanh tiến trình của riêng bước này
+        const stepProgressBar = currentTimelineItem.querySelector('.timeline-step-progress');
+        
+        // Thủ thuật nhỏ để reset animation
+        setTimeout(() => {
+            stepProgressBar.classList.add('animating');
+        }, 10);
+    }
+
+    // ---- HÀM BẮT ĐẦU CHẠY TIMELINE ----
+    function startTimeline() {
+        // Dừng timer cũ nếu có
+        clearInterval(intervalId);
+        
+        // Hiển thị bước đầu tiên
+        showStep(currentStep);
+
+        // Bắt đầu timer mới
+        intervalId = setInterval(() => {
+            // Chuyển sang bước tiếp theo, và quay lại 0 nếu hết
+            currentStep = (currentStep + 1) % totalSteps;
+            showStep(currentStep);
+        }, STEP_DURATION_MS);
+    }
+
+    // ---- KHỞI ĐỘNG! ----
+    startTimeline();
+});
+</script>
+
+        <script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const name = urlParams.get('name');
+
+  const greetingDropdown = document.getElementById("greeting-dropdown");
+  const greetingNameEl = document.getElementById("greetingName");
+  const authButtonsEl = document.getElementById("auth-buttons");
+
+  const username = localStorage.getItem("username");
+
+  if (username) {
+    greetingNameEl.innerText = decodeURIComponent(username);
+    greetingDropdown.classList.remove("d-none");
+    authButtonsEl.classList.add("d-none");
+  } else {
+    greetingDropdown.classList.add("d-none");
+    authButtonsEl.classList.remove("d-none");
+  }
+
+  // Dropdown toggle
+  const greetingButton = document.getElementById("greetingButton");
+  const dropdownMenu = document.getElementById("dropdownMenu");
+
+  if (greetingButton && dropdownMenu) {
+  greetingButton.addEventListener("click", (e) => {
+    e.stopPropagation();
+    dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
+  });
+
+  window.addEventListener("click", (e) => {
+    if (!greetingButton.contains(e.target) && !dropdownMenu.contains(e.target)) {
+      dropdownMenu.style.display = "none";
+    }
+  });
+}
+</script>
+
+        <script>
+           
+            let data;
+    
+            async function loadJSON() {
+                try{
+                    const response = await fetch('json/vstudy.json');
+                    if(!response.ok){
+                    throw new Error("Không thể tải dữ liệu JSON");
+                }
+                    data = await response.json();
+                    console.log('Dữ liệu JSON đã tải:', data);
+                    changeLanguage('vi'); // Mặc định hiển thị tiếng Anh
+                }catch (error) {
+                    console.error('Lỗi:', error);
+                }
+                
+            }
+            loadJSON();
+            function changeLanguage(lang) {
+                
+                try {
+                    // Kiểm tra dữ liệu có tồn tại không
+                    if (!data || !data.menu || !data.menu.templates[lang]) {
+                        throw new Error("Dữ liệu ngôn ngữ không khả dụng.");
+                }
+                document.getElementById("templates").textContent = data.menu.templates[lang];
+                document.getElementById("features_price").textContent=data.menu.features[lang];
+                document.getElementById("price_table").textContent = data.menu.price_table[lang];
+                
+                document.getElementById("category_menu").textContent = data.menu.category_menu[lang];
+                // document.getElementById("try").textContent = data.menu.try[lang];
+                document.getElementById("contact").textContent = data.menu.contact[lang];
+                document.getElementById("language_header").textContent = data.language_header[lang]; 
+                document.getElementById("language_description").textContent = data.language_description[lang];   
+                document.getElementById("cert_title").textContent = data.certified[lang];   
+                // document.getElementById("title_payment").textContent = data.payment[lang]; 
+                // document.getElementById("copy").textContent = data.copy[lang]; 
+                            
+                //Menu màn nhỏ
+                // document.getElementById("home_sub").textContent = data.menu.home[lang];
+                document.getElementById("exam_sub").textContent = data.menu.templates[lang];
+                document.getElementById("courses_sub").textContent=data.menu.features[lang];
+                // document.getElementById("cus_partner_sub").textContent=data.menu.cus_partner[lang];
+                document.getElementById("price_table_sub").textContent = data.menu.price_table[lang];
+                document.getElementById("contact_sub").textContent = data.menu.contact[lang];
+                document.getElementById("category_sub").textContent = data.menu.category_menu[lang];
+                // document.getElementById("try_sub").textContent = data.menu.try[lang];
+                // document.getElementById("hero-title").textContent = data.language_tools.tool_title[lang];
+                
+                //
+                // document.getElementById("company_profile").textContent = data.menu.submenu.company_profile[lang];
+                document.getElementById("price_title").textContent = data.price_table.price_title[lang];          
+                document.getElementById("feedback_title").textContent = data.feedback.fb_title[lang];
+
+            
+              document.getElementById("address").innerHTML = `
+                <i class="fa-solid fa-location-dot"></i><span style="margin-left: 10px;">${data.footer.address[lang]}</span>
+            `;
+
+              document.getElementById("phone_footer").innerHTML = `
+                <i class="fa-solid fa-phone"></i><span style="margin-left: 10px;">${data.footer.phone_footer[lang]}</span>
+            `;
+
+              document.getElementById("email_footer").innerHTML = `
+                <i class="fa-solid fa-envelope"></i><span style="margin-left: 10px;">${data.footer.email_footer[lang]}</span>
+            `;
+
+
+                document.getElementById("free_trail").textContent = data.free_trail[lang];
+                document.getElementById("follow").textContent = data.social[lang];
+                document.getElementById("title_address").textContent = data.title_address[lang];
+                document.getElementById("category").textContent = data.category[lang];
+                document.getElementById("policies").textContent = data.policies.policy_title[lang];
+                document.getElementById("download").textContent = data.download[lang];
+                document.getElementById("btn_all").textContent = data.buttons.btn_all[lang];
+               // document.getElementById("partner").textContent = data.partner[lang];
+                // document.getElementById("privacy").textContent = data.privacy.pcy_service[lang] + " |";
+                // document.getElementById("policy").textContent = data.privacy.pcy_policy[lang] + " |";
+                // document.getElementById("help").textContent = data.privacy.pcy_help[lang];
+                document.getElementById("contact_title").textContent = data.contact_section.contact_title[lang];
+                document.getElementById("title_description").textContent = data.contact_section.title_description[lang];
+                document.getElementById("contact_name").textContent = data.contact_section.contact_name[lang];
+                document.getElementById("contact_phone").textContent = data.contact_section.contact_phone[lang];
+                document.getElementById("contact_mail").textContent = data.contact_section.contact_mail[lang];
+                document.getElementById("contact_interested").textContent = data.contact_section.contact_interested[lang];
+                document.getElementById("contact_content").textContent = data.contact_section.contact_content[lang];
+                document.getElementById("btn_send").textContent = data.buttons.btn_send[lang];
+                document.querySelector(".placeholder_name").placeholder = data.contact_section.placeholder_name[lang];
+                document.querySelector(".placeholder_phone").placeholder = data.contact_section.placeholder_phone[lang];
+                document.querySelector(".placeholder_mail").placeholder = data.contact_section.placeholder_mail[lang];
+                document.querySelector(".placeholder_content").placeholder = data.contact_section.placeholder_content[lang];
+                document.getElementById("contact_security").textContent = data.contact_section.contact_security[lang];
+                // document.getElementsByClassName(".explore-link").textContent = data.tool_link[lang];
+                
+                // document.getElementById("btn_free").textContent = data.buttons.btn_free[lang];
+
+                var elements = document.getElementsByClassName("explore-link");
+
+                    for (let i = 0; i < elements.length; i++) {
+                        elements[i].textContent = data.tool_link[lang] + " ";
+
+                        // Nếu muốn thêm mũi tên →:
+                        const arrowSpan = document.createElement("span");
+                        arrowSpan.className = "arrow";
+                        arrowSpan.textContent = "→";
+                        elements[i].appendChild(arrowSpan);
+                    }
+
+
+                const buttonFooter = document.getElementById("btn_free");
+
+                if (buttonFooter) {
+                    
+                    const title = data.buttons.btn_free[lang];
+    
+                    // Giữ lại icon và thay đổi phần text
+                    buttonFooter.innerHTML = `${title}<i class="icon icon-arrow-right2" style="margin-left:10px"></i>`;
+                }
+
+
+                var buttons = document.getElementsByClassName("btn_benefit");
+                for (var i = 0; i < buttons.length; i++) {
+                    buttons[i].textContent = data.buttons.btn_benefit[lang];
+                }
+     
+                // document.getElementById("slider_title").textContent  = data.slider.slider_title[lang];     
+
+                document.getElementById("title").textContent = data.services.title[lang];   
+                const titleElements = document.querySelectorAll(".titles");
+    
+              // Cập nhật tiêu đề cho từng phần tử dựa trên chỉ số
+                titleElements.forEach(titleElement => {
+                    const itemIndex = titleElement.getAttribute("data-index"); // Lấy chỉ số từ thuộc tính data-index
+                    const title = data.services.items[itemIndex].titles[lang];
+                    titleElement.textContent = title;
+                });
+
+                const buttonPrices = document.querySelectorAll(".btn_price");
+    
+                // Cập nhật tiêu đề cho từng phần tử dựa trên chỉ số
+                buttonPrices.forEach(buttonPrice => {
+                    const itemIndex = buttonPrice.getAttribute("data-index"); // Lấy chỉ số từ thuộc tính data-index
+                    const title = data.buttons.btn_price[lang];
+                    buttonPrice.textContent = title;
+                });
+
+
+                const description_Services = document.querySelectorAll(".description");
+    
+                // Cập nhật tiêu đề cho từng phần tử dựa trên chỉ số
+                description_Services.forEach(description_Service => {
+                    const itemIndex = description_Service.getAttribute("data-index"); // Lấy chỉ số từ thuộc tính data-index
+                    const title = data.services.items[itemIndex].description[lang];
+                    description_Service.textContent = title;
+                });
+
+                document.getElementById("prj_title").textContent = data.projects_demo.prj_title[lang];   
+                
+                // document.getElementById("prj_description").textContent = data.projects_demo.prj_description[lang];  
+                // document.getElementById("ofd_title").textContent = data.official_disclosures.ofd_title[lang]; 
+
+                const imageElements = document.querySelectorAll(".ofd_image");
+    
+              // Cập nhật tiêu đề cho từng phần tử dựa trên chỉ số
+                imageElements.forEach(imageElement => {
+                    const itemIndex = imageElement.getAttribute("data-index"); 
+                    const image = data.official_disclosures.items[itemIndex-3].ofd_image;
+                    imageElement.src = image;
+                });
+
+                const titleItem_Elements = document.querySelectorAll(".item_title");
+    
+                // Title official_disclosures
+                titleItem_Elements.forEach(titleItem_Element => {
+                    const itemIndex = titleItem_Element.getAttribute("data-index");
+                    const title = data.official_disclosures.items[itemIndex-3].item_title[lang];
+                    titleItem_Element.textContent = title;
+                });
+
+                const image_Serices = document.querySelectorAll(".ser_image");
+    
+                // Image Services
+                image_Serices.forEach(image_Serice => {
+                    const itemIndex = image_Serice.getAttribute("data-index");
+                    const image = data.services.items[itemIndex].ser_image;
+                    image_Serice.src = image;
+                });
+
+                const title_Sliders = document.querySelectorAll(".slider_title");
+    
+                // Title Slider
+                title_Sliders.forEach(title_Slider => {
+                    const itemIndex = title_Slider.getAttribute("data-index");
+                    const title = data.slider.slider_title[lang];
+                    title_Slider.textContent = title;
+                    title_Slider.style.color="#FFFFFF"
+                });
+
+                const description_Sliders = document.querySelectorAll(".slider_description");
+    
+                // Description Slider
+                description_Sliders.forEach(description_Slider => {
+                    const itemIndex = description_Slider.getAttribute("data-index");
+                    const title = data.slider.slider_description[lang];
+                    description_Slider.textContent = title;
+                    description_Slider.style.color = "white";
+                });
+
+                
+                const title_cards = document.querySelectorAll(".card_title");
+                 // Title Card
+                 title_cards.forEach(title_card => {
+                    const itemIndex = title_card.getAttribute("data-index");
+                    const title = data.language_card.items[itemIndex].item_title[lang];
+                    title_card.textContent = title;
+                    title_card.style.color="#FFFFFF"
+                });
+
+               
+
+                const description_Cards = document.querySelectorAll(".card_description");
+    
+                // Description Card
+                description_Cards.forEach(description_Card => {
+                    const itemIndex = description_Card.getAttribute("data-index");
+                    const title = data.language_card.items[itemIndex].description[lang];
+                    description_Card.textContent = title;
+                    description_Card.style.color = "white";
+                });
+
+
+                const image_Logos = document.querySelectorAll(".logo_image");
+    
+                // Image Services
+                image_Logos.forEach(image_Logo => {
+                    const itemIndex = image_Logo.getAttribute("data-index");
+                    const image = data.logo_partner.items[itemIndex].logo_image;
+                    image_Logo.src = image;
+                });
+
+                // Benefit ZONE
+                const image_Benefits = document.querySelectorAll(".benefit_img");
+    
+                image_Benefits.forEach(image_Benefit => {
+                    const itemIndex = image_Benefit.getAttribute("data-index");
+                    const image = data.projects_demo.items[itemIndex].be_image;
+                    image_Benefit.src = image;
+                });
+
+                const benefits = document.querySelectorAll(".benefit");
+    
+                // Description Slider
+                benefits.forEach(benefit => {
+                    const itemIndex = benefit.getAttribute("data-index");
+                    const title = data.projects_demo.items[itemIndex].benefit[lang];
+                    benefit.textContent = title;
+                    // benefit.style.color = "white";
+                });
+
+                const benefits_des = document.querySelectorAll(".be_description");
+    
+                benefits_des.forEach(benefit_des => {
+                    const itemIndex = benefit_des.getAttribute("data-index");
+                    const title = data.projects_demo.items[itemIndex].be_description[lang];
+                    benefit_des.textContent = title;
+                });
+
+                // Tools
+                // const tools_description = document.querySelectorAll(".tool-title");
+                // tools_description.forEach(tool_description => {
+                //     const itemIndex = tool_description.getAttribute("data-index");
+                //     const title = data.language_tools.items[itemIndex].item_tool[lang];
+                //     tool_description.textContent = title;
+                // });
+
+
+                 // TAB
+          
+                //Lấy tiêu đề
+                 const tabs = document.querySelectorAll(".tab");
+
+                    tabs.forEach((tab, index) => {
+                        const item = data.intro_tabs.items[index]; // Lấy dữ liệu từ JSON
+                        if (item && item.titles) {
+                        tab.textContent = item.titles[lang] || item.titles["vi"]; // ✅ Lấy tiêu đề theo ngôn ngữ
+                        }   
+                         // ✅ Xử lý icon
+    const iconElement = tab.querySelector(".tab-icon");
+    if (iconElement) {
+        iconElement.className = `tab-icon ${item.icon}`;
+    }
+                    });
+
+                    const tabContents = document.querySelectorAll(".tab-content");
+                    tabContents.forEach((tabContent, index) => {
+                    const item = data.intro_tabs.items[index]; // Lấy dữ liệu từ JSON
+
+                    if (item) {
+                        //Lấy mô tả & chia thành danh sách
+                        const descriptionText = item.description[lang] || item.description["vi"]; // Nếu không có, fallback về "vi"
+                        const descriptionParts = descriptionText.split(/[\.\。]/).filter(part => part.trim() !== "");
+
+                        //Cập nhật danh sách tính năng
+                        const ul = tabContent.querySelector("ul");
+                        if (ul) {
+                            ul.innerHTML = ""; // Xóa nội dung cũ
+                            descriptionParts.forEach(desc => {
+                                if (desc.trim()) {
+                                    const li = document.createElement("li");
+                                    li.textContent = desc.trim();
+                                    ul.appendChild(li);
+                                }
+                            });
+                        }
+
+                        // Cập nhật hình ảnh
+                        const img = tabContent.querySelector(".tab-image img");
+                        if (img) {
+                            img.src = item.ser_image;
+                            img.alt = item.titles.vi;
+                        }
+                    }
+                });
+
+               
+
+                  // Feedback ZONE
+
+                  const feedbacks_title = document.querySelectorAll(".fb_description");
+    
+                    feedbacks_title.forEach(feedback_title => {
+                    const itemIndex = feedback_title.getAttribute("data-index");
+                    const title = data.feedback.items[itemIndex].fb_description[lang];
+                    feedback_title.textContent = title;
+                });
+
+                const feedbacks_name = document.querySelectorAll(".fb_name");
+    
+                    feedbacks_name.forEach(feedback_name => {
+                    const itemIndex = feedback_name.getAttribute("data-index");
+                    const title = data.feedback.items[itemIndex].fb_name;
+                    feedback_name.textContent = title;
+                });
+
+                //Contact
+                const selectElement = document.getElementById("serviceSelect");
+    
+                // Xóa tất cả các option hiện tại
+                selectElement.innerHTML = "";
+    
+                // Thêm các option mới dựa trên ngôn ngữ được chọn
+                data.contact_section.text_interested[lang].forEach(item => {
+                    const option = document.createElement("option");
+                    option.value = item.value;
+                    option.textContent = item.text;
+                    selectElement.appendChild(option);
+                });
+
+
+                // Benefit ZONE
+                const feedbacks_img = document.querySelectorAll(".fb_icon");
+    
+                feedbacks_img.forEach(feedback_img => {
+                    const itemIndex = feedback_img.getAttribute("data-index");
+                    const image = data.feedback.items[itemIndex].fb_icon;
+                    feedback_img.src = image;
+                });
+
+                //Footer
+                const menuFooters = document.querySelectorAll(".function");
+    
+                
+                menuFooters.forEach(menuFooter => {
+                    const itemIndex = menuFooter.getAttribute("data-index"); // Lấy chỉ số từ thuộc tính data-index
+                    const title = data.menu_footer.items[itemIndex].function[lang];
+                     // Giữ lại icon và chỉ thay đổi phần text
+                     menuFooter.innerHTML = `<i class="icon icon-arrow-right2"></i> ${title}`;
+                });
+
+                const policyFooters = document.querySelectorAll(".policy_function");
+    
+                
+                policyFooters.forEach(policyFooter => {
+                    const itemIndex = policyFooter.getAttribute("data-index"); // Lấy chỉ số từ thuộc tính data-index
+                    const title = data.policies.items[itemIndex].policy_function[lang];
+                     // Giữ lại icon và chỉ thay đổi phần text
+                     policyFooter.innerHTML = `<i class="icon icon-arrow-right2"></i> ${title}`;
+                });
+                 updatePricingSection(data, lang); 
+
+
+                //Date
+                // Lấy locale từ JSON cho định dạng ngày tháng
+                // Biến toàn cục lưu ngôn ngữ hiện tại
+
+                const locale = data.localeMap[lang];
+                if (!locale) {
+                    console.error("Ngôn ngữ không tồn tại:", lang);
+                    return;
+                }
+
+                currentLocale = locale; // Cập nhật ngôn ngữ mới
+                    updateDateWithLocale(locale); // Cập nhật ngày ngay lập tức khi đổi ngôn ngữ 
+
+                    // Thông báo thành công
+                Swal.fire({
+                    icon: 'success',
+                    title: data.alert_language[lang].title,
+                    text: data.alert_language[lang].success_message,
+                    showConfirmButton: false,
+                    timer: 1500,
+                    customClass: {
+                        popup: 'custom-swal-popup'
+                    }
+                });
+            } catch (error) {
+                // Thông báo lỗi nếu có vấn đề
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Lỗi!',
+                    text: error.message || 'Có lỗi xảy ra khi đổi ngôn ngữ.',
+                    confirmButtonText: 'OK'
+                });
+                }
+            }
+            
+        </script>
+
+        <script>
+    // Hàm này sẽ được gọi sau khi bạn đã fetch và có biến `data`
+   function updatePricingSection(data, lang) {
+    // --- LOGIC ĐỔ DỮ LIỆU ---
+    const allPricingPlans = document.querySelectorAll(".pricing-plan");
+
+    allPricingPlans.forEach(plan => {
+        const titleElement = plan.querySelector(".title_packages");
+        if (!titleElement) return;
+
+        const index = titleElement.getAttribute("data-index");
+        const itemData = data.price_table.items[index];
+
+        if (!itemData) {
+            console.error(`Không tìm thấy dữ liệu cho gói index ${index}`);
+            return;
+        }
+
+        // Điền Title
+        if (itemData.title_packages && itemData.title_packages[lang]) {
+            titleElement.textContent = itemData.title_packages[lang];
+        }
+
+        // Điền Description
+        if (itemData.description && typeof itemData.description[lang] === 'string') {
+            const description = itemData.description[lang];
+            const descriptionParts = description.split(/[\.\。]/).filter(part => part.trim() !== "");
+            const listItems = plan.querySelectorAll(".features li");
+
+            listItems.forEach((li, i) => {
+                li.innerHTML = '';
+                li.classList.add("disabled");
+                li.style.textDecoration = 'line-through';
+
+                if (descriptionParts[i]) {
+                    li.innerHTML = `<span style="color: green;">✔</span> ${descriptionParts[i].trim()}`;
+                    li.classList.remove("disabled");
+                    li.style.textDecoration = "none";
+                    li.style.textAlign = "left";
+                }
+            });
+        }
+    });
+
+    console.log("Dữ liệu đã được điền vào HTML.");
+
+var carousel = $(".pricing-container");
+
+if ($(window).width() <= 768) {
+    // MOBILE → KHÔNG dùng carousel
+    if (carousel.hasClass('owl-loaded')) {
+        carousel.trigger('destroy.owl.carousel');
+    }
+
+    carousel.removeClass('owl-carousel owl-theme');
+
+    // Thêm style full width
+    carousel.children(".item").css({
+        width: '100%',
+        display: 'block'
+    });
+
+    console.log("Tắt carousel trên mobile.");
+} else {
+    // DESKTOP → Bật carousel
+
+    // 1. Destroy trước nếu đang tồn tại carousel
+    if (carousel.hasClass('owl-loaded')) {
+        carousel.trigger('destroy.owl.carousel');
+    }
+
+    // 2. Remove style mobile
+    carousel.children(".item").removeAttr("style");
+
+    // 3. Add lại class owl-carousel
+    if (!carousel.hasClass('owl-carousel')) {
+        carousel.addClass('owl-carousel owl-theme');
+    }
+
+    // 4. Khởi tạo lại carousel
+    var totalItems = $(".pricing-plan").length;
+    carousel.owlCarousel({
+        loop: totalItems > 3,
+        margin: 20,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            1024: {
+                items: 3
+            }
+        }
+    });
+
+    console.log("Owl Carousel đã được khởi tạo trên desktop.");
+    // Thêm đoạn này:
+    $(window).on('resize', function () {
+    if ($('.pricing-container').hasClass('owl-loaded')) {
+        $('.pricing-container').trigger('refresh.owl.carousel');
+        }
+    });
+}
+
+
+}
+
+
+</script>
+
+        <script>
+        $(document).ready(function(){
+            $(".testimonials").owlCarousel({
+                loop: true,  // Lặp vô hạn
+                margin: 20,  // Khoảng cách giữa các item
+                nav: false,  // Ẩn nút điều hướng
+                dots: false,  // Ẩn chấm tròn
+                autoplay: true,  // Bật tự động chạy
+                center:true,
+                autoplayTimeout: 10,  // Không có thời gian chờ
+                autoplaySpeed: 3000,  // Tốc độ di chuyển chậm
+                autoplayHoverPause: false,  // Không dừng khi di chuột vào
+                slideTransition: 'linear',  // Chuyển động mượt
+                rtl: false,  // Đảo ngược hướng (giúp chạy liên tục)
+                responsive: {
+                    0: { items: 1 },
+                    600: { items: 2 },
+                    1000: { items: 3 }
+                }
+            });
+        });
+
+       </script>
+
+        <!-- Button lên xuống  -->
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        const scrollTopBtn = document.getElementById("scrollTopBtn");
+        const scrollBottomBtn = document.getElementById("scrollBottomBtn");
+
+        function updateButtonVisibility() {
+            const scrollPosition = window.scrollY;
+            const windowHeight = window.innerHeight;
+            const fullHeight = document.body.scrollHeight;
+
+            // Ẩn nút lên nếu đang ở đầu trang
+            if (scrollPosition === 0) {
+                scrollTopBtn.style.display = "none";
+                scrollBottomBtn.style.display = "block";
+            }
+            // Ẩn nút xuống nếu đang ở cuối trang
+            else if (scrollPosition + windowHeight >= fullHeight - 1) {
+                scrollTopBtn.style.display = "block";
+                scrollBottomBtn.style.display = "none";
+            }
+            // Hiển thị cả hai nút nếu ở giữa trang
+            else {
+                scrollTopBtn.style.display = "block";
+                scrollBottomBtn.style.display = "block";
+            }
+        }
+
+        // Thêm sự kiện lắng nghe khi cuộn trang
+        window.addEventListener("scroll", updateButtonVisibility);
+
+        // Gọi hàm kiểm tra trạng thái ban đầu
+        updateButtonVisibility();
+    });
+
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function scrollToBottom() {
+        window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+    }
+    </script>
+        <!-- END Button lên xuống  -->
+
+        <script>
+              document.addEventListener("DOMContentLoaded", function () {
+  const tabsContainer = document.querySelector(".tabs");
+  const tabs = document.querySelectorAll(".tab");
+  const contents = document.querySelectorAll(".tab-content");
+  const tabLine = document.querySelector(".tab-line");
+  
+  let currentIndex = 0;
+  const isMobile = () => window.innerWidth <= 768; // Adjust breakpoint as needed
+
+  function activateTab(tab, index) {
+    // Remove active class from all tabs and contents
+    tabs.forEach(t => t.classList.remove("active"));
+    contents.forEach(c => c.classList.remove("active"));
+    
+    // Add active class to selected tab and content
+    tab.classList.add("active");
+    document.getElementById(`tab-${tab.dataset.tab}`).classList.add("active");
+    
+    // Update current index
+    currentIndex = index;
+    
+    // GSAP Animation for tab line
+    gsap.to(tabLine, {
+      duration: 0.8,
+      left: tab.offsetLeft,
+      width: tab.offsetWidth,
+      ease: "power3.out"
+    });
+    
+    // Handle scrolling for mobile view
+    if (isMobile()) {
+      ensureTabVisible(tab);
+    }
+  }
+  
+  function ensureTabVisible(tab) {
+    const tabsRect = tabsContainer.getBoundingClientRect();
+    const tabRect = tab.getBoundingClientRect();
+    
+    // Calculate the visible area
+    const visibleLeft = 0;
+    const visibleRight = tabsContainer.offsetWidth;
+    
+    // Calculate position relative to tabs container
+    const tabLeft = tab.offsetLeft;
+    const tabRight = tabLeft + tab.offsetWidth;
+    
+    // Scroll if tab is not fully visible
+    if (tabLeft < tabsContainer.scrollLeft) {
+      // Scroll left to show the tab
+      tabsContainer.scrollTo({
+        left: tabLeft,
+        behavior: 'smooth'
+      });
+    } else if (tabRight > tabsContainer.scrollLeft + visibleRight) {
+      // Scroll right to show the tab
+      tabsContainer.scrollTo({
+        left: tabRight - visibleRight,
+        behavior: 'smooth'
+      });
+    }
+  }
+
+  // Auto-run tabs with visibility handling
+//   function autoRunTabs() {
+//     const nextIndex = (currentIndex + 1) % tabs.length;
+//     activateTab(tabs[nextIndex], nextIndex);
+//     setTimeout(autoRunTabs, 2000);
+//   }
+
+  // Add click event to tabs
+  tabs.forEach((tab, index) => {
+    tab.addEventListener("click", function () {
+      activateTab(this, index);
+    });
+  });
+
+  // Make tabs container scrollable horizontally on mobile
+  if (isMobile()) {
+    tabsContainer.style.overflowX = "auto";
+    tabsContainer.style.whiteSpace = "nowrap";
+    tabsContainer.style.scrollBehavior = "smooth";
+    tabsContainer.style.webkitOverflowScrolling = "touch"; // For iOS momentum scrolling
+  }
+
+  // Initialize with first tab after a delay
+  setTimeout(() => {
+    activateTab(tabs[0], 0);
+    setTimeout(2000);
+    // setTimeout(autoRunTabs, 2000);
+  }, 1000);
+});
+
+    </script>
+
+        <script>
+        function updateDateWithLocale(locale) {
+            const today = new Date();
+            const day = today.getDate().toString().padStart(2, '0');  // Đảm bảo 2 chữ số
+            const month = (today.getMonth() + 1).toString().padStart(2, '0'); // Tháng bắt đầu từ 0
+            const year = today.getFullYear();
+
+            let formattedDate;
+            if (locale === "vi-VN") {
+                formattedDate = `${today.toLocaleDateString(locale, { weekday: 'long' })}, ${day}/${month}/${year}`;
+            } else if (locale === "en-US") {
+                 formattedDate = `${today.toLocaleDateString(locale, { weekday: 'long' })}, ${month}/${day}/${year}`;
+            } else if (locale === "ja-JP") {
+                formattedDate = `${year}年${month}月${day}日 (${today.toLocaleDateString(locale, { weekday: 'long' })})`;
+            }
+
+                document.getElementById("dateDisplay").textContent = formattedDate;
+            }
+             document.addEventListener("DOMContentLoaded", function () {
+             updateDateWithLocale("vi-VN");
+        });
+    </script>
+
+        <script> 
+        function closeMenu() {
+            document.querySelector('.menu-res').style.display = 'none';
+                document.body.classList.remove('open-menu');
+        }
+    </script>
+
+        <!-- Start - feedback -->
+        <script>
+// Auto scroll functionality for mobile devices
+document.addEventListener('DOMContentLoaded', function() {
+    // Check if screen width is mobile
+    function isMobile() {
+        return window.innerWidth <= 576;
+    }
+    
+    const container = document.getElementById('testimonials-container');
+    const indicators = document.querySelectorAll('.indicator');
+    let currentIndex = 0;
+    let autoScrollInterval;
+    let isUserScrolling = false;
+    let userScrollTimeout;
+    
+    // Function to check if element is in viewport
+    function isElementInViewport(el) {
+        const rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+    
+    // Function to scroll to a specific card
+    function scrollToCard(index) {
+        if (!isMobile() || isUserScrolling) return;
+        
+        // Only scroll if testimonials container is in viewport
+        if (!isElementInViewport(container)) return;
+        
+        const cards = document.querySelectorAll('.testimonial-card');
+        if (index >= cards.length) {
+            index = 0;
+        }
+        
+        // Update current index
+        currentIndex = index;
+        
+        // Scroll to the card
+        cards[index].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        
+        // Update indicators
+        updateIndicators(index);
+    }
+    
+    // Function to update just the indicators without scrolling
+    function updateIndicators(index) {
+        indicators.forEach((ind, i) => {
+            if (i === index) {
+                ind.classList.add('active');
+            } else {
+                ind.classList.remove('active');
+            }
+        });
+    }
+    
+    // Start auto-scrolling
+    function startAutoScroll() {
+        if (autoScrollInterval) {
+            clearInterval(autoScrollInterval);
+        }
+        
+        if (isMobile()) {
+            autoScrollInterval = setInterval(() => {
+                // Only auto-scroll if container is visible and user isn't manually scrolling
+                if (!isUserScrolling && isElementInViewport(container)) {
+                    currentIndex = (currentIndex + 1) % 3;
+                    scrollToCard(currentIndex);
+                }
+            }, 4000); // Scroll every 4 seconds
+        }
+    }
+    
+    // Add click event to indicators
+    indicators.forEach((indicator) => {
+        indicator.addEventListener('click', function() {
+            const index = parseInt(this.getAttribute('data-index'));
+            isUserScrolling = false; // Allow programmatic scrolling on indicator click
+            scrollToCard(index);
+            
+            // Reset the auto-scroll timer when manually clicking
+            if (autoScrollInterval) {
+                clearInterval(autoScrollInterval);
+                startAutoScroll();
+            }
+        });
+    });
+    
+    // Detect when user starts scrolling
+    container.addEventListener('touchstart', function() {
+        isUserScrolling = true;
+        
+        // Clear any existing timeout
+        if (userScrollTimeout) {
+            clearTimeout(userScrollTimeout);
+        }
+    }, { passive: true });
+    
+    // Detect when user stops scrolling
+    container.addEventListener('touchend', function() {
+        // Set a timeout to detect when scrolling has actually stopped
+        userScrollTimeout = setTimeout(() => {
+            isUserScrolling = false;
+        }, 1000);
+    }, { passive: true });
+    
+    // Handle scroll events to update the indicators WITHOUT changing scroll position
+    container.addEventListener('scroll', function() {
+        if (!isMobile()) return;
+        
+        const cards = document.querySelectorAll('.testimonial-card');
+        const containerWidth = container.offsetWidth;
+        
+        cards.forEach((card, index) => {
+            const cardPos = card.getBoundingClientRect().left - container.getBoundingClientRect().left;
+            
+            // If this card is in view (approximately centered)
+            if (Math.abs(cardPos) < containerWidth / 2) {
+                currentIndex = index;
+                
+                // Update indicators without scrolling
+                updateIndicators(index);
+            }
+        });
+    });
+    
+    // Check visibility when page scrolls
+    window.addEventListener('scroll', function() {
+        // If container is in view but auto-scroll isn't running, start it
+        if (isMobile() && isElementInViewport(container) && !autoScrollInterval) {
+            startAutoScroll();
+        }
+        // If container isn't in view but auto-scroll is running, stop it
+        else if (!isElementInViewport(container) && autoScrollInterval) {
+            clearInterval(autoScrollInterval);
+            autoScrollInterval = null;
+        }
+    });
+    
+
+});
+</script>
+
+        <!-- End - feedback -->
+
+    </body>
+
+</html>
