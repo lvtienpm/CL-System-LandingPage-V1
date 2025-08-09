@@ -1106,37 +1106,37 @@
     "items": [
       {
         "id": 1,
-        "imageSrc": "images/product_img5-1.png",
-        "title": "Chiến dịch quảng cáo sản phẩm mới",
+        "imageSrc": "images/product_img_bh1.png",
+        "title": "Landing Page Bán Hàng V1",
         "category": "ban-hang"
       },
       {
         "id": 2,
-        "imageSrc": "images/product_img6-1.png",
-        "title": "Chủ đề về nội thất",
-        "category": "bat-dong-san"
+        "imageSrc": "images/product_img_bh2.png",
+        "title": "Landing Page Bán Hàng V2",
+        "category": "ban-hang"
       },
       {
         "id": 3,
-        "imageSrc": "images/product_img7.png",
-        "title": "Landing Page về mỹ phẩm",
+        "imageSrc": "images/product_img_tt6.png",
+        "title": "Landing Page Thời trang V6",
         "category": "thoi-trang-lam-dep"
       },
       {
         "id": 4,
-        "imageSrc": "images/product_img8-1.png",
-        "title": "Landing Page Thời trang",
+        "imageSrc": "images/product_img_tt5.png",
+        "title": "Landing Page Thời trang V5",
         "category": "thoi-trang-lam-dep"
       },
       {
         "id": 5,
-        "imageSrc": "images/product_img9.png",
+        "imageSrc": "images/product_img_at1.png",
         "title": "Landing Page ẩm thực",
         "category": "am-thuc"
       },
       {
         "id": 6,
-        "imageSrc": "images/product_img10.png",
+        "imageSrc": "images/product_img10_yk1.png",
         "title": "Landing Page Y khoa",
         "category": "y-khoa"
       },
@@ -1157,6 +1157,42 @@
         "imageSrc": "images/product_img_kh1.png",
         "title": "Landing Page Giáo dục V1",
         "category": "giao-duc"
+      },
+      {
+        "id": 10,
+        "imageSrc": "images/product_img_tt3.png",
+        "title": "Landing Page Thời trang V3",
+        "category": "thoi-trang-lam-dep"
+      },
+      {
+        "id": 11,
+        "imageSrc": "images/product_img_tt4.png",
+        "title": "Landing Page Thời trang V4",
+        "category": "thoi-trang-lam-dep"
+      },
+      {
+        "id": 12,
+        "imageSrc": "images/product_img_bds1.png",
+        "title": "Landing Page Bất động sản V1",
+        "category": "bat-dong-san"
+      },
+      {
+        "id": 13,
+        "imageSrc": "images/product_img_bds2.png",
+        "title": "Landing Page Bất động sản V2",
+        "category": "bat-dong-san"
+      },
+      {
+        "id": 14,
+        "imageSrc": "images/product_img_bds3.png",
+        "title": "Landing Page Bất động sản V3",
+        "category": "bat-dong-san"
+      },
+      {
+        "id": 15,
+        "imageSrc": "images/product_img_bds4.png",
+        "title": "Landing Page Bất động sản V4",
+        "category": "bat-dong-san"
       }
     ]
   }
