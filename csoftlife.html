@@ -69,6 +69,7 @@
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
         <script type="module" src="js/axios.js" defer></script>
+        <script src="js/showcase.js"></script>
 
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -92,6 +93,11 @@
         <script src="https://apis.google.com/js/platform.js" async
             defer></script>
 
+        <script
+            src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+        <!-- !!! NHÚNG IMAGESLOADED VÀO ĐÂY !!! -->
+        <script
+            src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
     </head>
 
     <body>
@@ -376,122 +382,6 @@
                     </div>
                 </div>
             </section>
-            <!-- <section class="intro" id="intro">
-                <div class="container">
-                    <div class="tabs">
-                        <div class="tab active" data-tab="1"></div>
-                        <div class="tab" data-tab="2"></div>
-                        <div class="tab" data-tab="3"></div>
-                        <div class="tab" data-tab="4"></div>
-                        <div class="tab" data-tab="5"></div>
-                        <div class="tab" data-tab="6"></div>
-                        <div class="tab" data-tab="7"></div>
-
-                        <div class="tab-line"></div>
-                    </div>
-
-                    <div class="tab-content active" id="tab-1">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <div class="tab-image">
-                            <video width="100%" controls>
-                                <source src="./video/video4.mp4"
-                                    type="video/mp4">
-                                Trình duyệt của bạn không hỗ trợ video.
-                            </video>
-                        </div>
-                    </div>
-
-                    <div class="tab-content" id="tab-2">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <div class="tab-image">
-                            <video width="100%" controls>
-                                <source src="./video/video3.mp4"
-                                    type="video/mp4">
-                                Trình duyệt của bạn không hỗ trợ video.
-                            </video>
-                        </div>
-                    </div>
-                    <div class="tab-content" id="tab-3">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <div class="tab-image">
-                            <video width="100%" controls>
-                                <source src="./video/video2.mp4"
-                                    type="video/mp4">
-                                Trình duyệt của bạn không hỗ trợ video.
-                            </video>
-                        </div>
-                    </div>
-                    <div class="tab-content" id="tab-4">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <div class="tab-image">
-                            <video width="100%" controls>
-                                <source src="./video/video1.mp4"
-                                    type="video/mp4">
-                                Trình duyệt của bạn không hỗ trợ video.
-                            </video>
-                        </div>
-                    </div>
-                    <div class="tab-content" id="tab-5">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <div class="tab-image">
-                            <video width="100%" controls>
-                                <source src="./video/video1.mp4"
-                                    type="video/mp4">
-                                Trình duyệt của bạn không hỗ trợ video.
-                            </video>
-                        </div>
-                    </div>
-                    <div class="tab-content" id="tab-6">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <div class="tab-image">
-                            <video width="100%" controls>
-                                <source src="./video/video1.mp4"
-                                    type="video/mp4">
-                                Trình duyệt của bạn không hỗ trợ video.
-                            </video>
-                        </div>
-                    </div>
-                    <div class="tab-content" id="tab-7">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <div class="tab-image">
-                            <video width="100%" controls>
-                                <source src="./video/video1.mp4"
-                                    type="video/mp4">
-                                Trình duyệt của bạn không hỗ trợ video.
-                            </video>
-                        </div>
-                    </div>
-
-                </div>
-            </section> -->
 
             <!--section-->
             <section class="section" id="services">
@@ -711,119 +601,56 @@
             <!-- ============================================ -->
             <!-- BẮT ĐẦU SECTION THƯ VIỆN VIDEO MẪU -->
             <!-- ============================================ -->
-            <section id="showcase-section py-5" class="showcase-section py-5">
+            <section id="showcase-section" class="showcase-section py-5">
                 <div class="container">
-
                     <!-- Tiêu đề và Slogan -->
                     <div class="section-header text-center">
                         <h2 class="custom-font-1">Thư viện Landing Page mẫu</h2>
                         <p class="slogan">GIAO DIỆN CHUYÊN NGHIỆP CHO TỪNG CHIẾN
-                            DỊCH –
-                            LANDING PAGE CHÍNH LÀ BƯỚC KHỞI ĐẦU.
-                        </p>
+                            DỊCH – LANDING PAGE CHÍNH LÀ BƯỚC KHỞI ĐẦU.</p>
                     </div>
 
-                    <!-- Các nút lọc theo danh mục -->
+                    <!-- CÁC NÚT LỌC THEO DANH MỤC -->
                     <div class="row">
                         <div
                             class="col-lg-12 d-flex justify-content-center mb-4">
-                            <div class="filter-buttons">
+                            <!-- Đổi tên "filter-buttons" thành "button-group" để khớp với mã JS -->
+                            <div class="button-group filter-buttons">
                                 <button class="btn filter-btn active"
                                     data-filter="*">Tất cả</button>
+                                <!-- Sửa lại data-filter cho hợp lý -->
                                 <button class="btn filter-btn"
-                                    data-filter=".review">Bán hàng </button>
+                                    data-filter=".ban-hang">Bán hàng</button>
                                 <button class="btn filter-btn"
-                                    data-filter=".marketing">Giáo dục</button>
+                                    data-filter=".giao-duc">Giáo dục</button>
                                 <button class="btn filter-btn"
-                                    data-filter=".training">Bất động
+                                    data-filter=".bat-dong-san">Bất động
                                     sản</button>
                                 <button class="btn filter-btn"
-                                    data-filter=".news">Thời trang & Làm
-                                    đẹp</button>
-
+                                    data-filter=".thoi-trang-lam-dep">Thời trang
+                                    & Làm đẹp</button>
+                                <button class="btn filter-btn"
+                                    data-filter=".am-thuc">Ẩm thực</button>
+                                <button class="btn filter-btn"
+                                    data-filter=".y-khoa">Y khoa</button>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Lưới hiển thị các video -->
-                    <div class="row video-grid">
+                    <!-- LƯỚI HIỂN THỊ CÁC MỤC -->
+                    <!-- VÙNG NÀY SẼ ĐỂ TRỐNG ĐỂ JAVASCRIPT TỰ ĐỘNG THÊM NỘI DUNG VÀO -->
+                    <div class="row video-grid grid">
+                        <!-- Các item sẽ được chèn vào đây bằng JavaScript -->
+                    </div>
 
-                        <!-- Video Item 1 (Marketing) -->
-                        <div class="col-lg-4 col-md-6 video-item marketing">
-                            <div class="video-card">
-                                <div class="video-thumbnail">
-                                    <img alt
-                                        src="images/product_img5-1.png" />
-                                </div>
-                                <h5 class="custom-font-1 video-title">Chiến dịch
-                                    quảng cáo sản
-                                    phẩm mới</h5>
-                            </div>
+                    <!-- !!! THAY THẾ KHỐI "TẢI THÊM" CŨ BẰNG KHỐI MÃ NÀY !!! -->
+                    <div class="row">
+                        <div class="col-12 text-center mt-4">
+                            <!-- Đây là một liên kết, không phải button -->
+                            <a href="tat-ca-mau.html" class="btn filter-btn"
+                                style="background-color: #fff; color: #0a7444;">
+                                Xem thêm </a>
                         </div>
-
-                        <!-- Video Item 2 (Đào tạo) -->
-                        <div class="col-lg-4 col-md-6 video-item training">
-                            <div class="video-card">
-                                <div class="video-thumbnail">
-                                    <img alt
-                                        src="images/product_img6-1.png" />
-                                </div>
-                                <h5 class="custom-font-1 video-title">Chủ đề về
-                                    nội thất</h5>
-                            </div>
-                        </div>
-
-                        <!-- Video Item 3 (Tin tức) -->
-                        <div class="col-lg-4 col-md-6 video-item news">
-                            <div class="video-card">
-                                <div class="video-thumbnail">
-                                    <div class="video-thumbnail">
-                                        <img alt
-                                            src="images/product_img7.png" />
-                                    </div>
-                                    <h5
-                                        class="custom-font-1 video-title">Landing
-                                        Page về mỹ phẩm</h5>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Video Item 4 (Review) -->
-                        <div class="col-lg-4 col-md-6 video-item review">
-                            <div class="video-card">
-                                <div class="video-thumbnail">
-                                    <img alt
-                                        src="images/product_img8-1.png" />
-                                </div>
-                                <h5 class="custom-font-1 video-title">Landing
-                                    Page Thời trang</h5>
-                            </div>
-                        </div>
-
-                        <!-- Video Item 5 (Marketing) -->
-                        <div class="col-lg-4 col-md-6 video-item marketing">
-                            <div class="video-card">
-                                <div class="video-thumbnail">
-                                    <img alt
-                                        src="images/product_img9.png" />
-                                </div>
-                                <h5 class="custom-font-1 video-title">Landing
-                                    Page ẩm thực</h5>
-                            </div>
-                        </div>
-
-                        <!-- Video Item 6 (Đào tạo) -->
-                        <div class="col-lg-4 col-md-6 video-item training">
-                            <div class="video-card">
-                                <div class="video-thumbnail">
-                                    <img alt
-                                        src="images/product_img10.png" />
-                                </div>
-                                <h5 class="custom-font-1 video-title">Landing
-                                    Page Y khoa</h5>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </section>
@@ -2300,8 +2127,8 @@
 
                         <!-- Cột trái: Copyright -->
                         <div class="col-lg-6 col-12 subfooter-copyright">
-                            <p class="copyright-text">© 2025 IPAGE. Bản quyền
-                                thuộc về IPAGE</p>
+                            <p class="copyright-text">© 2025 IPage. Bản quyền
+                                thuộc về IPage</p>
                         </div>
 
                         <!-- Cột phải: Các liên kết -->

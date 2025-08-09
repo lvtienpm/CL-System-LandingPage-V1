@@ -4088,10 +4088,15 @@ button:hover {
 /* ================================================= */
 /* CSS ĐÃ CẬP NHẬT CHO SECTION THƯ VIỆN VIDEO MẪU */
 /* ================================================= */
+
 .showcase-section {
   /* === THAY ĐỔI 1: Đổi nền thành màu xanh lá cây === */
   background-color: #0a7444;
   padding: 80px 0;
+}
+
+.video-grid.grid {
+  min-height: 500px;
 }
 
 /* Tiêu đề và Slogan */
@@ -4108,6 +4113,18 @@ button:hover {
   color: rgba(255, 255, 255, 0.85);
   max-width: 600px;
   margin: 0 auto;
+}
+
+/* Tùy chỉnh cho nút Tải thêm */
+#load-more-btn {
+  background-color: #fff;
+  color: #0a7444;
+  border-color: #fff;
+}
+
+#load-more-btn:hover {
+  background-color: #f0f0f0;
+  border-color: #f0f0f0;
 }
 
 /* Các nút lọc */
@@ -4136,10 +4153,8 @@ button:hover {
 /* Hiệu ứng khi di chuột vào nút (Hover) */
 .filter-btn:hover {
   background-color: rgba(255, 255, 255, 0.1);
-  border-color: #fff; /* Viền trắng rõ nét khi hover */
-  transform: translateY(
-    -3px
-  ); /* Nút sẽ hơi "nhấc" lên, tạo cảm giác nổi khối */
+  border-color: #fff;
+  transform: translateY(-3px);
 }
 
 /* Hiệu ứng khi nhấn và giữ nút (Active) */
@@ -4150,7 +4165,7 @@ button:hover {
 /* Style cho nút đang được chọn (Active) */
 .filter-btn.active {
   background-color: #fff;
-  color: #0a7444; /* Chữ có màu xanh của nền để tạo sự đồng bộ */
+  color: #0a7444;
   border-color: #fff;
 }
 
@@ -4160,7 +4175,6 @@ button:hover {
   cursor: default; /* Con trỏ mặc định vì nó đã được chọn */
 }
 
-/* Thẻ video - Giữ nguyên vì nền trắng sẽ nổi bật trên nền xanh */
 .video-item {
   margin-bottom: 30px;
 }

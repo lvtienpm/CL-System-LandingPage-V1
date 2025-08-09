@@ -1101,5 +1101,63 @@
         { "value": "vcms", "text": "VCMS - ニュース管理システム" }
       ]
     }
+  },
+  "showcase": {
+    "items": [
+      {
+        "id": 1,
+        "imageSrc": "images/product_img5-1.png",
+        "title": "Chiến dịch quảng cáo sản phẩm mới",
+        "category": "ban-hang"
+      },
+      {
+        "id": 2,
+        "imageSrc": "images/product_img6-1.png",
+        "title": "Chủ đề về nội thất",
+        "category": "bat-dong-san"
+      },
+      {
+        "id": 3,
+        "imageSrc": "images/product_img7.png",
+        "title": "Landing Page về mỹ phẩm",
+        "category": "thoi-trang-lam-dep"
+      },
+      {
+        "id": 4,
+        "imageSrc": "images/product_img8-1.png",
+        "title": "Landing Page Thời trang",
+        "category": "thoi-trang-lam-dep"
+      },
+      {
+        "id": 5,
+        "imageSrc": "images/product_img9.png",
+        "title": "Landing Page ẩm thực",
+        "category": "am-thuc"
+      },
+      {
+        "id": 6,
+        "imageSrc": "images/product_img10.png",
+        "title": "Landing Page Y khoa",
+        "category": "y-khoa"
+      },
+      {
+        "id": 7,
+        "imageSrc": "images/product_img_tt1.png",
+        "title": "Landing Page Thời trang V1",
+        "category": "thoi-trang-lam-dep"
+      },
+      {
+        "id": 8,
+        "imageSrc": "images/product_img_tt2.png",
+        "title": "Landing Page Thời trang V2",
+        "category": "thoi-trang-lam-dep"
+      },
+      {
+        "id": 9,
+        "imageSrc": "images/product_img_kh1.png",
+        "title": "Landing Page Giáo dục V1",
+        "category": "giao-duc"
+      }
+    ]
   }
 }
